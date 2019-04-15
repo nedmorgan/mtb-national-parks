@@ -1,1 +1,1 @@
-web: gunicorn mtb_trails.project.wsgi --log-file -
+web: gunicorn mtb_trails_project.wsgi --log-file -
