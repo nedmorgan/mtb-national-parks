@@ -1066,7 +1066,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:36.78171096, long:-103.9710427",
+            "lat": "36.78171096",
+            "lng": "-103.9710427",
             "description": "Come view a dramatic landscape—a unique place of mountains, plains, and sky. Born of fire and forces continually reshaping the earth’s surface, Capulin Volcano provides access to nature’s most awe-inspiring work.",
             "designation": "National Monument",
             "parkCode": "cavo",
@@ -1080,7 +1081,8 @@
         },
         {
             "states": "NC",
-            "latLong": "lat:35.26815509, long:-82.45106258",
+            "lat": "35.26815509",
+            "lng": "-82.45106258",
             "description": "Carl Sandburg provided a popular voice for the American people of the twentieth century and still speaks to us through his words, activism, music and the beauty and serenity of Carl Sandburg Home National Historic Site.\n\nExplore Sandburg's legacy and Experience Your America!",
             "designation": "National Historic Site",
             "parkCode": "carl",
@@ -1094,7 +1096,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:32.14089463, long:-104.5529688",
+            "lat": "32.14089463",
+            "lng": "-104.5529688",
             "description": "High ancient sea ledges, deep rocky canyons, flowering cactus, and desert wildlife—treasures above the ground in the Chihuahuan Desert. Hidden beneath the surface are more than 119 caves—formed when sulfuric acid dissolved limestone leaving behind caverns of all sizes.",
             "designation": "National Park",
             "parkCode": "cave",
@@ -1108,7 +1111,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.91089286, long:-77.02431104",
+            "lat": "38.91089286",
+            "lng": "-77.02431104",
             "description": "Before Dr. Carter G. Woodson, there was very little accurate written history about the lives and experiences of Americans of African descent. Today a National Historic Site, Dr. Woodson’s home served as the headquarters for the Association for the Study of African American Life and History. Dr. Woodson established Negro History Week here in 1926, which we celebrate today as Black History Month.",
             "designation": "National Historic Site",
             "parkCode": "cawo",
@@ -1122,7 +1126,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:32.99702582, long:-111.5325383",
+            "lat": "32.99702582",
+            "lng": "-111.5325383",
             "description": "Explore the mystery and complexity of an extended network of communities and irrigation canals. An Ancient Sonoran Desert People's farming community and \"Great House\" are preserved at Casa Grande Ruins. Whether the Casa Grande was a gathering place for the Desert People or simply a waypoint marker in an extensive system of canals and trading partners is but part of the mystique of the Ruins",
             "designation": "National Monument",
             "parkCode": "cagr",
@@ -1136,7 +1141,8 @@
         },
         {
             "states": "FL",
-            "latLong": "lat:29.89785701, long:-81.31217173",
+            "lat": "29.89785701",
+            "lng": "-81.31217173",
             "description": "A monument not only of stone and mortar but of human determination and endurance, the Castillo de San Marcos symbolizes the clash between cultures which ultimately resulted in our uniquely unified nation.  Still resonant with the struggles of an earlier time, these original walls provide tangible evidence of America’s grim but remarkable history.",
             "designation": "National Monument",
             "parkCode": "casa",
@@ -1150,7 +1156,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.70347795, long:-74.01680558",
+            "lat": "40.70347795",
+            "lng": "-74.01680558",
             "description": "Located at the southern tip of Manhattan Island, Castle Clinton stands where New York City began, and represents not only the city’s growth, but the growth of a nation. Initially intended to prevent a British invasion in 1812, the fortification has transformed over the years to welcome theatergoers, immigrants, sightseers, and now, millions of visitors to New York Harbor.",
             "designation": "National Monument",
             "parkCode": "cacl",
@@ -1164,7 +1171,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:35.29156348, long:-115.0935606",
+            "lat": "35.29156348",
+            "lng": "-115.0935606",
             "description": "Castle Mountains represents some of the most unique elements of the Mojave Desert. Nestled between the Nevada state line and Mojave National Preserve, the nearly 21,000 acres of Castle Mountains boasts Joshua tree forests, unbroken natural landscapes, rare desert grasslands, and rich human history. This intriguing area provides serenity and solitude from nearby metropolitan areas.",
             "designation": "National Monument",
             "parkCode": "camo",
@@ -1178,7 +1186,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:39.65068457, long:-77.46417665",
+            "lat": "39.65068457",
+            "lng": "-77.46417665",
             "description": "President Franklin D. Roosevelt created programs to give people a chance to rebuild their lives from the Great Depression. The Works Progress Administration and the Civilian Conservation Corps gave this land a second opportunity and through re-growth, a new role as a recreation area.",
             "designation": "Park",
             "parkCode": "cato",
@@ -1192,7 +1201,8 @@
         },
         {
             "states": "UT",
-            "latLong": "lat:37.63545562, long:-112.845268",
+            "lat": "37.63545562",
+            "lng": "-112.845268",
             "description": "Discover one of America's most special parks! Crowning the grand staircase, Cedar Breaks sits at over 10,000 feet and looks down into a half-mile deep geologic amphitheater. Come wander among timeless bristlecone pines, stand in lush meadows of wildflower, ponder crystal-clear night skies and experience the richness of our subalpine forest.",
             "designation": "National Monument",
             "parkCode": "cebr",
@@ -1206,7 +1216,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:39.0093576, long:-78.30618934",
+            "lat": "39.0093576",
+            "lng": "-78.30618934",
             "description": "The Shenandoah Valley invites you to learn about its rich heritage, from Native Americans who first shaped the land, to pioneers of this frontier; this fertile area became one of the most important wheat producing regions of the entire South. The Valley also witnessed some of the most dramatic events of the Civil War,including the Battle of Cedar Creek, a decisive October 19, 1864 Union victory.",
             "designation": "National Historical Park",
             "parkCode": "cebe",
@@ -1220,7 +1231,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:35.22729389, long:-118.5615781",
+            "lat": "35.22729389",
+            "lng": "-118.5615781",
             "description": "Yes, we can!\n\nWidely recognized as the most important Latino leader in the United States during the twentieth century, César E. Chávez led farm workers and supporters in the establishment of the country's first permanent agricultural union. His leadership brought sustained international attention to the plight of U.S. farm workers, and secured for them higher wages and safer working conditions",
             "designation": "National Monument",
             "parkCode": "cech",
@@ -1234,7 +1246,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:36.03963414, long:-107.9560076",
+            "lat": "36.03963414",
+            "lng": "-107.9560076",
             "description": "Today the massive buildings of the ancestral Pueblo peoples still testify to the organizational and engineering abilities not seen anywhere else in the American Southwest. For a deeper contact with the canyon that was central to thousands of people between 850 and 1250 A.D., come and explore Chaco through guided tours, hiking & biking trails, evening campfire talks, and night sky programs.",
             "designation": "National Historical Park",
             "parkCode": "chcu",
@@ -1248,7 +1261,8 @@
         },
         {
             "states": "TX",
-            "latLong": "lat:31.76729634, long:-106.4544011",
+            "lat": "31.76729634",
+            "lng": "-106.4544011",
             "description": "Chamizal is more than just an urban park to recreate or enjoy a quiet afternoon. These grounds are a reminder of the harmonious settlement of a 100-year border dispute between the United States and Mexico. We celebrate the cultures of the borderlands to promote the same mutual respect that helped to diplomatically resolve an international disagreement.",
             "designation": "National Memorial",
             "parkCode": "cham",
@@ -1261,8 +1275,9 @@
             "name": "Chamizal"
         },
         {
-            "states": "VT,NY",
-            "latLong": "lat:43.9974594116211, long:-73.4811935424805",
+            "states": "VT",
+            "lat": "43.9974594116211",
+            "lng": "-73.4811935424805",
             "description": "Nestled between the Adirondacks of New York and the Green Mountains of Vermont, the Champlain Valley has been the setting for innovations in business and technology, invasions and armed insurrections, new directions in religion and politics, long periods of peace and prosperity, and the beginnings of the conservation movement.",
             "designation": "National Heritage Partnership",
             "parkCode": "chva",
@@ -1276,7 +1291,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:33.98680093, long:-119.9112735",
+            "lat": "33.98680093",
+            "lng": "-119.9112735",
             "description": "Channel Islands National Park encompasses five remarkable islands and their ocean environment, preserving and protecting a wealth of natural and cultural resources. Isolation over thousands of years has created unique animals, plants, and archeological resources found nowhere else on Earth and helped preserve a place where visitors can experience coastal southern California as it once was.",
             "designation": "National Park",
             "parkCode": "chis",
@@ -1290,7 +1306,8 @@
         },
         {
             "states": "SC",
-            "latLong": "lat:32.84577392, long:-79.82487582",
+            "lat": "32.84577392",
+            "lng": "-79.82487582",
             "description": "Charles Pinckney was a principal author and signer of the United States Constitution. This remnant of his coastal plantation is preserved to tell the story of a \"founding father,\" his life of public service, the lives of enslaved African Americans on South Carolina Lowcountry plantations and their influences on Charles Pinckney.",
             "designation": "National Historic Site",
             "parkCode": "chpi",
@@ -1304,7 +1321,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:39.70817829, long:-83.89328575",
+            "lat": "39.70817829",
+            "lng": "-83.89328575",
             "description": "Throughout his life, Charles Young overcame countless obstacles in his ascent to prominence.  In spite of overt racism and stifling inequality, Young rose through the military ranks to become one of the most respected leaders of his time.  A well-rounded man with a steadfast devotion to duty, Young led by example and inspired a generation of new leaders.",
             "designation": "National Monument",
             "parkCode": "chyo",
@@ -1318,7 +1336,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:33.99698333, long:-84.28953177",
+            "lat": "33.99698333",
+            "lng": "-84.28953177",
             "description": "Today the river valley attracts us for so many reasons. Take a solitary walk to enjoy nature’s display, raft leisurely through the rocky shoals with friends, fish the misty waters as the sun comes up, or have a picnic on a Sunday afternoon. Get Outdoors and experience your Chattahoochee River National Recreation Area as you have never done before.",
             "designation": "National Recreation Area",
             "parkCode": "chat",
@@ -1331,50 +1350,9 @@
             "name": "Chattahoochee River"
         },
         {
-            "states": "DC,MD,WV",
-            "latLong": "lat:39.3909816, long:-77.89763546",
-            "description": "Preserving America's early transportation history, the C&O Canal began as a dream of passage to Western wealth. Operating for nearly 100 years the canal was a lifeline for communities along the Potomac River as coal, lumber, and agricultural products floated down the waterway to market. Today it endures as a pathway for discovering historical, natural, and recreational treasures.",
-            "designation": "National Historical Park",
-            "parkCode": "choh",
-            "id": "9192FFEE-4D88-4A03-A054-F47C33F0C3E9",
-            "directionsInfo": "There are many access point along the Chesapeake and Ohio Canal National Historical Park. There is no main entrance. Please visit our directions page to determine how to get to your closest access point.",
-            "directionsUrl": "http://www.nps.gov/choh/planyourvisit/directions.htm",
-            "fullName": "Chesapeake & Ohio Canal National Historical Park",
-            "url": "https://www.nps.gov/choh/index.htm",
-            "weatherInfo": "The Washington, D.C. area has a four-season Mid-Atlantic climate. Summertime is warm and humid, while winter can be cold and snowy. Precipitation averages 2-4” monthly, year-round. \nPark areas above the Monocacy Aqueduct tend to have slightly cooler temperatures as well as higher precipitation.  Washington and Allegheny Counties lie in the Ridge and Valley country of the Appalachian Mountains.  Please plan for cooler weather and higher precipitation especially in the winter months.",
-            "name": "Chesapeake & Ohio Canal"
-        },
-        {
-            "states": "DC,DE,MD,NY,PA,VA,WV",
-            "latLong": "lat:38.971601, long:-76.483355",
-            "description": "NPS helps you learn about and enjoy the Chesapeake Bay, the largest estuary in North America. \n\nHere, you can visit major league cities, colonial towns, American Indian landscapes, farms and fishing villages. You can learn to kayak, pick crabs, go fishing, tour a lighthouse, slurp oysters, and slow down to enjoy the natural beauty of the Chesapeake.",
-            "designation": "",
-            "parkCode": "cbpo",
-            "id": "25554F74-A4AB-4C49-9071-341F00F0DAB8",
-            "directionsInfo": "The Chesapeake Bay main office is in the Eastport neighborhood of Annapolis. Use the Rowe Boulevard exit off of Route 50 to enter the city of Annapolis. Drive along Rowe Boulevard and turn slightly right toward Northwest Street. Turn slightly left onto Northwest Street. Turn right onto Church Circle and use the right two lanes to turn right onto Duke of Gloucester Street. At dead-end, turn right onto the Sixth Street bridge. At traffic light, turn left onto Severn Avenue. The office building is on the left.",
-            "directionsUrl": "https://www.nps.gov/chba/planyourvisit/directions-and-transportation.htm",
-            "fullName": "Chesapeake Bay",
-            "url": "https://www.nps.gov/cbpo/index.htm",
-            "weatherInfo": "Annapolis, Maryland has a warm humid temperate climate with hot summers and no dry season. Over the course of a year, the temperature typically varies from 29°F to 86°F and is rarely below 19°F or above 91°F. The warm season lasts from May 30 to September 18 with an average daily high temperature above 77°F. The cold season lasts from November 29 to March 4 with an average daily high temperature below 50°F.",
-            "name": "Chesapeake Bay"
-        },
-        {
-            "states": "DC,MD,NY,PA,VA,WV",
-            "latLong": "lat:37.3221206665039, long:-76.2533569335938",
-            "description": "The Chesapeake Bay Gateways and Watertrails Network connects you with the natural and cultural heritage of the Chesapeake Bay watershed through more than 170 exceptional parks, wildlife refuges, museums, sailing ships, historic communities, trails and more. Gateways Network partner sites and water trails are the special places where you can experience the authentic Chesapeake.",
-            "designation": "",
-            "parkCode": "cbgn",
-            "id": "0F4FC492-DB2A-4D0E-8640-817FD8C05C88",
-            "directionsInfo": "",
-            "directionsUrl": "",
-            "fullName": "Chesapeake Bay Gateways and Watertrails Network",
-            "url": "https://www.nps.gov/cbgn/index.htm",
-            "weatherInfo": "",
-            "name": "Chesapeake Bay Gateways and Watertrails Network"
-        },
-        {
-            "states": "GA,TN",
-            "latLong": "lat:34.94317623, long:-85.28749537",
+            "states": "GA",
+            "lat": "34.94317623",
+            "lng": "-85.28749537",
             "description": "In 1863, Union and Confederate forces fought for control of Chattanooga, known as the \"Gateway to the Deep South.\" The Confederates were victorious at nearby Chickamauga in September. However, renewed fighting in Chattanooga that November provided Union troops victory and control of the city. After the fighting, a Confederate soldier ominously wrote, \"This...is the death-knell of the Confederacy.\"",
             "designation": "National Military Park",
             "parkCode": "chch",
@@ -1388,7 +1366,8 @@
         },
         {
             "states": "OK",
-            "latLong": "lat:34.46050507, long:-97.00715669",
+            "lat": "34.46050507",
+            "lng": "-97.00715669",
             "description": "Springs, streams, lakes- whatever its form, water is the attraction at Chickasaw National Recreation Area. Little Niagara and Rock Creek beckon waders and swimmers. Relax in the coolness of shaded streams or take a dip in a swimming hole. Veterans Lake calls anglers to test their skills. Lake of the Arbuckles provides excellent motorboating, skiing, fishing and swimming.",
             "designation": "National Recreation Area",
             "parkCode": "chic",
@@ -1402,7 +1381,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:32.01214618, long:-109.341607",
+            "lat": "32.01214618",
+            "lng": "-109.341607",
             "description": "A \"Wonderland of Rocks\" is waiting for you to explore at Chiricahua National Monument. The 8-mile paved scenic drive and 17-miles of day-use hiking trails provide opportunities to discover the beauty, natural sounds, and inhabitants of this 11,985 acre site. Visit the Faraway Ranch Historic District to discover more about the people who have called this area home.",
             "designation": "National Monument",
             "parkCode": "chir",
@@ -1416,7 +1396,8 @@
         },
         {
             "states": "VI",
-            "latLong": "lat:17.73771903, long:-64.72906227",
+            "lat": "17.73771903",
+            "lng": "-64.72906227",
             "description": "No place in the Caribbean still demonstrates the architectural, economic, and political influence of Europe like Christiansted National Historic Site. Come wander through 18th century buildings in one the Caribbean's few urban parks. It is a unique experience that you will never forget.",
             "designation": "National Historic Site",
             "parkCode": "chri",
@@ -1430,7 +1411,8 @@
         },
         {
             "states": "ID",
-            "latLong": "lat:42.0699024, long:-113.7124097",
+            "lat": "42.0699024",
+            "lng": "-113.7124097",
             "description": "Emigrants of the California Trail describe the rocks here in vivid detail as \"a city of tall spires,” “steeple rocks,\" and \"the silent city.\" Today, this backcountry byway attracts rock climbers, campers, hikers, hunters, and those with the spirit of adventure. There's inspirational scenery, exceptional opportunities for geologic study, and remnants of the Old West awaiting your discovery.",
             "designation": "National Reserve",
             "parkCode": "ciro",
@@ -1443,8 +1425,9 @@
             "name": "City Of Rocks"
         },
         {
-            "states": "DC,MD,VA",
-            "latLong": "lat:38.93596206, long:-77.04998374",
+            "states": "DC",
+            "lat": "38.93596206",
+            "lng": "-77.04998374",
             "description": "On forested hills surrounding the nation's capital are the remnants of a complex system of Civil War fortifications. Built by Union forces, these strategic buttresses transformed the young capital into one of the world's most fortified cities. This month, we will feature Fort Stanton, a massive earthwork which protected the Washington DC along the Anacostia River.",
             "designation": "",
             "parkCode": "cwdw",
@@ -1458,7 +1441,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.96762882, long:-77.14009689",
+            "lat": "38.96762882",
+            "lng": "-77.14009689",
             "description": "Clara Barton dedicated her life and energies to help others in times of need - both home and abroad, in peacetime as well as during military emergencies. Glen Echo was her home the last 15 years of her life and the structure illustrates her dedication and concern for those less fortunate than herself.",
             "designation": "National Historic Site",
             "parkCode": "clba",
@@ -1471,22 +1455,9 @@
             "name": "Clara Barton"
         },
         {
-            "states": "WV",
-            "latLong": "",
-            "description": "The 5300 square mile National Coal Heritage Area lies in southern West Virginia, a region shaped by the history of coal deposits found in its ancient mountains. Today, the area’s communities retain much of their original character as “company towns,” reflecting local traditions, immigrant laborers and the dominance of the coal industry.",
-            "designation": "National Heritage Area",
-            "parkCode": "coal",
-            "id": "F8B34E4C-EA61-42D2-8BAC-79941346FB2B",
-            "directionsInfo": "There are a number of points of interest in the heritage area. For a listing of these points of interest, visit coalheritage.org.",
-            "directionsUrl": "http://coalheritage.org/Directions.aspx",
-            "fullName": "Coal National Heritage Area",
-            "url": "https://www.nps.gov/coal/index.htm",
-            "weatherInfo": "For more information on these sites, please visit: http://www.coalheritage.org",
-            "name": "Coal"
-        },
-        {
             "states": "VA",
-            "latLong": "lat:37.22824435, long:-76.61998123",
+            "lat": "37.22824435",
+            "lng": "-76.61998123",
             "description": "On May 13, 1607, Jamestown was established as the first permanent English settlement in North America. Three cultures came together – European, Virginia Indian and African–to create a new society that would eventually seek independence from Great Britain. On October 19, 1781, American and French troops defeated the British at Yorktown in the last major battle of the American Revolutionary War.",
             "designation": "National Historical Park",
             "parkCode": "colo",
@@ -1500,7 +1471,8 @@
         },
         {
             "states": "CO",
-            "latLong": "lat:39.05045016, long:-108.6920709",
+            "lat": "39.05045016",
+            "lng": "-108.6920709",
             "description": "Colorado National Monument preserves one of the grand landscapes of the American West. But this treasure is much more than a monument. Towering monoliths exist within a vast plateau and canyon panorama. You can experience sheer-walled, red rock canyons along the twists and turns of Rim Rock Drive, where you may spy bighorn sheep and soaring eagles.",
             "designation": "National Monument",
             "parkCode": "colm",
@@ -1514,7 +1486,8 @@
         },
         {
             "states": "CT",
-            "latLong": "lat:42.4677505493164, long:-73.2036666870117",
+            "lat": "42.4677505493164",
+            "lng": "-73.2036666870117",
             "description": "When Samuel Colt started his Hartford factory on the banks of the Connecticut River in 1847, it followed years of mismanagement and failure. Soon, demand for Colt's revolver would change his fortunes and the Colt empire was born. Following Colt's untimely death in 1862, his wife, Elizabeth Colt, would lead the company to its legendary status, and influence Hartford for over 40 years.",
             "designation": "National Historical Park",
             "parkCode": "colt",
@@ -1528,7 +1501,8 @@
         },
         {
             "states": "SC",
-            "latLong": "lat:33.79187523, long:-80.74867805",
+            "lat": "33.79187523",
+            "lng": "-80.74867805",
             "description": "Astonishing biodiversity exists in Congaree National Park, the largest intact expanse of old growth bottomland hardwood forest remaining in the southeastern United States. Waters from the Congaree and Wateree Rivers sweep through the floodplain, carrying nutrients and sediments that nourish and rejuvenate this ecosystem and support the growth of national and state champion trees.",
             "designation": "National Park",
             "parkCode": "cong",
@@ -1542,7 +1516,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.8909354, long:-77.04409306",
+            "lat": "38.8909354",
+            "lng": "-77.04409306",
             "description": "Officially established in 1965, National Mall and Memorial Parks actually protects some of the older parkland in the National Park System. Areas within this premier park provide visitors with ample opportunities to commemorate presidential legacies; honor the courage and sacrifice of war veterans; and celebrate the United States commitment to freedom and equality.",
             "designation": "",
             "parkCode": "coga",
@@ -1556,7 +1531,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:31.34900397, long:-110.2561574",
+            "lat": "31.34900397",
+            "lng": "-110.2561574",
             "description": "It was a journey of conquest filled with exploration, wonder - and cruelty. Inspired by tales of vast cities of gold, 339 European soldiers and hundreds of Aztec allies embarked on an epic journey through arid deserts and rugged mountains. They encountered rich traditions and brought new technologies. The resulting collision and combination of cultures reverberates today.",
             "designation": "National Memorial",
             "parkCode": "coro",
@@ -1570,7 +1546,8 @@
         },
         {
             "states": "SC",
-            "latLong": "lat:35.13160654, long:-81.80935433",
+            "lat": "35.13160654",
+            "lng": "-81.80935433",
             "description": "“…our success was complete…”\n  -- Daniel Morgan to Nathanael Greene, January 19, 1781\n\nA pasturing area at the time of the battle, this Revolutionary War site commemorates the place where Daniel Morgan and his army turned the flanks of Banastre Tarleton's British army. This classic military tactic, known as a double envelopment, was one of only a few in history.",
             "designation": "National Battlefield",
             "parkCode": "cowp",
@@ -1584,7 +1561,8 @@
         },
         {
             "states": "OR",
-            "latLong": "lat:42.94065854, long:-122.1338414",
+            "lat": "42.94065854",
+            "lng": "-122.1338414",
             "description": "Crater Lake inspires awe. Native Americans witnessed its formation 7,700 years ago, when a violent eruption triggered the collapse of a tall peak. Scientists marvel at its purity: fed by rain and snow, it’s the deepest lake in the USA and one of the most pristine on earth. Artists, photographers, and sightseers gaze in wonder at its blue water and stunning setting atop the Cascade Mountain Range.",
             "designation": "National Park",
             "parkCode": "crla",
@@ -1598,7 +1576,8 @@
         },
         {
             "states": "ID",
-            "latLong": "lat:43.20345611, long:-113.4791609",
+            "lat": "43.20345611",
+            "lng": "-113.4791609",
             "description": "Craters of the Moon is a vast ocean of lava flows with scattered islands of cinder cones and sagebrush. We invite you to explore this \"weird and scenic landscape\" where yesterday's volcanic events are likely to continue tomorrow...",
             "designation": "National Monument & Preserve",
             "parkCode": "crmo",
@@ -1612,7 +1591,8 @@
         },
         {
             "states": "NJ",
-            "latLong": "lat:40.4621353149414, long:-74.5613021850586",
+            "lat": "40.4621353149414",
+            "lng": "-74.5613021850586",
             "description": "From the heights of the Palisades at Fort Lee to the shores of the Delaware River at Red Bank Battlefield, the Crossroads of the American Revolution offers an unprecedented opportunity to understand and celebrate New Jersey’s rich history. Historic sites, preservation groups, schools, libraries, and museum work together to tell these unique stories.",
             "designation": "National Heritage Area",
             "parkCode": "xrds",
@@ -1625,8 +1605,9 @@
             "name": "Crossroads of the American Revolution"
         },
         {
-            "states": "KY,TN,VA",
-            "latLong": "lat:36.62503076, long:-83.6114083",
+            "states": "KY",
+            "lat": "36.62503076",
+            "lng": "-83.6114083",
             "description": "At Cumberland Gap, the first great gateway to the west, follow the buffalo, the Native American, the longhunter, the pioneer... all traveled this route through the mountains into the wilderness of Kentucky. Modern day explorers and travelers stand in awe at this great gateway and the many miles of trails and scenic features found in the park.",
             "designation": "National Historical Park",
             "parkCode": "cuga",
@@ -1640,7 +1621,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:30.85857484, long:-81.45253575",
+            "lat": "30.85857484",
+            "lng": "-81.45253575",
             "description": "St Marys is the gateway to Cumberland Island, Georgia's largest and southernmost barrier island. Here pristine maritime forests, undeveloped beaches and wide marshes whisper the stories of both man and nature. Natives, missionaries, enslaved African Americans and Wealthy Industrialists all walked here.  Cumberland Island is also home to over 9,800 acres of Congressionally designated Wilderness.",
             "designation": "National Seashore",
             "parkCode": "cuis",
@@ -1654,7 +1636,8 @@
         },
         {
             "states": "CO",
-            "latLong": "lat:38.46584558, long:-107.3303371",
+            "lat": "38.46584558",
+            "lng": "-107.3303371",
             "description": "Curecanti National Recreation Area is a series of three reservoirs along the once wild Gunnison River. The reservoirs that make up Curecanti today are a destination for water-based recreation high in the Rocky Mountains. Best known for salmon and trout fishing, Curecanti also offers opportunities for hiking, boating, camping, and bird watching.",
             "designation": "National Recreation Area",
             "parkCode": "cure",
@@ -1668,7 +1651,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:41.26093905, long:-81.57116722",
+            "lat": "41.26093905",
+            "lng": "-81.57116722",
             "description": "Though a short distance from the urban areas of Cleveland and Akron, Cuyahoga Valley National Park seems worlds away. The park is a refuge for native plants and wildlife, and provides routes of discovery for visitors. The winding Cuyahoga River gives way to deep forests, rolling hills, and open farmlands. Walk or ride the Towpath Trail to follow the historic route of the Ohio & Erie Canal.",
             "designation": "National Park",
             "parkCode": "cuva",
@@ -1682,7 +1666,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:41.47369879, long:-81.49133831",
+            "lat": "41.47369879",
+            "lng": "-81.49133831",
             "description": "This site honors the memory of David Berger, an American citizen who was one of 11 Israeli athletes killed at the 1972 Olympic Games in Munich, Germany. David had no expectations of winning a medal but joined the Israeli weightlifting team to realize his dream - a dream which ended tragically. The Memorial is dedicated to his memory and the memory of the ten other athletes.",
             "designation": "National Memorial",
             "parkCode": "dabe",
@@ -1696,7 +1681,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:39.78944467, long:-84.10442045",
+            "lat": "39.78944467",
+            "lng": "-84.10442045",
             "description": "Three exceptional men from Dayton, Ohio, Wilbur Wright, Orville Wright and Paul Laurence Dunbar, found their creative outlet here through accomplishments and failures, and finally success. However, these men offered the world something far greater, they offered the world hope, and the ability to take a dream and make it a reality.",
             "designation": "National Historical Park",
             "parkCode": "daav",
@@ -1710,7 +1696,8 @@
         },
         {
             "states": "FL",
-            "latLong": "lat:27.52272613, long:-82.64335416",
+            "lat": "27.52272613",
+            "lng": "-82.64335416",
             "description": "In May 1539, Conquistador Hernando de Soto’s army of soldiers, hired mercenaries, craftsmen, and clergy made landfall in Tampa Bay. They were met with fierce resistance of indigenous people protecting their homelands. De Soto’s quest for glory and gold would be a four year, four thousand mile odyssey of intrigue, warfare, disease, and discovery that would form the history of the United States.",
             "designation": "National Memorial",
             "parkCode": "deso",
@@ -1723,8 +1710,9 @@
             "name": "De Soto"
         },
         {
-            "states": "CA,NV",
-            "latLong": "lat:36.48753731, long:-117.134395",
+            "states": "CA",
+            "lat": "36.48753731",
+            "lng": "-117.134395",
             "description": "In this below-sea-level basin, steady drought and record summer heat make Death Valley a land of extremes. Yet, each extreme has a striking contrast. Towering peaks are frosted with winter snow. Rare rainstorms bring vast fields of wildflowers. Lush oases harbor tiny fish and refuge for wildlife and humans. Despite its morbid name, a great diversity of life survives in Death Valley.",
             "designation": "National Park",
             "parkCode": "deva",
@@ -1738,7 +1726,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:40.6690786778927, long:-75.2365978807211",
+            "lat": "40.6690786778927",
+            "lng": "-75.2365978807211",
             "description": "Come journey through five Pennsylvania counties bursting with heritage and brimming with outdoor adventure. Follow the D&L Trail, a historic pathway marked with stories about hearty lumberjacks, coal miners, lock tenders, and railroaders. Explore the history of the Corridor at the National Canal Museum or along quiet canal paths, challenging bike trails and the rippling waters of the river.",
             "designation": "National Heritage Corridor",
             "parkCode": "dele",
@@ -1751,8 +1740,9 @@
             "name": "Delaware & Lehigh"
         },
         {
-            "states": "NJ,PA",
-            "latLong": "lat:41.12793491, long:-74.94751173",
+            "states": "NJ",
+            "lat": "41.12793491",
+            "lng": "-74.94751173",
             "description": "Paddlers slip down the river between low forested mountains; anglers wade the trout streams; hikers scan the valley from the ridge or peer into the 1000-foot-deep Water Gap. The valley has known human hand and voice for 10,000 years. Floodplains nourished the Native farmer; waterfalls drew the Victorian vacationer. Today, a 70,000-acre park welcomes those who seek the outdoors close to home.",
             "designation": "National Recreation Area",
             "parkCode": "dewa",
@@ -1766,7 +1756,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:63.29777484, long:-151.0526568",
+            "lat": "63.29777484",
+            "lng": "-151.0526568",
             "description": "Denali is six million acres of wild land, bisected by one ribbon of road. Travelers along it see the relatively low-elevation taiga forest give way to high alpine tundra and snowy mountains, culminating in North America's tallest peak, 20,310' Denali. Wild animals large and small roam un-fenced lands, living as they have for ages. Solitude, tranquility and wilderness await.",
             "designation": "National Park & Preserve",
             "parkCode": "dena",
@@ -1780,7 +1771,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:37.6152564, long:-119.0873903",
+            "lat": "37.6152564",
+            "lng": "-119.0873903",
             "description": "Established in 1911 by presidential proclamation, Devils Postpile National Monument protects and preserves the Devils Postpile formation, the 101-foot high Rainbow Falls, and pristine mountain scenery.  The formation is a rare sight in the geologic world and ranks as one of the world's finest examples of columnar basalt. Its columns tower 60 feet high and display an unusual symmetry.",
             "designation": "National Monument",
             "parkCode": "depo",
@@ -1794,7 +1786,8 @@
         },
         {
             "states": "WY",
-            "latLong": "lat:44.59064655, long:-104.7156341",
+            "lat": "44.59064655",
+            "lng": "-104.7156341",
             "description": "The Tower is an astounding geologic feature that protrudes out of the prairie surrounding the Black Hills. It is considered sacred by Northern Plains Indians and indigenous people. Hundreds of parallel cracks make it one of the finest crack climbing areas in North America. Devils Tower entices us to learn more, explore more and define our place in the natural and cultural world.",
             "designation": "National Monument",
             "parkCode": "deto",
@@ -1807,8 +1800,9 @@
             "name": "Devils Tower"
         },
         {
-            "states": "CO,UT",
-            "latLong": "lat:40.50739742, long:-108.9333714",
+            "states": "CO",
+            "lat": "40.50739742",
+            "lng": "-108.9333714",
             "description": "Dinosaurs once roamed here. Their fantastic remains are still visible embedded in the rocks. Today, the mountains, desert and untamed rivers flowing in deep canyons, support an array of life. Petroglyphs hint at earlier cultures. Later, homesteaders and outlaws found refuge here. Whether your passion is science, adventure, history or scenery, Dinosaur offers much to explore.",
             "designation": "National Monument",
             "parkCode": "dino",
@@ -1822,7 +1816,8 @@
         },
         {
             "states": "FL",
-            "latLong": "lat:24.64884965, long:-82.87176297",
+            "lat": "24.64884965",
+            "lng": "-82.87176297",
             "description": "Almost 70 miles (113 km) west of Key West lies the remote Dry Tortugas National Park. This 100-square mile park is mostly open water with seven small islands.  Accessible only by boat or seaplane, the park is known the world over as the home of magnificent Fort Jefferson, picturesque blue waters, superlative coral reefs and marine life, and the vast assortment of bird life that frequents the area.",
             "designation": "National Park",
             "parkCode": "drto",
@@ -1836,7 +1831,8 @@
         },
         {
             "states": "WA",
-            "latLong": "lat:48.21403036, long:-122.6877213",
+            "lat": "48.21403036",
+            "lng": "-122.6877213",
             "description": "This stunning landscape at the gateway to Puget Sound, with its rich farmland and promising seaport, lured the earliest American pioneers north of the Columbia River to Ebey’s Landing. Today Ebey’s Landing National Historical Reserve preserves the historical, agricultural and cultural traditions of both native and Euro-American – while offering spectacular opportunities for recreation.",
             "designation": "National Historical Reserve",
             "parkCode": "ebla",
@@ -1850,7 +1846,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:39.96195482, long:-75.1500062",
+            "lat": "39.96195482",
+            "lng": "-75.1500062",
             "description": "Described as horrifying, mystifying, and brilliant, Poe’s writing has engaged readers all over the globe. The six years Edgar Allan Poe lived in Philadelphia were his happiest and most productive. Yet Poe also struggled with bad luck, personal demons and his wife’s illness. In Poe’s humble home, reflect on the human spirit surmounting crushing obstacles, and celebrate Poe’s astonishing creativity.",
             "designation": "National Historic Site",
             "parkCode": "edal",
@@ -1864,7 +1861,8 @@
         },
         {
             "states": "IA",
-            "latLong": "lat:43.08095081, long:-91.19687517",
+            "lat": "43.08095081",
+            "lng": "-91.19687517",
             "description": "The mounds preserved here are considered sacred by many Americans, especially the Monument's 20 culturally associated American Indian tribes. A visit offers opportunities to contemplate the meanings of the mounds and the people who built them. The 200 plus American Indian mounds are located in one of the most picturesque sections of the Upper Mississippi River Valley.",
             "designation": "National Monument",
             "parkCode": "efmo",
@@ -1878,7 +1876,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:39.79577592, long:-77.26508101",
+            "lat": "39.79577592",
+            "lng": "-77.26508101",
             "description": "Eisenhower National Historic Site is the home and farm of General and President Dwight D. Eisenhower. Located adjacent to the Gettysburg Battlefield, the farm served the President as a weekend retreat and a meeting place for world leaders. With its peaceful setting and view of South Mountain, it was a much needed respite from Washington and a backdrop for efforts to reduce Cold War tensions.",
             "designation": "National Historic Site",
             "parkCode": "eise",
@@ -1891,36 +1890,9 @@
             "name": "Eisenhower"
         },
         {
-            "states": "TX,LA",
-            "latLong": "",
-            "description": "Come on a journey that will carry you through 300 years of Louisiana and Texas frontier settlement and development on a Spanish colonial \"royal road\" that originally extended to Mexico City, Mexico.",
-            "designation": "National Historic Trail",
-            "parkCode": "elte",
-            "id": "111711AC-B056-4CCF-B08F-35EE0E313CF4",
-            "directionsInfo": "El Camino Real includes a wide variety of sites and organizations across five states.",
-            "directionsUrl": "http://www.nps.gov/elte/planyourvisit/directions.htm",
-            "fullName": "El Camino Real de los Tejas National Historic Trail",
-            "url": "https://www.nps.gov/elte/index.htm",
-            "weatherInfo": "Due to the length of El Camino de los Tejas National Historic Trail, be sure to consult local weather sources for the region you'll be visiting. Here's a link to the South Central US:\n\nwww.accuweather.com/en/us/south-central/weather-radar",
-            "name": "El Camino Real de los Tejas"
-        },
-        {
-            "states": "NM,TX",
-            "latLong": "",
-            "description": "Take a journey on El Camino Real de Tierra Adentro National Historic Trail to savor 300 years of heritage and culture in the Southwest. This Spanish colonial \"royal road\" in New Mexico and Texas originally extended to Mexico City, Mexico.",
-            "designation": "National Historic Trail",
-            "parkCode": "elca",
-            "id": "2EE542B6-3806-4E9C-ABBD-C4CC4C7E97C7",
-            "directionsInfo": "El Camino Real de Tierra Adentro includes a wide variety of sites and organizations across two states.",
-            "directionsUrl": "http://www.nps.gov/elca/planyourvisit/directions.htm",
-            "fullName": "El Camino Real de Tierra Adentro National Historic Trail",
-            "url": "https://www.nps.gov/elca/index.htm",
-            "weatherInfo": "Due to the length of El Camino Real de Tierra Adentro National Historic Trail, be sure to consult local weather sources for the region you'll be visiting. Here is a link for the Southwest US.\n\nwww.accuweather.com/en/us/southwest-region/weather-radar",
-            "name": "El Camino Real de Tierra Adentro"
-        },
-        {
             "states": "NM",
-            "latLong": "lat:34.88422799, long:-107.9950948",
+            "lat": "34.88422799",
+            "lng": "-107.9950948",
             "description": "The richly diverse volcanic landscape of El Malpais offers solitude, recreation, and discovery. Explore cinder cones, lava tube caves, sandstone bluffs, and hiking trails. Wildlife abounds in the open grasslands and forests. While some may see a desolate environment, people have been adapting to and living in this extraordinary terrain for generations. Come discover the land of fire and ice!",
             "designation": "National Monument",
             "parkCode": "elma",
@@ -1934,7 +1906,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:35.03895916, long:-108.3463984",
+            "lat": "35.03895916",
+            "lng": "-108.3463984",
             "description": "Imagine the refreshment of finding water after days of dusty travel. A reliable waterhole hidden at the base of a sandstone bluff made El Morro (the headland) a popular campsite for hundreds of years. Here, Ancestral Puebloans, Spanish and American travelers carved over 2,000 signatures, dates, messages, and petroglyphs.  Make El Morro National Monument a stopping point on your travels.",
             "designation": "National Monument",
             "parkCode": "elmo",
@@ -1948,7 +1921,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:41.76208482, long:-73.89894026",
+            "lat": "41.76208482",
+            "lng": "-73.89894026",
             "description": "\"The greatest thing I have learned is how good it is to come home again.\" Eleanor Roosevelt \n\nThis simple statement expresses her love for the modest house she called Val-Kill. The only National Historic Site dedicated to a first lady, Val-Kill welcomes visitors in the style of Mrs. Roosevelt. Come and be part of the entire Roosevelt Experience at Val-Kill.",
             "designation": "National Historic Site",
             "parkCode": "elro",
@@ -1961,8 +1935,9 @@
             "name": "Eleanor Roosevelt"
         },
         {
-            "states": "NJ,NY",
-            "latLong": "lat:40.69946, long:-74.0401",
+            "states": "NY",
+            "lat": "40.69946",
+            "lng": "-74.0401",
             "description": "How far would you travel to find a better life? What if the journey took weeks under difficult conditions?  If you answered \"Whatever it takes,\" you echo the feelings of the 12 million immigrants who passed through these now quiet halls from 1892 to 1954. Ellis Island afforded them the opportunity to attain the American dream for themselves and their descendants. Come hear their stories.",
             "designation": "Part of Statue of Liberty National Monument",
             "parkCode": "elis",
@@ -1976,7 +1951,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:43.0179443359375, long:-75.9960784912109",
+            "lat": "43.0179443359375",
+            "lng": "-75.9960784912109",
             "description": "Explore the Erie Canal and discover America's most famous and influential man-made waterway. Nowhere else will you find the distinctive locks and low bridges of the New York State Canal System or discover towns and cities whose watery front doors still give way to lively Main Streets. \n\nMore than 500 miles of historic waterways and trails are here to explore.",
             "designation": "National Heritage Corridor",
             "parkCode": "erie",
@@ -1990,7 +1966,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.6678314208984, long:-70.9571075439453",
+            "lat": "42.6678314208984",
+            "lng": "-70.9571075439453",
             "description": "The Essex National Heritage Area begins just 10 miles north of Boston and covers 500 square miles of eastern Massachusetts to the New Hampshire border. The Area includes hundreds of historical sites, miles of intact landscapes, glistening coastal regions and lifetimes of rich experiences that chronicle the history of our region and of our nation.",
             "designation": "National Heritage Area",
             "parkCode": "esse",
@@ -2004,7 +1981,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:37.82604456, long:-122.0271566",
+            "lat": "37.82604456",
+            "lng": "-122.0271566",
             "description": "America's only Nobel Prize winning playwright, Eugene O'Neill, chose to live in Northern California at the height of his writing career. Isolated from the world and within the walls of his home, O'Neill wrote his final and most memorable plays; The Iceman Cometh, Long Day's Journey Into Night, and A Moon for the Misbegotten.",
             "designation": "National Historic Site",
             "parkCode": "euon",
@@ -2018,7 +1996,8 @@
         },
         {
             "states": "FL",
-            "latLong": "lat:25.37294225, long:-80.88200301",
+            "lat": "25.37294225",
+            "lng": "-80.88200301",
             "description": "Everglades National Park protects an unparalleled landscape that provides important habitat for numerous rare and endangered species like the manatee,  American crocodile, and the elusive Florida panther.\n\nAn international treasure as well -  a World Heritage Site, International Biosphere Reserve, a Wetland of International Importance, and a specially protected area under the Cartagena Treaty.",
             "designation": "National Park",
             "parkCode": "ever",
@@ -2032,7 +2011,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:41.5441665649414, long:-83.6975021362305",
+            "lat": "41.5441665649414",
+            "lng": "-83.6975021362305",
             "description": "The Battle of Fallen Timbers was the culminating event that demonstrated the tenacity of the American people in their quest for western expansion and the struggle for dominance in the Old Northwest Territory. The events resulted in the dispossession of American Indian tribes and a loss of colonial territory for the British military and settlers.",
             "designation": "National Historic Site",
             "parkCode": "fati",
@@ -2046,7 +2026,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.70731192, long:-74.01025636",
+            "lat": "40.70731192",
+            "lng": "-74.01025636",
             "description": "Here on Wall Street, George Washington took the oath of office as our first President, and this site was home to the first Congress, Supreme Court, and Executive Branch offices. The current structure, a Customs House, later served as part of the US Sub-Treasury. Now, the building serves as a museum and memorial to our first President and the beginnings of the United States of America.",
             "designation": "National Memorial",
             "parkCode": "feha",
@@ -2060,7 +2041,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.69668638, long:-73.00013462",
+            "lat": "40.69668638",
+            "lng": "-73.00013462",
             "description": "Immerse yourself in an enchanting collage of coastal life and history. Rhythmic waves, high dunes, ancient maritime forests, historic landmarks and glimpses of wildlife, Fire Island has been a special place for diverse plants, animals and people for centuries. Far from the pressure of nearby big-city life, dynamic barrier island beaches offer both solitude and camaraderie, and spiritual renewal.",
             "designation": "National Seashore",
             "parkCode": "fiis",
@@ -2074,7 +2056,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:40.79689857, long:-81.37579869",
+            "lat": "40.79689857",
+            "lng": "-81.37579869",
             "description": "Two properties, the home of First Lady Ida Saxton McKinley and the seven story 1895 City Bank Building, are preserved at this site, which honors the lives and accomplishment of our nation's First Ladies. The site is managed by the National Park Service and operated by the National First Ladies Library.",
             "designation": "National Historic Site",
             "parkCode": "fila",
@@ -2087,8 +2070,9 @@
             "name": "First Ladies"
         },
         {
-            "states": "DE,PA",
-            "latLong": "lat:39.83076929, long:-75.56353942",
+            "states": "DE",
+            "lat": "39.83076929",
+            "lng": "-75.56353942",
             "description": "Famous as the First State to ratify the Constitution, Delaware was born out of a conflict among three world powers for dominance of the Delaware Valley.  From this beginning, the region developed a distinct character that tolerated diversity in religion and national origin and valued independence.",
             "designation": "National Historical Park",
             "parkCode": "frst",
@@ -2102,7 +2086,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:40.06061476, long:-78.89456905",
+            "lat": "40.06061476",
+            "lng": "-78.89456905",
             "description": "On Tuesday morning, September 11, 2001, the U.S. came under attack when four commercial airliners were hijacked and used to strike targets on the ground. Nearly 3,000 people tragically lost their lives. Because of the actions of the 40 passengers and crew aboard one of the planes, Flight 93, the attack on the U.S. Capitol was thwarted.",
             "designation": "National Memorial",
             "parkCode": "flni",
@@ -2116,7 +2101,8 @@
         },
         {
             "states": "CO",
-            "latLong": "lat:38.91260586, long:-105.2803396",
+            "lat": "38.91260586",
+            "lng": "-105.2803396",
             "description": "Beneath a grassy mountain valley in central Colorado lies one of the richest and most diverse fossil deposits in the world. Petrified redwood stumps up to 14 feet wide and thousands of detailed fossils of insects and plants reveal the story of a very different, prehistoric Colorado.",
             "designation": "National Monument",
             "parkCode": "flfo",
@@ -2130,7 +2116,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.89668819, long:-77.02577944",
+            "lat": "38.89668819",
+            "lng": "-77.02577944",
             "description": "Explore Ford's Theatre NHS, discover Abraham Lincoln's life in Washington, D.C., the struggle for a united country, and the motivation behind Lincoln's assassination. The National Park Service and the Ford's Theatre Society present a variety of programs year round.",
             "designation": "",
             "parkCode": "foth",
@@ -2144,7 +2131,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:32.14925942, long:-109.451132",
+            "lat": "32.14925942",
+            "lng": "-109.451132",
             "description": "Fort Bowie witnessed almost 25 years of conflict between the Chiricahua Apache and the US Army, and remains a tangible connection to the turbulent era of the late 1800s. Explore the history of Fort Bowie and Apache Pass as you hike the 1.5 mile trail to the visitor center and old fort ruins. Today, this peaceful landscape stands in stark contrast to the violence that once gripped this land.",
             "designation": "National Historic Site",
             "parkCode": "fobo",
@@ -2158,7 +2146,8 @@
         },
         {
             "states": "TX",
-            "latLong": "lat:30.59930381, long:-103.8961904",
+            "lat": "30.59930381",
+            "lng": "-103.8961904",
             "description": "Fort Davis is one of the best surviving examples of an Indian Wars' frontier military post in the Southwest. From 1854 to 1891, Fort Davis was strategically located to protect emigrants, mail coaches, and freight wagons on the Trans-Pecos portion of the San Antonio-El Paso Road and on the Chihuahua Trail.",
             "designation": "National Historic Site",
             "parkCode": "foda",
@@ -2171,8 +2160,9 @@
             "name": "Fort Davis"
         },
         {
-            "states": "KY,TN",
-            "latLong": "lat:36.49019078, long:-87.92445695",
+            "states": "TN",
+            "lat": "36.49019078",
+            "lng": "-87.92445695",
             "description": "Brigadier General Ulysses S. Grant was becoming quite famous as he wrote these words following the surrender of Confederate Fort Donelson on Sunday, February 16, 1862. The Union victory at Fort Donelson elated the North, and stunned the South. Within days of the surrender, Clarksville and Nashville would fall into Union hands. Grant and his troops had created a pathway to victory for the Union.",
             "designation": "National Battlefield",
             "parkCode": "fodo",
@@ -2186,7 +2176,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.87731289, long:-76.94955824",
+            "lat": "38.87731289",
+            "lng": "-76.94955824",
             "description": "Welcome to Fort Dupont Park in Washington DC! At 376-acres, the wooded park was once home to earthen fort built to protect the capital during the Civil War. Today, visitors can see the fort's earthworks and escape to the great outdoors. Activities include picnics, nature walks, biking, gardening, environmental education, music, and ranger-led programs.",
             "designation": "",
             "parkCode": "fodu",
@@ -2200,7 +2191,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.76901785, long:-77.02812387",
+            "lat": "38.76901785",
+            "lng": "-77.02812387",
             "description": "Fort Foote was constructed in 1863  atop Rozier's Bluff to strengthen the ring of fortifications that encircled Washington, D.C. Two of the Guns that protected Washington are still there along with the remains of the fort's earthworks.",
             "designation": "Park",
             "parkCode": "fofo",
@@ -2214,7 +2206,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:31.2214699, long:-81.39452014",
+            "lat": "31.2214699",
+            "lng": "-81.39452014",
             "description": "Georgia's fate was decided in 1742 when Spanish and British forces clashed on St. Simons Island. Fort Frederica's troops defeated the Spanish, ensuring Georgia's future as a British colony. Today, the archeological remnants of Frederica are protected by the National Park Service.",
             "designation": "National Monument",
             "parkCode": "fofr",
@@ -2228,7 +2221,8 @@
         },
         {
             "states": "WY",
-            "latLong": "lat:42.20301694, long:-104.5459112",
+            "lat": "42.20301694",
+            "lng": "-104.5459112",
             "description": "Originally established as a private fur trading fort in 1834, Fort Laramie evolved into the largest and best known military post on the Northern Plains before its abandonment in 1890. This “grand old post” witnessed the entire sweeping saga of America’s western expansion and Indian resistance to encroachment on their territories.",
             "designation": "National Historic Site",
             "parkCode": "fola",
@@ -2242,7 +2236,8 @@
         },
         {
             "states": "KS",
-            "latLong": "lat:38.18047491, long:-99.21836664",
+            "lat": "38.18047491",
+            "lng": "-99.21836664",
             "description": "Discover a complete and authentic army post from the 1860s -1870s! This well-preserved fort on the Santa Fe Trail shares a tumultuous history of the Indian Wars era. The sandstone constructed buildings sheltered troops who were known as the Guardians of the Santa Fe Trail.",
             "designation": "National Historic Site",
             "parkCode": "fols",
@@ -2256,7 +2251,8 @@
         },
         {
             "states": "FL",
-            "latLong": "lat:29.7121489, long:-81.23567535",
+            "lat": "29.7121489",
+            "lng": "-81.23567535",
             "description": "Coastal Florida was a major field of conflict as European nations fought for control in the New World. As part of this struggle, Fort Matanzas guarded St. Augustine’s southern river approach. The colonial wars are over, but the monument is still protecting—not just the historic fort, but also the wild barrier island and the plants and animals who survive there amidst a sea of modern development",
             "designation": "National Monument",
             "parkCode": "foma",
@@ -2270,7 +2266,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:39.26395314, long:-76.58044165",
+            "lat": "39.26395314",
+            "lng": "-76.58044165",
             "description": "by the dawn's early light, a large red, white and blue banner? Whose broad stripes and bright stars . . . were so gallantly streaming! over the star-shaped Fort McHenry during the Battle of Baltimore, September 13-14, 1814. The valiant defense of the fort inspired Francis Scott Key to write \"The Star-Spangled Banner.\"",
             "designation": "National Monument and Historic Shrine",
             "parkCode": "fomc",
@@ -2284,7 +2281,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:37.01733343, long:-76.30103195",
+            "lat": "37.01733343",
+            "lng": "-76.30103195",
             "description": "2019 is a pivotal year for the Fort Monroe National Monument, marking the 400th anniversary of the arrival of the first Africans to English North America. The entire year is dedicated to those “20 and odd” who were brought here on an English privateer ship named the White Lion. Join us for a year highlighting this American story and the significant African and African American experience.",
             "designation": "National Monument",
             "parkCode": "fomr",
@@ -2298,7 +2296,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:39.81306048, long:-79.59033344",
+            "lat": "39.81306048",
+            "lng": "-79.59033344",
             "description": "The battle at Fort Necessity in the summer of 1754 was the opening action of the French and Indian War. This war was a clash of British, French and American Indian cultures. It ended with the removal of French power from North America. The stage was set for the American Revolution.",
             "designation": "National Battlefield",
             "parkCode": "fone",
@@ -2312,7 +2311,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:37.80837439, long:-122.473747",
+            "lat": "37.80837439",
+            "lng": "-122.473747",
             "description": "From its vantage point overlooking the spectacular Golden Gate, Fort Point defended the San Francisco Bay following California's Gold Rush through World War II. Its beautifully arched casemates display the art of 3rd system brick masonry and interacts gracefully with the Golden Gate Bridge.",
             "designation": "National Historic Site",
             "parkCode": "fopo",
@@ -2326,7 +2326,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:32.0308274, long:-80.93361681",
+            "lat": "32.0308274",
+            "lng": "-80.93361681",
             "description": "For much of the 19th century, masonry fortifications were the United States’ main defense against overseas enemies. However, during the Civil War, new technology proved its superiority to these forts. The Union army used rifled cannon and compelled the Confederate garrison inside Fort Pulaski to surrender. The siege was a landmark experiment in the history of military science and invention.",
             "designation": "National Monument",
             "parkCode": "fopu",
@@ -2340,7 +2341,8 @@
         },
         {
             "states": "NC",
-            "latLong": "lat:35.93278602, long:-75.71496865",
+            "lat": "35.93278602",
+            "lng": "-75.71496865",
             "description": "Fort Raleigh National Historic Site protects and preserves known portions of England's first New World settlements from 1584 to 1590.\n\nThis site also preserves the cultural heritage of the Native Americans, European Americans and African Americans who have lived on Roanoke Island.",
             "designation": "National Historic Site",
             "parkCode": "fora",
@@ -2354,7 +2356,8 @@
         },
         {
             "states": "KS",
-            "latLong": "lat:37.84358849, long:-94.70429174",
+            "lat": "37.84358849",
+            "lng": "-94.70429174",
             "description": "Promises made and broken! A town attacked at dawn! Thousands made homeless by war! Soldiers fighting settlers! Each of these stories is a link in the chain of events that encircled Fort Scott from 1842-1873. All of the site's structures, its parade ground, and its tallgrass prairie bear witness to this era when the country was forged from a young republic into a united transcontinental nation.",
             "designation": "National Historic Site",
             "parkCode": "fosc",
@@ -2367,22 +2370,9 @@
             "name": "Fort Scott"
         },
         {
-            "states": "AR,OK",
-            "latLong": "lat:35.38834746, long:-94.43129079",
-            "description": "From the establishment of the first Fort Smith on December 25, 1817, to the final days of Judge Isaac C. Parker's jurisdiction over Indian Territory in 1896, Fort Smith National Historic Site preserves almost 80 years of history. \n\nExplore life on the edge of Indian Territory through the stories of soldiers, the Trail of Tears, dangerous outlaws, and the brave lawmen who pursued them.",
-            "designation": "National Historic Site",
-            "parkCode": "fosm",
-            "id": "54DC5EA0-2635-4154-BBD0-AF0F38D76933",
-            "directionsInfo": "From Interstate 40 Eastbound: Exit at Roland, and drive six miles on highway 64 to downtown Fort Smith.\nFrom Interstate 40 Westbound & from North I 540 & Fayetteville, take Interstate 40 westbound to I 540 south. Exit west on Rogers Ave. and continue to downtown.\n\nIn the downtown area: On Rogers or Garrison Ave turn south at 4th St. Turn right onto Garland Ave. At the end of the next block is the entrance to the main parking lot. Parking is also available on Third Street.",
-            "directionsUrl": "http://www.nps.gov/fosm/planyourvisit/directions.htm",
-            "fullName": "Fort Smith National Historic Site",
-            "url": "https://www.nps.gov/fosm/index.htm",
-            "weatherInfo": "Fort Smith weather usually is mild no matter the season. With four distinct, yet temperate seasons. Spring and fall are particularly mild with hot and humid days in late summer and during winter months when temperatures occasionally dip into the teens or below.\n\nForecast often changes dramatically due to surrounding weather influences. Arkansas's central location allows weather systems from all directions to influence its climate.",
-            "name": "Fort Smith"
-        },
-        {
             "states": "NY",
-            "latLong": "lat:43.21053441, long:-75.45557626",
+            "lat": "43.21053441",
+            "lng": "-75.45557626",
             "description": "For centuries, the Oneida Carrying Place, a six mile portage connecting the Mohawk River and Wood Creek, served as a vital link for those traveling by water from the ocean to the Great Lakes. When Europeans arrived, nations fought for control of the carry, the homelands of the Six Nations Confederacy, and the rich resources of North America. In this struggle, Fort Stanwix would play a vital role.",
             "designation": "National Monument",
             "parkCode": "fost",
@@ -2396,7 +2386,8 @@
         },
         {
             "states": "SC",
-            "latLong": "lat:32.75654469, long:-79.87068744",
+            "lat": "32.75654469",
+            "lng": "-79.87068744",
             "description": "Charleston, victorious over the Royal Navy in 1776 and scene of the largest patriot defeat in 1780, played a key role in the American Revolution. \n\nCharleston's appetite for revolution continued in the 1800s as the city blazed a path to secession to safeguard slavery. The Confederacy fired on the US garrison of Fort Sumter on April 12, 1861, opening the Civil War, which redefined American freedom.",
             "designation": "National Historical Park",
             "parkCode": "fosu",
@@ -2410,7 +2401,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:35.90700629, long:-105.0145185",
+            "lat": "35.90700629",
+            "lng": "-105.0145185",
             "description": "Exposed to the wind, within a sweeping valley of short grass prairie, amid the swales of the Santa Fe Trail, lie the territorial-style adobe remnants of the largest 19th century military fort in the region. For forty years, 1851-1891, Fort Union functioned as an agent of political and cultural change, whether desired or not, in New Mexico and throughout the Southwest.",
             "designation": "National Monument",
             "parkCode": "foun",
@@ -2423,8 +2415,9 @@
             "name": "Fort Union"
         },
         {
-            "states": "MT,ND",
-            "latLong": "lat:48.00075828, long:-104.0375238",
+            "states": "ND",
+            "lat": "48.00075828",
+            "lng": "-104.0375238",
             "description": "Between 1828 and 1867, Fort Union was the most important fur trade post on the Upper Missouri River. Here, the Assiniboine and six other Northern Plains Indian Tribes exchanged buffalo robes and smaller furs for goods from around the world, including cloth, guns, blankets, and beads. A bastion of peaceful coexistence, the post annually traded over 25,000 buffalo robes and $100,000 in merchandise.",
             "designation": "National Historic Site",
             "parkCode": "fous",
@@ -2437,8 +2430,9 @@
             "name": "Fort Union Trading Post"
         },
         {
-            "states": "OR,WA",
-            "latLong": "lat:45.62234841, long:-122.6617043",
+            "states": "WA",
+            "lat": "45.62234841",
+            "lng": "-122.6617043",
             "description": "Located on the north bank of the Columbia River, in sight of snowy mountain peaks and a vibrant urban landscape, this park has a rich cultural past. From a frontier fur trading post, to a powerful military legacy, the magic of flight, and the origin of the American Pacific Northwest, history is shared at four unique sites. Discover stories of transition, settlement, conflict, and community.",
             "designation": "National Historic Site",
             "parkCode": "fova",
@@ -2452,7 +2446,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.70875364, long:-77.02174195",
+            "lat": "38.70875364",
+            "lng": "-77.02174195",
             "description": "Built to defend the river approach to  Washington, DC, Fort Washington has stood as silent sentry for over 200 years. As technologies advanced so did Fort Washington, from the brick and stone of the 19th century to the concrete and steel of the 20th century.  Joining the National Park Service in 1946, the park continues to protect the Potomac River.",
             "designation": "Park",
             "parkCode": "fowa",
@@ -2466,7 +2461,8 @@
         },
         {
             "states": "WY",
-            "latLong": "lat:41.85635223, long:-110.7624754",
+            "lat": "41.85635223",
+            "lng": "-110.7624754",
             "description": "Some of the world's best preserved fossils are found in the flat-topped ridges of southwestern Wyoming's cold sagebrush desert. Fossilized fishes, insects, plants, reptiles, birds, and mammals are exceptional for their abundance, variety, and detail of preservation. Most remarkable is the story they tell of ancient life in a subtropical landscape.",
             "designation": "National Monument",
             "parkCode": "fobu",
@@ -2480,7 +2476,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.88341274, long:-77.04311542",
+            "lat": "38.88341274",
+            "lng": "-77.04311542",
             "description": "These words by President Roosevelt ushered the United States into World War Two and defined what it is to be an American. Stop by this secluded memorial and begin to understand the Roosevelt legacy in the park's largest memorial.",
             "designation": "",
             "parkCode": "frde",
@@ -2494,7 +2491,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.86298458, long:-76.98508147",
+            "lat": "38.86298458",
+            "lng": "-76.98508147",
             "description": "Frederick Douglass spent his life fighting for justice and equality. Born into slavery in 1818, he escaped as a young man and became a leading voice in the abolitionist movement. People everywhere still find inspiration today in his tireless struggle, brilliant words, and inclusive vision of humanity. Douglass's legacy is preserved here at Cedar Hill, where he lived his last 17 years.",
             "designation": "National Historic Site",
             "parkCode": "frdo",
@@ -2508,7 +2506,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.32424266, long:-71.13202567",
+            "lat": "42.32424266",
+            "lng": "-71.13202567",
             "description": "Frederick Law Olmsted (1822-1903) is recognized as the founder of American landscape architecture and the nation's foremost parkmaker. Olmsted moved his home to suburban Boston in 1883 and established the world's first full-scale professional office for the practice of landscape design. During the next century, his sons and successors perpetuated Olmsted's design ideals, philosophy, and influence.",
             "designation": "National Historic Site",
             "parkCode": "frla",
@@ -2522,7 +2521,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:38.28277118, long:-77.6470428",
+            "lat": "38.28277118",
+            "lng": "-77.6470428",
             "description": "Fredericksburg, Chancellorsville, Wilderness, and Spotsylvania--this is America's battleground, where the Civil War roared to its bloody climax. No place more vividly reflects the War's tragic cost in all its forms. A town bombarded and looted. Farms large and small ruined. Refugees by the thousands forced into the countryside. More than 85,000 men wounded; 15,000 killed--most in graves unknown.",
             "designation": "National Military Park",
             "parkCode": "frsp",
@@ -2536,7 +2536,8 @@
         },
         {
             "states": "AL",
-            "latLong": "lat:33.6352691650391, long:-85.9064331054688",
+            "lat": "33.6352691650391",
+            "lng": "-85.9064331054688",
             "description": "In 1961, a small interracial band of “Freedom Riders” challenged discriminatory laws requiring separation of the races in interstate travel. They were attacked by white segregationists, who firebombed the bus. Images of the attack appeared in hundreds of newspapers, shocking the American public and spurring the Federal Government to issue regulations banning segregation in interstate travel.",
             "designation": "National Monument",
             "parkCode": "frri",
@@ -2550,7 +2551,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:39.77543423, long:-79.92504169",
+            "lat": "39.77543423",
+            "lng": "-79.92504169",
             "description": "Albert Gallatin is best remembered for his thirteen year tenure as Secretary of the Treasury during the Jefferson and Madison administrations. In that time he reduced the national debt, purchased the Louisiana Territory and funded the Lewis & Clark exploration. Gallatin's accomplishments and contributions are highlighted at Friendship Hill, his restored country estate.",
             "designation": "National Historic Site",
             "parkCode": "frhi",
@@ -2564,7 +2566,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:67.75961636, long:-153.2917758",
+            "lat": "67.75961636",
+            "lng": "-153.2917758",
             "description": "This vast landscape does not contain any roads or trails. Visitors discover intact ecosystems where people have lived with the land for thousands of years. Wild rivers meander through glacier-carved valleys, caribou migrate along age-old trails, endless summer light fades into aurora-lit night skies of winter. It remains virtually unchanged except by the forces of nature.",
             "designation": "National Park & Preserve",
             "parkCode": "gaar",
@@ -2578,7 +2581,8 @@
         },
         {
             "states": "MO",
-            "latLong": "lat:38.62328806, long:-90.18039557",
+            "lat": "38.62328806",
+            "lng": "-90.18039557",
             "description": "The Gateway Arch reflects St. Louis' role in the Westward Expansion of the United States during the nineteenth century. The park is a memorial to Thomas Jefferson's role in opening the West, to the pioneers who helped shape its history, and to Dred Scott who sued for his freedom in the Old Courthouse.",
             "designation": "National Park",
             "parkCode": "jeff",
@@ -2591,8 +2595,9 @@
             "name": "Gateway Arch"
         },
         {
-            "states": "NY,NJ",
-            "latLong": "lat:40.56536246, long:-73.9171087",
+            "states": "NY",
+            "lat": "40.56536246",
+            "lng": "-73.9171087",
             "description": "There are three geographic units: Sandy Hook, New Jersey; Jamaica Bay and Staten Island, New York City. The NYC units include Jamaica Bay Wildlife Refuge, Fort Tilden, Riis Park in Queens, Floyd Bennett Field and Canarsie Pier in Brooklyn. Staten Island has Great Kills Park, Miller Field and Fort Wadsworth. These sites and others make up the 27,000 acres of Gateway, one national park.",
             "designation": "National Recreation Area",
             "parkCode": "gate",
@@ -2606,7 +2611,8 @@
         },
         {
             "states": "WV",
-            "latLong": "lat:38.20614947, long:-81.00420836",
+            "lat": "38.20614947",
+            "lng": "-81.00420836",
             "description": "The 25 miles of free-flowing Gauley River and the six miles of the Meadow River pass through scenic gorges and valleys containing a wide variety of natural and cultural features. The Gauley River contains several class V+ rapids, making it one of the most adventurous white water boating rivers in the east.",
             "designation": "National Recreation Area",
             "parkCode": "gari",
@@ -2620,7 +2626,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.81332817, long:-73.96331542",
+            "lat": "40.81332817",
+            "lng": "-73.96331542",
             "description": "The final resting place of President Ulysses S. Grant and his wife, Julia, is the largest mausoleum in North America. It testifies to a people’s gratitude for the man who ended the bloodiest conflict in American history as Commanding General of the Union Army and then, as President of the United States, strove to heal a nation after a civil war and make rights for all citizens a reality.",
             "designation": "National Memorial",
             "parkCode": "gegr",
@@ -2634,7 +2641,8 @@
         },
         {
             "states": "IN",
-            "latLong": "lat:38.67912659, long:-87.53545212",
+            "lat": "38.67912659",
+            "lng": "-87.53545212",
             "description": "The British flag would not be raised above Fort Sackville Feb. 25, 1779. At 10 a.m., the garrison surrendered to American Colonel George Rogers Clark. His American army, aided by French residents of the Illinois country, had marched through freezing floodwaters to gain this victory. The fort’s capture assured United States claims to the frontier, an area nearly as large as the original 13 states.",
             "designation": "National Historical Park",
             "parkCode": "gero",
@@ -2648,7 +2656,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:38.19362603, long:-76.92079458",
+            "lat": "38.19362603",
+            "lng": "-76.92079458",
             "description": "In the heart of the Northern Neck of Virginia stands a tribute to America’s founding father, George Washington. Although only here a short time, the ideas that Washington learned here, helped shape the man he would become and forever alter the destiny of the United States of America.",
             "designation": "National Monument",
             "parkCode": "gewa",
@@ -2662,7 +2671,8 @@
         },
         {
             "states": "MO",
-            "latLong": "lat:36.9871322, long:-94.35522737",
+            "lat": "36.9871322",
+            "lng": "-94.35522737",
             "description": "The young child known as the \"Plant Doctor\" tended his secret garden while observing the day-to-day operations of a 19th century farm. Nature and nurture ultimately influenced George on his quest for education to becoming a renowned agricultural scientist, educator, and humanitarian.",
             "designation": "National Monument",
             "parkCode": "gwca",
@@ -2675,22 +2685,9 @@
             "name": "George Washington Carver"
         },
         {
-            "states": "DC,MD,VA",
-            "latLong": "lat:38.85452263, long:-77.08528147",
-            "description": "The George Washington Memorial Parkway was designed for recreational driving. It links sites that commemorate important episodes in American history and preserve habitat for local wildlife. The parkway and its associated trails provide a scenic place to play and rest in the busy Washington, DC metropolitan area.",
-            "designation": "Memorial Parkway",
-            "parkCode": "gwmp",
-            "id": "E6D5BB41-3251-469F-ABDA-7B43B966F0CF",
-            "directionsInfo": "Directions to Parkway Headquarters\nFrom the south, take the George Washington Memorial Parkway north. Just past the CIA exit turn right into the parking lot for the US Park Police and parkway headquarters. Go through the chain link fence and take an immediate right. Follow the road down to a stop sign and turn right into the parking lot for the headquarters building.",
-            "directionsUrl": "http://www.nps.gov/gwmp/planyourvisit/directions.htm",
-            "fullName": "George Washington Memorial Parkway",
-            "url": "https://www.nps.gov/gwmp/index.htm",
-            "weatherInfo": "Summers on the parkway are generally hot and humid, with daytime highs frequently above 90 degrees Fahrenheit and scattered afternoon thunderstorms. Please carry water while participating in physical activity and be prepared to take shelter from lightning.\nWinters on the parkway are generally cold, with nighttime lows frequently near freezing and occasional snowfall. Please be alert for snowplows and icy spots on roadways.\nWeather during spring and fall is generally moderate, but can change quickly.",
-            "name": "George Washington"
-        },
-        {
             "states": "PA",
-            "latLong": "lat:39.81557366, long:-77.23246758",
+            "lat": "39.81557366",
+            "lng": "-77.23246758",
             "description": "The Battle of Gettysburg was a turning point in the Civil War, the Union victory that ended General Robert E. Lee's second and most ambitious invasion of the North. Often referred to as the \"High Water Mark of the Rebellion\", Gettysburg was the Civil War's bloodiest battle and was also the inspiration for President Abraham Lincoln's immortal \"Gettysburg Address\".",
             "designation": "National Military Park",
             "parkCode": "gett",
@@ -2704,7 +2701,8 @@
         },
         {
             "states": "NM",
-            "latLong": "lat:33.22715258, long:-108.2706711",
+            "lat": "33.22715258",
+            "lng": "-108.2706711",
             "description": "For thousands of years, groups of nomadic people used the caves of the Gila River as temporary shelter. In the late 1200's, people of the Mogollon Culture decided it would be a good place to call home. They built rooms, crafted pottery and raised children in the cliff dwellings for about twenty years. Then the Mogollon moved on, leaving the walls for us as a glimpse into the past.",
             "designation": "National Monument",
             "parkCode": "gicl",
@@ -2718,7 +2716,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:58.80086718, long:-136.8407579",
+            "lat": "58.80086718",
+            "lng": "-136.8407579",
             "description": "Covering 3.3 million acres of rugged mountains, dynamic glaciers, temperate rainforest, wild coastlines and deep sheltered fjords, Glacier Bay National Park is a highlight of Alaska's Inside Passage and part of a 25-million acre World Heritage Site—one of the world’s largest international protected areas. From sea to summit, Glacier Bay offers limitless opportunities for adventure and inspiration.",
             "designation": "National Park & Preserve",
             "parkCode": "glba",
@@ -2732,7 +2731,8 @@
         },
         {
             "states": "MT",
-            "latLong": "lat:48.68414678, long:-113.8009306",
+            "lat": "48.68414678",
+            "lng": "-113.8009306",
             "description": "Come and experience Glacier's pristine forests, alpine meadows, rugged mountains, and spectacular lakes. With over 700 miles of trails, Glacier is a hiker's paradise for adventurous visitors seeking wilderness and solitude. Relive the days of old through historic chalets, lodges, and the famous Going-to-the-Sun Road. Explore Glacier National Park and discover what awaits you.",
             "designation": "National Park",
             "parkCode": "glac",
@@ -2746,7 +2746,8 @@
         },
         {
             "states": "AZ,UT",
-            "latLong": "lat:37.51841301, long:-110.7718311",
+            "lat": "37.51841301",
+            "lng": "-110.7718311",
             "description": "Encompassing over 1.25 million acres, Glen Canyon National Recreation Area offers unparalleled opportunities for water-based & backcountry recreation. The recreation area stretches for hundreds of miles from Lees Ferry in Arizona to the Orange Cliffs of southern Utah, encompassing scenic vistas, geologic wonders, and a vast panorama of human history.",
             "designation": "National Recreation Area",
             "parkCode": "glca",
@@ -2760,7 +2761,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.96912315, long:-77.14012206",
+            "lat": "38.96912315",
+            "lng": "-77.14012206",
             "description": "Glen Echo Park began in 1891 as a National Chautauqua Assembly \"to promote liberal and practical education.\" By 1911, it transformed into DC's premier amusement park until it closed in 1968. Since 1971, the National Park Service has owned and operated the site and today, with the help of the Glen Echo Park Partnership for Arts and Culture, offers year-round cultural and recreational activities.",
             "designation": "Park",
             "parkCode": "glec",
@@ -2774,7 +2776,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:39.93435005, long:-75.14398924",
+            "lat": "39.93435005",
+            "lng": "-75.14398924",
             "description": "Before Pennsylvania there was New Sweden. Discover this last historic link to a forgotten past. Visit the church's pastoral surroundings and its burial ground of patriots and ordinary citizens alike.",
             "designation": "National Historic Site",
             "parkCode": "glde",
@@ -2788,7 +2791,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:37.85982543, long:-122.6007386",
+            "lat": "37.85982543",
+            "lng": "-122.6007386",
             "description": "Experience a park so rich it supports 19 distinct ecosystems with over 2,000 plant and animal species. Go for a hike, enjoy a vista, have a picnic or learn about the centuries of overlapping history from California’s indigenous cultures, Spanish colonialism, the Mexican Republic, US military expansion and the growth of San Francisco. All of this and more awaits you, so get out and find your park.",
             "designation": "National Recreation Area",
             "parkCode": "goga",
@@ -2802,7 +2806,8 @@
         },
         {
             "states": "UT",
-            "latLong": "lat:41.61947508, long:-112.5242653",
+            "lat": "41.61947508",
+            "lng": "-112.5242653",
             "description": "Parking Passes for May 10 are Sold Out. Come celebrate with us on May 11 & 12.",
             "designation": "National Historical Park",
             "parkCode": "gosp",
@@ -2816,7 +2821,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.69164233, long:-74.01670765",
+            "lat": "40.69164233",
+            "lng": "-74.01670765",
             "description": "From 1794 to 1966, the U.S. Army on Governors Island was part of the social, political, and economic tapestry of New York City. Today, the island is a vibrant summer seasonal venue of art, culture, and performance against the backdrop of two centuries of military heritage and the skyline of one of the great cities of the world. The island is currently open to the public through October 31, 2018.",
             "designation": "National Monument",
             "parkCode": "gois",
@@ -2830,7 +2836,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:36.17280161, long:-112.6836024",
+            "lat": "36.17280161",
+            "lng": "-112.6836024",
             "description": "Unique combinations of geologic color and erosional forms decorate a canyon that is 277 river miles (446km) long, up to 18 miles (29km) wide, and a mile (1.6km) deep. Grand Canyon overwhelms our senses through its immense size.\n\nSouth Rim is open all year.  North Rim is closed for the winter.  \n\nOn February 26, 1919, Grand Canyon became a National Park. This is our Centennial Year!",
             "designation": "National Park",
             "parkCode": "grca",
@@ -2844,7 +2851,8 @@
         },
         {
             "states": "MN",
-            "latLong": "lat:47.99294217, long:-89.75573031",
+            "lat": "47.99294217",
+            "lng": "-89.75573031",
             "description": "Travel into the past to discover the present. Explore the partnership of the Grand Portage Ojibwe and the North West Company during the North American fur trade and the NPS today. Follow pathways into a distant time. Experience the sights and smells of a bustling depot reconstructed in its exact location. Hear the beat of the drum echo over Gichigami - Lake Superior.",
             "designation": "National Monument",
             "parkCode": "grpo",
@@ -2858,7 +2866,8 @@
         },
         {
             "states": "WY",
-            "latLong": "lat:43.81853565, long:-110.7054666",
+            "lat": "43.81853565",
+            "lng": "-110.7054666",
             "description": "Rising above a scene rich with extraordinary wildlife, pristine lakes, and alpine terrain, the Teton Range stands monument to the people who fought to protect it. These are mountains of the imagination. Mountains that led to the creation of Grand Teton National Park where you can explore over two hundred miles of trails, float the Snake River or enjoy the serenity of this remarkable place.",
             "designation": "National Park",
             "parkCode": "grte",
@@ -2872,7 +2881,8 @@
         },
         {
             "states": "MT",
-            "latLong": "lat:46.41358923, long:-112.7467024",
+            "lat": "46.41358923",
+            "lng": "-112.7467024",
             "description": "Wide open spaces, the hard-working cowboy, his spirited cow pony, and vast herds of cattle are among the strongest symbols of the American West. Once the headquarters of a 10 million acre cattle empire, Grant-Kohrs Ranch National Historic Site preserves these symbols and commemorates the role of cattlemen in American history.",
             "designation": "National Historic Site",
             "parkCode": "grko",
@@ -2886,7 +2896,8 @@
         },
         {
             "states": "NV",
-            "latLong": "lat:38.94617378, long:-114.2579782",
+            "lat": "38.94617378",
+            "lng": "-114.2579782",
             "description": "From the 13,000-foot summit of Wheeler Peak, to the sage-covered foothills, Great Basin National Park is a place to sample the stunning diversity of the larger Great Basin region. Come and partake of the solitude of the wilderness, walk among ancient bristlecone pines, bask in the darkest of night skies, and explore mysterious subterranean passages. There's a whole lot more than just desert here!",
             "designation": "National Park",
             "parkCode": "grba",
@@ -2900,7 +2911,8 @@
         },
         {
             "states": "NJ",
-            "latLong": "lat:39.30421499, long:-74.64969521",
+            "lat": "39.30421499",
+            "lng": "-74.64969521",
             "description": "The River gradually widens as it picks up the waters of 17 tributaries on its way to Great Egg Harbor and the Atlantic Ocean. Established by Congress in 1992, nearly all of this 129-mile river system rests within the Pinelands National Reserve. This National Park Service unit is unusual in that local jurisdictions continue to administer the lands.",
             "designation": "",
             "parkCode": "greg",
@@ -2914,7 +2926,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:38.98776107, long:-77.25128326",
+            "lat": "38.98776107",
+            "lng": "-77.25128326",
             "description": "At Great Falls, the Potomac River builds up speed and force as it falls over a series of steep, jagged rocks and flows through the narrow Mather Gorge. The Patowmack Canal offers a glimpse into the early history of this country.  Great Falls Park has many opportunities to explore history and nature, all in a beautiful 800-acre park only 15 miles from the Nation's Capital.",
             "designation": "Park",
             "parkCode": "grfa",
@@ -2928,7 +2941,8 @@
         },
         {
             "states": "CO",
-            "latLong": "lat:37.79256812, long:-105.5919572",
+            "lat": "37.79256812",
+            "lng": "-105.5919572",
             "description": "Open all day and night year round, the tallest dunes in North America are the centerpiece in a diverse landscape of grasslands, wetlands, conifer and aspen forests, alpine lakes, and tundra. Experience a starry sky on moonless nights, or a surreal walk on the dunes under bright full moonlight.",
             "designation": "National Park & Preserve",
             "parkCode": "grsa",
@@ -2941,8 +2955,9 @@
             "name": "Great Sand Dunes"
         },
         {
-            "states": "NC,TN",
-            "latLong": "lat:35.60116374, long:-83.50818326",
+            "states": "NC",
+            "lat": "35.60116374",
+            "lng": "-83.50818326",
             "description": "Ridge upon ridge of forest straddles the border between North Carolina and Tennessee in Great Smoky Mountains National Park. World renowned for its diversity of plant and animal life, the beauty of its ancient mountains, and the quality of its remnants of Southern Appalachian mountain culture, this is America's most visited national park.",
             "designation": "National Park",
             "parkCode": "grsm",
@@ -2956,7 +2971,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:38.02745704, long:-78.16540204",
+            "lat": "38.02745704",
+            "lng": "-78.16540204",
             "description": "Green Springs National Historic Landmark District in Virginia’s Piedmont encompasses over 14,000 acres. Its farmsteads offer a continuum of rural vernacular architecture in original context with minimal alteration. Landscapes and buildings, many predating the Civil War and connected to one another visually and through family relationships of early occupants, are today preserved through easements.",
             "designation": "",
             "parkCode": "grsp",
@@ -2970,7 +2986,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.98328267, long:-76.89722133",
+            "lat": "38.98328267",
+            "lng": "-76.89722133",
             "description": "The park and campground are open year round.\nGreenbelt Park is located in suburban Greenbelt, Maryland. \nSpecific site Reservations are required at the Greenbelt Park campground year round. \nThe park features a 174 site campground with specific site reservations, nine miles of trails, and three picnic areas. \nEnjoy the affordability, peaceful surroundings and National Park Service hospitality.",
             "designation": "Park",
             "parkCode": "gree",
@@ -2984,7 +3001,8 @@
         },
         {
             "states": "TX",
-            "latLong": "lat:31.92304462, long:-104.885527",
+            "lat": "31.92304462",
+            "lng": "-104.885527",
             "description": "Guadalupe Mountains National Park protects the world's most extensive Permian fossil reef, the four highest peaks in Texas, an environmentally diverse collection of flora and fauna, and the stories of lives shaped through conflict, cooperation and survival. Come experience mountains and canyons, desert and dunes, night skies and spectacular vistas within a place unlike any other within the NPS.",
             "designation": "National Park",
             "parkCode": "gumo",
@@ -2998,7 +3016,8 @@
         },
         {
             "states": "NC",
-            "latLong": "lat:36.13225478, long:-79.8424561",
+            "lat": "36.13225478",
+            "lng": "-79.8424561",
             "description": "\"I never saw such fighting since God made me. The Americans fought like demons.\"\n\n-Lt. General Charles, Earl Cornwallis\n\nThe largest battle of the Revolutionary War's Southern Campaign was fought at the small North Carolina backcountry hamlet of Guilford Courthouse. The battle proved to be a turning point for British military operations in the Revolutionary War.",
             "designation": "National Military Park",
             "parkCode": "guco",
@@ -3011,8 +3030,9 @@
             "name": "Guilford Courthouse"
         },
         {
-            "states": "FL,MS",
-            "latLong": "lat:30.29924926, long:-87.75064297",
+            "states": "FL",
+            "lat": "30.29924926",
+            "lng": "-87.75064297",
             "description": "What is it that entices people to the sea?  Poet John Masefield wrote, “I must go down to the seas again, for the call of the running tide is a wild call and a clear call that may not be denied.”  Millions of visitors are drawn to the islands in the northern Gulf of Mexico for the white sandy beaches, the aquamarine waters, a boat ride, a camping spot, a tour of an old fort, or a place to fish.",
             "designation": "National Seashore",
             "parkCode": "guis",
@@ -3025,22 +3045,9 @@
             "name": "Gulf Islands"
         },
         {
-            "states": "FL,GA,NC,SC",
-            "latLong": "lat:32.8470785915852, long:-79.8232242465019",
-            "description": "Designated by Congress in 2006, the Gullah Geechee Cultural Heritage Corridor extends from Wilmington, North Carolina in the north to Jacksonville, Florida in the south. It is home to one of America's most unique cultures, a tradition first shaped by captive Africans brought to the southern United States from West Africa and continued in later generations by their descendents.",
-            "designation": "Cultural Heritage Corridor",
-            "parkCode": "guge",
-            "id": "D35A4F27-7E52-4711-BF1F-37756A9D893C",
-            "directionsInfo": "The corridor encompasses a cultural and linguistic area along the southeastern coast of the United States from the northern border of Pender County, North Carolina to the southern border of St. Johns County, Florida and 30 miles inland.  The Commission operates a small business office on Johns Island, SC., but there are many sites to explore within the Corridor.",
-            "directionsUrl": "http://www.gullahgeecheecorridor.org",
-            "fullName": "Gullah/Geechee Cultural Heritage Corridor",
-            "url": "https://www.nps.gov/guge/index.htm",
-            "weatherInfo": "The weather varies throughout the year and even throughout the day. Please check the National Weather Service information at http://www.weather.gov for forecast information.",
-            "name": "Gullah/Geechee"
-        },
-        {
             "states": "ID",
-            "latLong": "lat:42.79074114, long:-114.9443074",
+            "lat": "42.79074114",
+            "lng": "-114.9443074",
             "description": "Do you know horses evolved in North America? The Hagerman Horse, Equus simplicidens, is the first true one toed horse. It's the park's most famous fossil but we have fossil evidence of over two hundred different species. From saber-toothed cat, mastodon, bear, camel, and ground sloth, to much smaller animals like rodents and frogs, the scientific study of Pliocene fossils is the key to Hagerman.",
             "designation": "National Monument",
             "parkCode": "hafo",
@@ -3054,7 +3061,8 @@
         },
         {
             "states": "HI",
-            "latLong": "lat:20.70693015, long:-156.1591775",
+            "lat": "20.70693015",
+            "lng": "-156.1591775",
             "description": "This special place vibrates with stories of ancient and modern Hawaiian culture and protects the bond between the land and its people. The park also cares for endangered species, some of which exist nowhere else. Come visit this special place - renew your spirit amid stark volcanic landscapes and sub-tropical rain forest with an unforgettable hike through the backcountry.",
             "designation": "National Park",
             "parkCode": "hale",
@@ -3068,7 +3076,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:40.81871605, long:-73.94878487",
+            "lat": "40.81871605",
+            "lng": "-73.94878487",
             "description": "Alexander Hamilton created the tools for the success of the United States. From his humble beginnings as an orphan on the Caribbean island of Nevis, he became George Washington's right-hand man. Come visit Hamilton Grange and find out more about this controversial founder and the country home that he built on his Harlem estate.",
             "designation": "National Memorial",
             "parkCode": "hagr",
