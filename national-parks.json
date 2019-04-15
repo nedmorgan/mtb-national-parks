@@ -3978,7 +3978,8 @@
         },
         {
             "states": "MT",
-            "latLong": "lat:45.55633048, long:-107.4183614",
+            "lat": "45.55633048",
+            "lng": "-107.4183614",
             "description": "This area memorializes the US Army's 7th Cavalry and the Lakotas and Cheyennes in one of the Indian's last armed efforts to preserve their way of life. Here on June 25 and 26 of 1876, 263 soldiers, including Lt. Col. George A. Custer and attached personnel of the US Army, died fighting several thousand Lakota and Cheyenne warriors.",
             "designation": "National Monument",
             "parkCode": "libi",
@@ -3992,7 +3993,8 @@
         },
         {
             "states": "AL",
-            "latLong": "lat:34.41461863, long:-85.61734327",
+            "lat": "34.41461863",
+            "lng": "-85.61734327",
             "description": "Little River is unique because it flows for most of its length atop Lookout Mountain in northeast Alabama. Forested uplands, waterfalls, canyon rims and bluffs, pools, boulders, and sandstone cliffs offer settings for a variety of recreational activities. Natural resources and cultural heritage come together to tell the story of the Preserve, a special place in the Southern Appalachians.",
             "designation": "National Preserve",
             "parkCode": "liri",
@@ -4006,7 +4008,8 @@
         },
         {
             "states": "AR",
-            "latLong": "lat:34.7369465, long:-92.29987899",
+            "lat": "34.7369465",
+            "lng": "-92.29987899",
             "description": "Little Rock Central High School is recognized for the role it played in the desegregation of public schools in the United States.  The nine African-American students' persistence in attending the formerly all-white Central High School was the most prominent national example of the implementation of the May 17, 1954 Supreme Court decision Brown v. Board of Education.",
             "designation": "National Historic Site",
             "parkCode": "chsc",
@@ -4020,7 +4023,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.37698854, long:-71.12636956",
+            "lat": "42.37698854",
+            "lng": "-71.12636956",
             "description": "Longfellow House-Washington's Headquarters National Historic Site preserves the home of Henry W. Longfellow, one of the world’s foremost 19th century poets. The house also served as headquarters for General George Washington during the Siege of Boston, July 1775 - April 1776. In addition to its rich history, the site offers unique opportunities to explore 19th century literature and arts.",
             "designation": "National Historic Site",
             "parkCode": "long",
@@ -4034,7 +4038,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.6455371, long:-71.31588673",
+            "lat": "42.6455371",
+            "lng": "-71.31588673",
             "description": "Discover the Continuing Revolution. Lowell’s water-powered textile mills catapulted the nation – including immigrant families and early female factory workers – into an uncertain new industrial era. Nearly 200 years later, the changes that began here still reverberate in our shifting global economy. Explore Lowell, a living monument to the dynamic human story of the Industrial Revolution.",
             "designation": "National Historical Park",
             "parkCode": "lowe",
@@ -4047,22 +4052,9 @@
             "name": "Lowell"
         },
         {
-            "states": "PA,NJ",
-            "latLong": "",
-            "description": "The largest free-flowing river in the eastern United States, the Delaware River runs past forests, farmlands, and villages, and it also links some of the most densely populated regions in America.\n\nIn 2000, the National Wild and Scenic River System incorporated key segments of the lower Delaware River to form this unit of the National Park System.",
-            "designation": "National Wild and Scenic River",
-            "parkCode": "lode",
-            "id": "64FF65B7-0847-4495-9464-667CAFBF4D16",
-            "directionsInfo": "The Lower Delaware National Wild and Scenic River is located between Interstate 80 (at Portland, Pennsylvania and Columbia, New Jersey) and Interstate 95 (at exit 51 in Washington Crossing, Pennsylvania and exit 1 in Washington Crossing, New Jersey).\n\nIn Pennsylvania, follow PA-611 and PA-32 to drive along the river.\n\nIn New Jersey, follow NJ-29 south of Frenchtown for a drive along the river.",
-            "directionsUrl": "http://www.nps.gov/lode/planyourvisit/directions.htm",
-            "fullName": "Lower Delaware National Wild and Scenic River",
-            "url": "https://www.nps.gov/lode/index.htm",
-            "weatherInfo": "Spring: Temperatures usually range from lows of 26 F to highs of 80 F with average rainfall of 5 inches.\n\nSummer: Temperatures usually range from lows of 55 F to highs of 85 F with average rainfall of 4 inches. \n\nFall: Temperatures usually range from lows of 30 F to highs of 83F. Fall foliage is at its peak sometime in October as daily mountain temperatures vary frequently and influence the change.\n\nWinter: Temperatures usually range from lows of 15 F to highs of 49 F.",
-            "name": "Lower Delaware"
-        },
-        {
             "states": "NY",
-            "latLong": "lat:40.71861134, long:-73.99001777",
+            "lat": "40.71861134",
+            "lng": "-73.99001777",
             "description": "The heart of the museum is a historic tenement, home to an estimated 7,000 people from over 20 nations between 1863 and 1935. The tenement’s cramped living spaces, the lives of past residents and the history of the Lower East Side, contribute to its representation of the immigrant experience. Throughout the year, programs such as walking tours and readings are offered.",
             "designation": "National Historic Site",
             "parkCode": "loea",
@@ -4076,7 +4068,8 @@
         },
         {
             "states": "TX",
-            "latLong": "lat:30.2519655, long:-98.60692433",
+            "lat": "30.2519655",
+            "lng": "-98.60692433",
             "description": "---Lyndon Baines Johnson\n\nLyndon B. Johnson National Historical Park tells the story of our 36th President beginning with his ancestors until his final resting place on his beloved LBJ Ranch. This entire \"circle of life\" gives the visitor a unique perspective into one of America's most noteworthy citizens by providing the most complete picture of any American president.",
             "designation": "National Historical Park",
             "parkCode": "lyjo",
@@ -4090,7 +4083,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:37.54781499, long:-77.43746979",
+            "lat": "37.54781499",
+            "lng": "-77.43746979",
             "description": "Maggie Lena Walker devoted her life to civil rights advancement, economic empowerment, and educational opportunities for Jim Crow-era African Americans and women. As a bank president, newspaper editor, and fraternal leader, Walker served as an inspiration of pride and progress. Today, Walker’s home is preserved as a tribute to her enduring legacy of vision, courage, and determination.",
             "designation": "National Historic Site",
             "parkCode": "mawa",
@@ -4104,7 +4098,8 @@
         },
         {
             "states": "ME",
-            "latLong": "lat:47.2831115723, long:-68.4110870361",
+            "lat": "47.2831115723",
+            "lng": "-68.4110870361",
             "description": "Maine Acadians share beliefs and experiences tying them to a common religion, languages, and history. The St. John River, land, and family are essential to their culture. The National Park Service supports the Maine Acadian Heritage Council, an association of historical societies, cultural clubs, towns, and museums that work together to support Maine Acadian culture in the St. John Valley.",
             "designation": "",
             "parkCode": "maac",
@@ -4118,7 +4113,8 @@
         },
         {
             "states": "KY",
-            "latLong": "lat:37.19760458, long:-86.13090198",
+            "lat": "37.19760458",
+            "lng": "-86.13090198",
             "description": "Mammoth Cave National Park preserves the cave system and a part of the Green River valley and hilly country of south central Kentucky. This is the world's longest known cave system, with more than 400 miles (643 km) explored. Early guide Stephen Bishop called the cave a \"grand, gloomy and peculiar place,\" but its vast chambers and complex labyrinths have earned its name - Mammoth.",
             "designation": "National Park",
             "parkCode": "maca",
@@ -4132,7 +4128,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:38.81710063, long:-77.5353468",
+            "lat": "38.81710063",
+            "lng": "-77.5353468",
             "description": "On July 21, 1861, two armies clashed for the first time on the fields overlooking Bull Run. Heavy fighting swept away any notion of a quick war. In August 1862, Union and Confederate armies converged for a second time on the plains of Manassas. The Confederates won a solid victory bringing them to the height of their power.",
             "designation": "National Battlefield Park",
             "parkCode": "mana",
@@ -4145,22 +4142,9 @@
             "name": "Manassas"
         },
         {
-            "states": "NM,WA,TN",
-            "latLong": "lat:39.76948167, long:-100.8429548",
-            "description": "This site tells the story about the people, events, science, and engineering that led to the creation of the atomic bomb, which helped end World War II.",
-            "designation": "National Historical Park",
-            "parkCode": "mapr",
-            "id": "E777590D-C086-4A88-B5A2-AAE47DBD6A6F",
-            "directionsInfo": "The office of the Manhattan Project NHP superintendent is located in Denver, Colorado. Locations of NPS visitor centers and any other park facilities are currently being determined and will be evaluated as part of the park planning process. For directions to the Manhattan Project NHP site in Hanford, WA; Los Alamos, NM; and Oak Ridge, TN, please visit http://www.nps.gov/mapr/planyourvisit/directions.htm.",
-            "directionsUrl": "http://www.nps.gov/mapr/planyourvisit/directions.htm",
-            "fullName": "Manhattan Project National Historical Park",
-            "url": "https://www.nps.gov/mapr/index.htm",
-            "weatherInfo": "",
-            "name": "Manhattan Project"
-        },
-        {
             "states": "CA",
-            "latLong": "lat:36.72559195, long:-118.1547177",
+            "lat": "36.72559195",
+            "lng": "-118.1547177",
             "description": "In 1942, the United States government ordered more than 110,000 men, women, and children to leave their homes and detained them in remote, military-style camps. Manzanar War Relocation Center was one of ten camps where Japanese American citizens and resident Japanese aliens were incarcerated during World War II.",
             "designation": "National Historic Site",
             "parkCode": "manz",
@@ -4174,7 +4158,8 @@
         },
         {
             "states": "VT",
-            "latLong": "lat:43.63348732, long:-72.53424638",
+            "lat": "43.63348732",
+            "lng": "-72.53424638",
             "description": "Walk through one of Vermont's most beautiful landscapes, under the shade of sugar maples and 400-year-old hemlocks, across covered bridges and alongside rambling stone walls. This is a landscape of loss, recovery, and conservation. This is a story of stewardship, of people taking care of places - sharing an enduring connection to land and a sense of hope for the future.",
             "designation": "National Historical Park",
             "parkCode": "mabi",
@@ -4188,7 +4173,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.8862276865, long:-77.0442195534",
+            "lat": "38.8862276865",
+            "lng": "-77.0442195534",
             "description": "Located in downtown Washington, D.C., the memorial honors Martin Luther King, Jr.'s legacy and the struggle for freedom, equality, and justice.",
             "designation": "",
             "parkCode": "mlkm",
@@ -4202,7 +4188,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:33.75618241, long:-84.37256768",
+            "lat": "33.75618241",
+            "lng": "-84.37256768",
             "description": "A young boy grows up in a time of segregation…A dreamer is moved by destiny into leadership of the modern civil rights movement…This was Martin Luther King, Jr.  Come hear his story, visit the home of his birth, and where he played as a child.  Walk in his footsteps, and hear his voice in the church where he moved hearts and minds.  Marvel at how he was an instrument for social change.",
             "designation": "National Historical Park",
             "parkCode": "malu",
@@ -4216,7 +4203,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:42.36819596, long:-73.70834257",
+            "lat": "42.36819596",
+            "lng": "-73.70834257",
             "description": "Politics before the Civil War was a whirlwind of opposing interest groups. Martin Van Buren was able to unite those groups becoming president in 1837. As frustration and violence over the extension of slavery grew in the 1840's, Van Buren ran for the presidency twice more from this house. He hoped to unite sectional interests but failed; ultimately so did the union.",
             "designation": "National Historic Site",
             "parkCode": "mava",
@@ -4230,7 +4218,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.90819107, long:-77.03096742",
+            "lat": "38.90819107",
+            "lng": "-77.03096742",
             "description": "Mary McLeod Bethune achieved her greatest recognition at the Washington, DC townhouse that is now this National Historic Site. The Council House was the first headquarters of the National Council of Negro Women (NCNW) and was Bethune’s last home in Washington, DC. From here, Bethune and the NCNW spearheaded strategies and developed programs that advanced the interests of African American women.",
             "designation": "National Historic Site",
             "parkCode": "mamc",
@@ -4244,7 +4233,8 @@
         },
         {
             "states": "CO",
-            "latLong": "lat:37.23908345, long:-108.4624032",
+            "lat": "37.23908345",
+            "lng": "-108.4624032",
             "description": "Mesa Verde National Park was established in 1906 to preserve and interpret the archeological heritage of the Ancestral Pueblo people who made it their home for over 700 years, from 600 to 1300 CE. Today, the park protects nearly 5,000 known archeological sites, including 600 cliff dwellings. These sites are some of the most notable and best preserved in the United States.",
             "designation": "National Park",
             "parkCode": "meve",
@@ -4258,7 +4248,8 @@
         },
         {
             "states": "ID,WA",
-            "latLong": "lat:42.80586068, long:-114.4449868",
+            "lat": "42.80586068",
+            "lng": "-114.4449868",
             "description": "The Pearl Harbor attack intensified existing hostility towards Japanese Americans. As wartime hysteria mounted, President Roosevelt signed Executive Order 9066 forcing over 120,000 West Coast persons of Japanese ancestry (Nikkei) to leave their homes, jobs, and lives behind and move to one of ten prison camps spread across the nation all because of their ethnicity.  This is Minidoka's story.",
             "designation": "National Historic Site",
             "parkCode": "miin",
@@ -4272,7 +4263,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.4562778, long:-71.30738884",
+            "lat": "42.4562778",
+            "lng": "-71.30738884",
             "description": "At Minute Man National Historical Park the opening battle of the Revolution is brought to life as visitors explore the battlefields and structures associated with April 19, 1775, and witness the American revolutionary spirit through the writings of the Concord authors.",
             "designation": "National Historical Park",
             "parkCode": "mima",
@@ -4286,7 +4278,8 @@
         },
         {
             "states": "SD",
-            "latLong": "lat:43.89558013, long:-102.0272131",
+            "lat": "43.89558013",
+            "lng": "-102.0272131",
             "description": "During the Cold War, a vast arsenal of nuclear missiles were placed in the Great Plains. Hidden in plain sight, for thirty years 1,000 missiles were kept on constant alert; hundreds remain today. The Minuteman Missile remains an iconic weapon in the American nuclear arsenal. It holds the power to destroy civilization, but is meant as a nuclear deterrent to maintain peace and prevent war.",
             "designation": "National Historic Site",
             "parkCode": "mimi",
@@ -4300,7 +4293,8 @@
         },
         {
             "states": "MS",
-            "latLong": "lat:33.6042976379395, long:-90.4317092895508",
+            "lat": "33.6042976379395",
+            "lng": "-90.4317092895508",
             "description": "The Blues, Welty, Wright, Williams, Civil War and Civil Rights, The Great Flood, Bogues and Bayous, Plantations, The Great Migration, Rock ‘n’ Roll, Soul Food, King Cotton, The River, Precision Agriculture, Catfish, Gospel, Immigrants' Stories, Highway 61, Segregation, Integration, Share Cropping, Freedom Songs, Freedom Summer, Folk Tales, Swamp Forests, Hunting Clubs, and surprisingly, hot tamale",
             "designation": "National Heritage Area",
             "parkCode": "mide",
@@ -4314,7 +4308,8 @@
         },
         {
             "states": "MS",
-            "latLong": "lat:30.6482753753662, long:-89.1123809814453",
+            "lat": "30.6482753753662",
+            "lng": "-89.1123809814453",
             "description": "The Mississippi Gulf Coast is a culturally, historically, and environmentally distinctive region where many chapters in the national story have been written. The bounties of the Mississippi Gulf Coast's natural resources have brought people to this area from all over the world. The modern culture of the Coast consists of a multi-ethnic gumbo of people and traditions.",
             "designation": "National Heritage Area",
             "parkCode": "migu",
@@ -4328,7 +4323,8 @@
         },
         {
             "states": "MS",
-            "latLong": "lat:34.0813598632813, long:-89.0573120117188",
+            "lat": "34.0813598632813",
+            "lng": "-89.0573120117188",
             "description": "See the birthplace where Elvis made his entrance to the world stage ... Walk among the nation’s most extensive remaining Civil War earthworks from one of the largest sieges in the Western Hemisphere, at the Crossroads of the Confederacy ... There’s so much to see and do in the Mississippi Hills. Faulkner once said he could spend a lifetime writing about it—you could spend a lifetime exploring it.",
             "designation": "National Heritage Area",
             "parkCode": "mihi",
@@ -4342,7 +4338,8 @@
         },
         {
             "states": "MN",
-            "latLong": "lat:44.87447858, long:-93.04689808",
+            "lat": "44.87447858",
+            "lng": "-93.04689808",
             "description": "In the middle of a bustling urban setting, this 72 mile river park offers quiet stretches for fishing, boating and canoeing, birdwatching, bicycling, and hiking. And there are plenty of visitor centers and trails that highlight the fascinating human history of the Mississippi River. This a great place to start your exploration of this important river.",
             "designation": "National River and Recreation Area",
             "parkCode": "miss",
@@ -4356,7 +4353,8 @@
         },
         {
             "states": "SD,NE",
-            "latLong": "lat:42.7882189, long:-97.59077822",
+            "lat": "42.7882189",
+            "lng": "-97.59077822",
             "description": "Imagine a 100-mile stretch of North America's longest river, a vestige of the untamed American West. The Missouri National Recreational River is where imagination meets reality. Two free flowing stretches of the Missouri make up the National Park. Relive the past by making an exploration of the wild, untamed and mighty river that continues to flow as nature intended.",
             "designation": "National Recreational River",
             "parkCode": "mnrr",
@@ -4370,7 +4368,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:35.12485941, long:-115.5168258",
+            "lat": "35.12485941",
+            "lng": "-115.5168258",
             "description": "Singing sand dunes, cinder cone volcanoes, Joshua tree forest, and carpets of wildflowers are all found at this 1.6-million-acre park. A visit to its canyons, mountains, and mesas will reveal long-abandoned mines, homesteads, and rock-walled military outposts. Located between Los Angeles and Las Vegas, Mojave provides serenity and solitude from major metropolitan areas.",
             "designation": "National Preserve",
             "parkCode": "moja",
@@ -4384,7 +4383,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:39.36084236, long:-77.39637677",
+            "lat": "39.36084236",
+            "lng": "-77.39637677",
             "description": "During the summer of 1864, the Confederacy carried out a bold plan to turn the tide of the Civil War in their favor.  They planned to capture Washington, DC and influence the election of 1864.  On July 9, however, Federal soldiers outnumbered three to one, fought gallantly along the banks of the Monocacy River in an effort to buy time for Union reinforcement to arrive in Washington, DC.",
             "designation": "National Battlefield",
             "parkCode": "mono",
@@ -4398,7 +4398,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:34.62237771, long:-111.8147857",
+            "lat": "34.62237771",
+            "lng": "-111.8147857",
             "description": "Today we gaze through the windows of the past into one of the best preserved cliff dwellings in North America. This 20 room high-rise apartment, nestled into a towering limestone cliff, tells a story of ingenuity, survival and ultimately, prosperity in an unforgiving desert landscape.\n\nCome marvel at this enduring legacy of the Sinagua culture and reveal a people surprisingly similar to ourselves.",
             "designation": "National Monument",
             "parkCode": "moca",
@@ -4412,7 +4413,8 @@
         },
         {
             "states": "NC",
-            "latLong": "lat:34.45820776, long:-78.11031134",
+            "lat": "34.45820776",
+            "lng": "-78.11031134",
             "description": "In the early morning hours of February 27, 1776 Loyalist forces charged across a partially dismantled Moores Creek Bridge. Beyond the bridge, nearly 1,000 North Carolina Patriots waited quietly with cannons and muskets poised to fire. This battle marked the last broadsword charge by Scottish Highlanders and the first significant victory for the Patriots in the American Revolution.",
             "designation": "National Battlefield",
             "parkCode": "mocr",
@@ -4425,22 +4427,9 @@
             "name": "Moores Creek"
         },
         {
-            "states": "IL,IA,NE,UT,WY",
-            "latLong": "",
-            "description": "Explore the Mormon Pioneer National Historic Trail across five states to see the 1,300-mile route traveled by Mormons who fled Nauvoo, Illinois, to the Great Salt Lake Valley in 1846-1847.",
-            "designation": "National Historic Trail",
-            "parkCode": "mopi",
-            "id": "AD731EF0-685F-4397-88C1-A9BB21EBF034",
-            "directionsInfo": "The Mormon Pioneer National Historic Trail crosses five states following the route the Pioneer Company of 1846-1847 established from Nauvoo, Illinois, to Salt Lake City, Utah, covering about 1,300 miles.",
-            "directionsUrl": "http://www.nps.gov/mopi/planyourvisit/directions.htm",
-            "fullName": "Mormon Pioneer National Historic Trail",
-            "url": "https://www.nps.gov/mopi/index.htm",
-            "weatherInfo": "Due to the length of the Oregon National Historic Trail, be sure to consult local weather sources for the region you'll be visiting. The trail passes through seven states.",
-            "name": "Mormon Pioneer"
-        },
-        {
             "states": "NJ",
-            "latLong": "lat:40.7650755, long:-74.53455122",
+            "lat": "40.7650755",
+            "lng": "-74.53455122",
             "description": "Morristown National Historical Park commemorates the sites of General Washington and the Continental army’s winter encampment of December 1779 to June 1780, where they survived through what would be the coldest winter on record. The park also maintains a museum & library collection related to the encampments & George Washington, as well as items relating to pre- and post-Revolutionary America.",
             "designation": "National Historical Park",
             "parkCode": "morr",
@@ -4454,7 +4443,8 @@
         },
         {
             "states": "MI",
-            "latLong": "lat:42.518180847168, long:-83.8187713623047",
+            "lat": "42.518180847168",
+            "lng": "-83.8187713623047",
             "description": "If you are interested in automotive history, then MotorCities National Heritage Area is the place to be. Tour the factory where Henry Ford created and built the Model T. Learn the stories behind the creation of General Motors and DamilerChrysler. Come with us and learn about the long and sometimes tenuous relationship between Labor and Industry while experiencing southeast Michigan.",
             "designation": "National Heritage Area",
             "parkCode": "auto",
@@ -4468,7 +4458,8 @@
         },
         {
             "states": "WA",
-            "latLong": "lat:46.86075416, long:-121.7043885",
+            "lat": "46.86075416",
+            "lng": "-121.7043885",
             "description": "Ascending to 14,410 feet above sea level, Mount Rainier stands as an icon in the Washington landscape. An active volcano, Mount Rainier is the most glaciated peak in the contiguous U.S.A., spawning five major rivers. Subalpine wildflower meadows ring the icy volcano while ancient forest cloaks Mount Rainier’s lower slopes. Wildlife abounds in the park’s ecosystems. A lifetime of discovery awaits.",
             "designation": "National Park",
             "parkCode": "mora",
@@ -4482,7 +4473,8 @@
         },
         {
             "states": "SD",
-            "latLong": "lat:43.88037021, long:-103.4525186",
+            "lat": "43.88037021",
+            "lng": "-103.4525186",
             "description": "Majestic figures of George Washington, Thomas Jefferson, Theodore Roosevelt and Abraham Lincoln, surrounded by the beauty of the Black Hills of South Dakota, tell the story of the birth, growth, development and preservation of this country. From the history of the first inhabitants to the diversity of America today, Mount Rushmore brings visitors face to face with the rich heritage we all share.",
             "designation": "National Memorial",
             "parkCode": "moru",
@@ -4496,7 +4488,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:37.89658027, long:-122.5808047",
+            "lat": "37.89658027",
+            "lng": "-122.5808047",
             "description": "Walk among old growth coast redwoods, cooling their roots in the fresh water of Redwood Creek and lifting their crowns to reach the sun and fog. Federally protected as a National Monument since 1908, this primeval forest is both refuge and laboratory, revealing our relationship with the living landscape. What will you discover in Muir Woods?",
             "designation": "National Monument",
             "parkCode": "muwo",
@@ -4510,7 +4503,8 @@
         },
         {
             "states": "AL",
-            "latLong": "lat:34.6414527893066, long:-87.4196395874023",
+            "lat": "34.6414527893066",
+            "lng": "-87.4196395874023",
             "description": "The Tennessee River brought the early Native Americans and then the European settlers. For years, it frustrated those who tried to cross it or tame it. Men fought from its banks and others found power from its waters. It created a culture. It shaped a region. The region’s sites, buildings, and relics whisper tales of some of the nation’s biggest moments and how the river played a role in each.",
             "designation": "National Heritage Area",
             "parkCode": "mush",
@@ -4524,7 +4518,8 @@
         },
         {
             "states": "MS",
-            "latLong": "lat:31.54697621, long:-91.39040665",
+            "lat": "31.54697621",
+            "lng": "-91.39040665",
             "description": "Discover the history of all the peoples of Natchez, Mississippi, from European settlement, African enslavement, the American cotton economy, to the Civil Rights struggle on the lower Mississippi River.",
             "designation": "National Historical Park",
             "parkCode": "natc",
@@ -4537,36 +4532,9 @@
             "name": "Natchez"
         },
         {
-            "states": "AL,MS,TN",
-            "latLong": "lat:34.3302903330188, long:-88.7100104093552",
-            "description": "The 450-mile foot trail that became known as the Natchez Trace was the lifeline through the Old Southwest.  You can experience portions of that journey the way earlier travelers did - on foot.  Today there are five separate trails totaling over 60 miles and they are administered by the Natchez Trace Parkway.",
-            "designation": "National Scenic Trail",
-            "parkCode": "natt",
-            "id": "3ACC9199-1234-4E50-B80E-65DB783B4BB7",
-            "directionsInfo": "Directions to the Natchez Trace National Scenic Trail vary greatly depending on what section you are trying to reach. For specific questions concerning how to get to a certain section or trail head of the National Scenic Trail, please call the Visitor Center at 1-800-305-7417.",
-            "directionsUrl": "http://www.nps.gov/natt/planyourvisit/directions.htm",
-            "fullName": "Natchez Trace National Scenic Trail",
-            "url": "https://www.nps.gov/natt/index.htm",
-            "weatherInfo": "Mississippi, Alabama, and most of Tennessee are classified as humid subtropical climates. The weather ranges from mild winters to hot summers. Average high temperatures reach into the high 80's in summer, and into the high 40's in winter. Thunderstorms are common in Mississippi, especially in the southern part of the state, and from June through November, the state is occasionally affected by hurricanes moving north from the Gulf of Mexico. Check local forecasts to plan your trip.",
-            "name": "Natchez Trace"
-        },
-        {
-            "states": "AL,MS,TN",
-            "latLong": "lat:33.78002293, long:-89.03092439",
-            "description": "The Natchez Trace Parkway is a 444-mile recreational road and scenic drive through three states. It roughly follows the \"Old Natchez Trace\" a historic travel corridor used by American Indians, \"Kaintucks,\" European settlers, slave traders, soldiers, and future presidents. Today, people can enjoy not only a scenic drive but also hiking, biking, horseback riding, and camping along the parkway.",
-            "designation": "Parkway",
-            "parkCode": "natr",
-            "id": "E8A0F0B6-983F-4B9A-9A67-BFF6F9E4204A",
-            "directionsInfo": "Directions to the Natchez Trace Parkway vary greatly depending on what part of the tri-state Parkway you are trying to reach. There are more than 50 roads that access the Parkway in Tennessee, Alabama, and Mississippi. For specific questions concerning how to get to a certain portion of the Parkway, please call the Visitor Center at 1-800-305-7417.",
-            "directionsUrl": "http://www.nps.gov/natr/planyourvisit/directions.htm",
-            "fullName": "Natchez Trace Parkway",
-            "url": "https://www.nps.gov/natr/index.htm",
-            "weatherInfo": "Mississippi, Alabama, and most of Tennessee are classified as humid subtropical climates. The weather ranges from mild winters to hot summers. Average high temperatures reach into the high 80's in summer, and into the high 40's in winter. Thunderstorms are common in Mississippi, especially in the southern part of the state, and from June through November, the state is occasionally affected by hurricanes moving north from the Gulf of Mexico. Check local forecasts to plan your trip.",
-            "name": "Natchez Trace"
-        },
-        {
             "states": "OH",
-            "latLong": "lat:39.9818229675293, long:-84.0711364746094",
+            "lat": "39.9818229675293",
+            "lng": "-84.0711364746094",
             "description": "Aviation is chock-full of tradition & history and nowhere will you find a richer collection of aviation than here, the birthplace of aviation.  From the straightforward bicycle shops that fostered the Wright brothers' flying ambitions to the complex spacecraft that carried man to the moon, the National Aviation Heritage Area has everything you need to learn about this country’s aviation legacy.",
             "designation": "Heritage Area",
             "parkCode": "avia",
@@ -4580,7 +4548,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.85301412, long:-76.98495791",
+            "lat": "38.85301412",
+            "lng": "-76.98495791",
             "description": "Welcome to National Capital Parks-East. We invite you to journey to parks Beyond the Capital of Washington, D.C.  National Capital Parks-East is 13 park sites, parkways and statuary covering more than 8,000 acres of historic, cultural, and recreational parklands from Capitol Hill to the nearby Maryland suburbs",
             "designation": "",
             "parkCode": "nace",
@@ -4594,7 +4563,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.88162683, long:-77.03586953",
+            "lat": "38.88162683",
+            "lng": "-77.03586953",
             "description": "Each year, millions of people visit National Mall and Memorial Parks to recreate, to commemorate presidential legacies, to honor our nation's veterans, to make their voices heard, and to celebrate our nation's commitment to freedom and equality.\n\nNote: The Washington Monument is currently closed for modernization of the elevator.",
             "designation": "",
             "parkCode": "nama",
@@ -4608,7 +4578,8 @@
         },
         {
             "states": "AS",
-            "latLong": "lat:-14.22865935, long:-169.8503777",
+            "lat": "-14.22865935",
+            "lng": "-169.8503777",
             "description": "The National Park of American Samoa welcomes you into the heart of the South Pacific, to a world of sights, sounds, and experiences that you will find in no other national park in the United States. \n\nEnjoy this unique national park and the welcoming people of American Samoa. We are here to protect its rich culture and natural resources. Come explore them with us!",
             "designation": "",
             "parkCode": "npsa",
