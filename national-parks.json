@@ -3082,7 +3082,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:39.4175296, long:-76.58781182",
+            "lat": "39.4175296",
+            "lng": "-76.58781182",
             "description": "Once possibly the largest private home in America by 1790, the Hampton mansion serves as a grand example of late-Georgian architecture in America. Hampton is also the story of its people, as the estate evolved through the actions of the Ridgely family, enslaved African Americans, European indentured servants, and paid laborers within a nation struggling to define its own concept of freedom.",
             "designation": "National Historic Site",
             "parkCode": "hamp",
@@ -3096,7 +3097,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.74646351, long:-77.00377069",
+            "lat": "38.74646351",
+            "lng": "-77.00377069",
             "description": "The 18th century Harmony Hall mansion is located on a 62.5-acre open pasture land estate along the Potomac River.  This estate was purchased by the National Park Service in 1966, to preserve southern Maryland cultural heritage. Surrounded by a rich landscape, it offers visitors many chances to connect with Colonial History. The park also home to the remains of the Want Water House and canal.",
             "designation": "",
             "parkCode": "haha",
@@ -3109,8 +3111,9 @@
             "name": "Harmony Hall"
         },
         {
-            "states": "WV,VA,MD",
-            "latLong": "lat:39.31865949, long:-77.74088546",
+            "states": "MD",
+            "lat": "39.31865949",
+            "lng": "-77.74088546",
             "description": "A visit to this quaint, historic community, at the confluence of the Potomac and Shenandoah rivers, is like stepping into the past.  Stroll the picturesque streets, visit exhibits and museums, or hike our trails and battlefields. Spend a day or a weekend.  We have something for everyone, so come and discover Harpers Ferry!",
             "designation": "National Historical Park",
             "parkCode": "hafe",
@@ -3124,7 +3127,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:42.9128920286894, long:-76.5646715462208",
+            "lat": "42.9128920286894",
+            "lng": "-76.5646715462208",
             "description": "Harriet Tubman was guided by a deep faith and devotion to family, freedom, and community. After emancipating herself and members of her family, she moved them from Ontario, Canada to Fleming and Auburn, New York in 1859. Central New York was a center for progressive thought, abolition, and women’s suffrage where Tubman continued to fight for human rights and dignity until she died in 1913.",
             "designation": "National Historical Park",
             "parkCode": "hart",
@@ -3138,7 +3142,8 @@
         },
         {
             "states": "MD",
-            "latLong": "lat:38.4548643510713, long:-76.1373451375579",
+            "lat": "38.4548643510713",
+            "lng": "-76.1373451375579",
             "description": "Harriet Tubman was a deeply spiritual woman who lived her ideals and dedicated her life to freedom. She is the Underground Railroad’s best known conductor and before the Civil War repeatedly risked her life to guide nearly 70 enslaved people north to new lives of freedom. This new national historical park preserves the same landscapes that Tubman used to carry herself and others away from slavery.",
             "designation": "National Historical Park",
             "parkCode": "hatu",
@@ -3152,7 +3157,8 @@
         },
         {
             "states": "MO",
-            "latLong": "lat:38.92711967, long:-94.5162488",
+            "lat": "38.92711967",
+            "lng": "-94.5162488",
             "description": "President Harry S Truman took America from its traditional isolationism into the age of international involvement. Despite his power, he never forgot where he came from. Today, visitors can experience the surroundings Truman knew as a young man of modest ambition through his political career and final years as a former president.",
             "designation": "National Historic Site",
             "parkCode": "hstr",
@@ -3166,7 +3172,8 @@
         },
         {
             "states": "HI",
-            "latLong": "lat:19.3355036, long:-155.4700257",
+            "lat": "19.3355036",
+            "lng": "-155.4700257",
             "description": "Hawai‘i Volcanoes National Park protects some of the most unique geologic, biologic, and cultural landscapes in the world. Extending from sea level to the summit of Mauna Loa at 13,677 feet, the park encompasses the summits of two of the world's most active volcanoes - Kīlauea and Mauna Loa. Learn more about this special place and traditional Hawaiian culture connected to these landscapes.",
             "designation": "National Park",
             "parkCode": "havo",
@@ -3180,7 +3187,8 @@
         },
         {
             "states": "IA",
-            "latLong": "lat:41.66793558, long:-91.35232139",
+            "lat": "41.66793558",
+            "lng": "-91.35232139",
             "description": "Orphaned at age nine, Herbert Hoover left West Branch never to live here again. In later years, he returned to his humble birthplace to celebrate his long career of public service. A memorial landscape remains to tell his story: how community, hard work, honesty, and usefulness to others opened a world of opportunity— and the presidency of the United States— to a child of simple beginnings.",
             "designation": "National Historic Site",
             "parkCode": "heho",
@@ -3194,7 +3202,8 @@
         },
         {
             "states": "VA",
-            "latLong": "lat:37.20027185, long:-76.75469561",
+            "lat": "37.20027185",
+            "lng": "-76.75469561",
             "description": "Walk in the steps of Captain John Smith and Pocahontas where a successful English colonization of North America began.  Despite early struggles to survive, the 1607 settlement evolved into a prosperous colony.  As the colony expanded, the Virginia Indians were pushed out of their homeland.  In 1619, the arrival of Africans was recorded, marking the origin of slavery in English North America.",
             "designation": "Part of Colonial National Historical Park",
             "parkCode": "jame",
@@ -3208,7 +3217,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:33.18713877, long:-111.9192737",
+            "lat": "33.18713877",
+            "lng": "-111.9192737",
             "description": "The \"Monument\" is located on the Gila River Indian Reservation and is under tribal ownership. The Gila River Indian Community has decided not to open the extremely sensitive area to the public. There is no park brochure, passport stamp, picture stamp or other free literature available.",
             "designation": "National Monument",
             "parkCode": "pima",
@@ -3222,7 +3232,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:41.76639758, long:-73.92516857",
+            "lat": "41.76639758",
+            "lng": "-73.92516857",
             "description": "\"All that is within me cries out to go back to my home on the Hudson River\" FDR\n\nThis quote captures FDR's connection to Springwood, the estate that he loved & the place he considered home. The first US Presidential Library was started by FDR here. Visit the Home of FDR and Presidential Library & Museum to learn about the only President elected to four terms.",
             "designation": "National Historic Site",
             "parkCode": "hofr",
@@ -3236,7 +3247,8 @@
         },
         {
             "states": "NE",
-            "latLong": "lat:40.28802381, long:-96.83387781",
+            "lat": "40.28802381",
+            "lng": "-96.83387781",
             "description": "With the promise of Free Land, the Homestead Act of 1862 enticed millions to cultivate the frontier. Families, immigrants, women, and freed slaves flooded 10 percent of the nation’s land to chase their American Dream. American Indian cultures and natural environments gave way to diverse settlement, agricultural success, and industrial advancement—building our nation and changing the land forever.",
             "designation": "National Monument of America",
             "parkCode": "home",
@@ -3250,7 +3262,8 @@
         },
         {
             "states": "HI",
-            "latLong": "lat:21.38817536, long:-158.0574991",
+            "lat": "21.38817536",
+            "lng": "-158.0574991",
             "description": "Although not yet open to the public, Honouliuli National Monument (NM) will tell the history of internment, martial law, and the experience of prisoners of war in Hawai‘i during World War II. Honouliuli NM will be a place to reflect on wartime experiences and recommit ourselves to the pursuit of freedom and justice.",
             "designation": "National Historic Site",
             "parkCode": "hono",
@@ -3264,7 +3277,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:39.31594374, long:-83.08049456",
+            "lat": "39.31594374",
+            "lng": "-83.08049456",
             "description": "Earthen mounds and embankments forming huge geometric enclosures grace the landscape of the Ohio River Valley. These monumental structures were built by Native American hands almost 2,000 years ago. Hopewellian people gathered at these earthworks for feasts, funerals and rites of passage.  Come learn about these sacred spaces and reflect upon the lives of these American Indians.",
             "designation": "National Historical Park",
             "parkCode": "hocu",
@@ -3278,7 +3292,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:40.20610637, long:-75.76766355",
+            "lat": "40.20610637",
+            "lng": "-75.76766355",
             "description": "Hopewell Furnace showcases an early American industrial landscape from natural resource extraction to enlightened conservation. Operating from 1771-1883, Hopewell and other \"iron plantations\" laid the foundation for the transformation of the United States into an industrial giant. The park's 848 acres and historic structures illustrate the business, technology and lifestyle of our growing nation.",
             "designation": "National Historic Site",
             "parkCode": "hofu",
@@ -3292,7 +3307,8 @@
         },
         {
             "states": "AL",
-            "latLong": "lat:32.97668879, long:-85.73413589",
+            "lat": "32.97668879",
+            "lng": "-85.73413589",
             "description": "On 27 March 1814, Major General Andrew Jackson ‘s army of 3,300 men attacked Chief Menawa’s 1,000 Red Stick Creek warriors fortified in a horseshoe shaped bend of the Tallapoosa River.  Over 800 Red Sticks died that day.  The battle ended the Creek War, resulted in a land cession of 23,000,000 acres to the United States and created a national hero of Andrew Jackson.",
             "designation": "National Military Park",
             "parkCode": "hobe",
@@ -3306,7 +3322,8 @@
         },
         {
             "states": "AR",
-            "latLong": "lat:34.52414366, long:-93.06332936",
+            "lat": "34.52414366",
+            "lng": "-93.06332936",
             "description": "Water. That's what first attracted people, and they have been coming here ever since to use these soothing thermal waters to heal and relax. Rich and poor alike came for the baths, and a thriving city built up around the hot springs. Together nicknamed \"The American Spa,\" Hot Springs National Park today surrounds the north end of the city of Hot Springs, Arkansas. Come discover it for yourself.",
             "designation": "National Park",
             "parkCode": "hosp",
@@ -3319,8 +3336,9 @@
             "name": "Hot Springs"
         },
         {
-            "states": "CO,UT",
-            "latLong": "lat:37.39134092, long:-109.0047977",
+            "states": "UT",
+            "lat": "37.39134092",
+            "lng": "-109.0047977",
             "description": "Once home to over 2,500 people, Hovenweep includes six prehistoric villages built between A.D. 1200 and 1300. Explore a variety of structures, including multistory towers perched on canyon rims and balanced on boulders. The construction and attention to detail will leave you marveling at the skill and motivation of the builders.",
             "designation": "National Monument",
             "parkCode": "hove",
@@ -3334,7 +3352,8 @@
         },
         {
             "states": "AZ",
-            "latLong": "lat:35.70727324, long:-109.5599515",
+            "lat": "35.70727324",
+            "lng": "-109.5599515",
             "description": "The squeaky wooden floor greets your entry into the oldest operating trading post on the Navajo Nation.  When your eyes adjust to the dim light in the \"bullpen\" you find you’ve just entered a mercantile.  Hubbell Trading Post has been serving Ganado selling goods and Native American Art since 1878.\n\nDiscover Hubbell Trading Post NHS, where history is made every day!",
             "designation": "National Historic Site",
             "parkCode": "hutr",
@@ -3348,7 +3367,8 @@
         },
         {
             "states": "NY",
-            "latLong": "lat:42.0397300720215, long:-73.9580383300781",
+            "lat": "42.0397300720215",
+            "lng": "-73.9580383300781",
             "description": "Maurice D. Hinchey Hudson River Valley National Heritage Area stretches from New York City to Albany. The area's resources exhibit the roles of freedom and dignity in the valley's history, and the historical and contemporary role of commerce. Revolutionary War stories, famous residences, scenic parks and gardens, and landscapes all contribute to the Hudson Valley's beauty and significance.",
             "designation": "National Heritage Area",
             "parkCode": "hurv",
@@ -3362,7 +3382,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:71.29889155, long:-156.7529136",
+            "lat": "71.29889155",
+            "lng": "-156.7529136",
             "description": "On the rooftop of the world, the Iñupiat Heritage Center in Barrow, Alaska, tells the story of the Iñupiat people. They have thrived for thousands of years in one of the harshest climates on Earth, hunting the bowhead, or \"Agviq.\" In the 19th century, these lonely seas swarmed with commercial whalemen from New England, who also sought the bowhead for its valuable baleen and blubber.",
             "designation": "",
             "parkCode": "inup",
@@ -3375,36 +3396,9 @@
             "name": "I&#241;upiat Heritage Center"
         },
         {
-            "states": "WA,OR,ID,MT",
-            "latLong": "",
-            "description": "\"At the end of the last Ice Age, some 12,000 to 17,000 years ago, a series of cataclysmic floods occurred in what is now the northwest region of the United States, leaving a lasting mark of dramatic and distinguishing features on the landscape of parts of the States of Montana, Idaho, Washington and Oregon.\" \n\nPublic Law 111-11, March 30, 2009",
-            "designation": "National Geologic Trail",
-            "parkCode": "iafl",
-            "id": "07D9E506-B86A-4762-801F-2D333F369D5D",
-            "directionsInfo": "From Spokane\n\nTake I-90 West\nAt Exit 277, merge onto US-2 toward Davenport/Fairchild AFB/Spokane Airport\nJust past Wilbur, turn right onto WA-21\nStay left onto Highway 174\nTurn right onto WA-155\nStay on WA-155 past Grand Coulee Dam and into the town of Coulee Dam\nCross the Columbia River and continue on WA-155\nTurn right onto Crest Drive and follow up the hill.\nThe HQ Office is located on the left",
-            "directionsUrl": "https://www.nps.gov/laro/planyourvisit/directions.htm",
-            "fullName": "Ice Age Floods National Geologic Trail",
-            "url": "https://www.nps.gov/iafl/index.htm",
-            "weatherInfo": "The National Geologic Trail is a collection of sites stretched across a four state area, the weather will vary from site to site. Please check the weather for your local region, or the region you'll be visiting, through their respective sites.",
-            "name": "Ice Age Floods"
-        },
-        {
-            "states": "WI",
-            "latLong": "",
-            "description": "A mere 15,000 years ago during the Ice Age, much of North America lay under a huge glacier. Mammoths, saber tooth cats and cave lions roamed the earth! Some of the best evidence of this glacier is found in Wisconsin such as the state’s many lakes, river valleys, gently rolling hills, and ridges. The nearly 1,200 mile Ice Age National Scenic Trail, established in 1980, traces the glacier's edge.",
-            "designation": "National Scenic Trail",
-            "parkCode": "iatr",
-            "id": "DED290D0-879A-4134-BBC3-54980D80959E",
-            "directionsInfo": "The Ice Age National Scenic Trail stretches nearly 1,200 miles across Wisconsin. \n\nPlane\n\nCommercial airports are located in major cities and regional communities throughout the state at varying distances from the Ice Age National Scenic Trail.\n\nCar\n\nNumerous trailheads with parking are located throughout the state.",
-            "directionsUrl": "http://www.nps.gov/iatr/planyourvisit/directions.htm",
-            "fullName": "Ice Age National Scenic Trail",
-            "url": "https://www.nps.gov/iatr/index.htm",
-            "weatherInfo": "Wisconsin has four distinctly different seasons. Wisconsin's continental climate means this state enjoys a little bit of everything, weather-wise. Summers are generally warm and pleasant, while the area is covered with a thick blanket of white snow in winter.",
-            "name": "Ice Age"
-        },
-        {
             "states": "PA",
-            "latLong": "lat:39.94746112, long:-75.14794157",
+            "lat": "39.94746112",
+            "lng": "-75.14794157",
             "description": "Goods, ideas, and people intermingled in early Philadelphia.  In this diverse city, a new republic was born.  The Declaration of Independence and U.S. Constitution were both debated and signed inside Independence Hall.  Nearby sits the Liberty Bell, an international symbol of liberty.",
             "designation": "National Historical Park",
             "parkCode": "inde",
@@ -3418,7 +3412,8 @@
         },
         {
             "states": "IN",
-            "latLong": "lat:41.63765525, long:-87.09647445",
+            "lat": "41.63765525",
+            "lng": "-87.09647445",
             "description": "Indiana Dunes National Park hugs 15 miles of the southern shore of Lake Michigan and has much to offer. Whether you enjoy scouting for rare species of birds or flying kites on the sandy beach, the national park's 15,000 acres will continually enchant you.  Hikers will enjoy 50 miles of trails over rugged dunes, mysterious wetlands, sunny prairies, meandering rivers and peaceful forests.",
             "designation": "National Park",
             "parkCode": "indu",
@@ -3432,7 +3427,8 @@
         },
         {
             "states": "MI",
-            "latLong": "lat:48.01145819, long:-88.82780657",
+            "lat": "48.01145819",
+            "lng": "-88.82780657",
             "description": "Explore a rugged, isolated island, far from the sights and sounds of civilization. Surrounded by Lake Superior, Isle Royale offers unparalleled solitude and adventures for backpackers, hikers, boaters, kayakers, canoeists and scuba divers. Here, amid stunning scenic beauty, you'll find opportunities for reflection and discovery, and make memories that last a lifetime.",
             "designation": "National Park",
             "parkCode": "isro",
@@ -3446,7 +3442,8 @@
         },
         {
             "states": "OH",
-            "latLong": "lat:41.66486549, long:-81.35086557",
+            "lat": "41.66486549",
+            "lng": "-81.35086557",
             "description": "A front porch can serve many purposes. For some, a place to enjoy the breeze on a warm summer night. For others, a perch from which to keep eyes on what's happening in their neighborhood. In 1880, James Garfield used his front porch as a platform to greet thousands of well-wishers during his presidential campaign. Today, the porch serves as a gateway to the story of the Garfield family.",
             "designation": "National Historic Site",
             "parkCode": "jaga",
@@ -3460,7 +3457,8 @@
         },
         {
             "states": "LA",
-            "latLong": "lat:29.81739855, long:-90.1402241",
+            "lat": "29.81739855",
+            "lng": "-90.1402241",
             "description": "In Jean Lafitte's day, silver and gold filled a pirate's treasure chest, but today's treasures are people, places, and memories. Discover New Orleans’ rich cultural mix. Learn Cajun traditions from people who live them. Watch an alligator bask on a bayou’s bank. Walk in the footsteps of the men who fought at 1815’s Battle of New Orleans. Follow the link to discover the treasure of Jean Lafitte.",
             "designation": "National Historical Park and Preserve",
             "parkCode": "jela",
@@ -3474,7 +3472,8 @@
         },
         {
             "states": "SD",
-            "latLong": "lat:43.73102945, long:-103.829994",
+            "lat": "43.73102945",
+            "lng": "-103.829994",
             "description": "Immerse yourself within the third longest cave in the world. With over 200 miles of mapped and surveyed passages, this underground wilderness appeals to human curiosity. Its splendor is revealed through fragile formations and glimpses of brilliant color. Its maze of passages lure explorers, and its scientific wealth remains a mystery. This resource is truly a jewel in the National Park Service.",
             "designation": "National Monument",
             "parkCode": "jeca",
@@ -3488,7 +3487,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:32.03059943, long:-84.41606653",
+            "lat": "32.03059943",
+            "lng": "-84.41606653",
             "description": "Few U.S. Presidents have had such close ties with where they were born and raised. The rural southern culture of Plains, Georgia, that revolves around farming, church and school, had a large influence in molding the character and in shaping the political policies of the 39th President of the United States.",
             "designation": "National Historic Site",
             "parkCode": "jica",
@@ -3502,7 +3502,8 @@
         },
         {
             "states": "OR",
-            "latLong": "lat:44.62566508, long:-119.8811491",
+            "lat": "44.62566508",
+            "lng": "-119.8811491",
             "description": "Colorful rock formations at John Day Fossil Beds preserve a world class record of plant and animal evolution, changing climate, and past ecosystems that span over 40 million years.  Exhibits and a working lab at the Thomas Condon Paleontology and Visitor Center as well as scenic drives and hikes at all three units allow visitors to explore the prehistoric past of Oregon and see science in action.",
             "designation": "National Monument",
             "parkCode": "joda",
@@ -3516,7 +3517,8 @@
         },
         {
             "states": "MA",
-            "latLong": "lat:42.34693694, long:-71.12323846",
+            "lat": "42.34693694",
+            "lng": "-71.12323846",
             "description": "As a boy, JFK’s parents never expected he would grow up to be president. Yet in his birthplace home he learned values that inspired a life in public service. His mother, Rose Kennedy, recreated her family’s first home to share her memories of those early years with visitors. We commemorate not only his early life, but the ideas and principles he left behind.",
             "designation": "National Historic Site",
             "parkCode": "jofi",
@@ -3529,22 +3531,9 @@
             "name": "John Fitzgerald Kennedy"
         },
         {
-            "states": "MA,RI",
-            "latLong": "lat:42.201158, long:-71.668818",
-            "description": "The Blackstone River runs from Worcester, MA to Providence, RI. Its waters powered the Slater Mill in Pawtucket, RI, America's first successful cotton spinning mill. This creative spark began the nation's transformation from Farm to Factory. Today, the Blackstone River Valley is a special type of National Park - a living landscape containing thousands of natural and historic treasures.",
-            "designation": "National Heritage Corridor",
-            "parkCode": "blac",
-            "id": "2435970E-D5E5-4E5B-93A0-F72D48DB2BE8",
-            "directionsInfo": "The Heritage Corridor is in Linwood Mill Suite #10, located on Linwood Avenue in the town of Northbridge, MA. It is just to the northwest of the intersection of Linwood Avenue and Rt. 122.",
-            "directionsUrl": "http://www.nps.gov/blac/planyourvisit/directions.htm",
-            "fullName": "John H. Chafee Blackstone River Valley National Heritage Corridor",
-            "url": "https://www.nps.gov/blac/index.htm",
-            "weatherInfo": "Summer temperatures range from 56-83F. Fall temperatures range from 30-70F. Winter temperatures range from 20-45F. Spring temperatures range from 30-70F.",
-            "name": "John H. Chafee Blackstone River Valley"
-        },
-        {
             "states": "CA",
-            "latLong": "lat:37.9828422, long:-122.1326097",
+            "lat": "37.9828422",
+            "lng": "-122.1326097",
             "description": "John Muir played many roles in his life, all of which helped him succeed in his role as an advocate for Nature. As America’s most famous naturalist and conservationist, Muir fought to protect the wild places he loved, places we can still visit today. Muir’s writings convinced the U.S. government to protect Yosemite, Sequoia, Grand Canyon and Mt. Rainier as national parks.",
             "designation": "National Historic Site",
             "parkCode": "jomu",
@@ -3558,7 +3547,8 @@
         },
         {
             "states": "PA",
-            "latLong": "lat:40.34584534, long:-78.77448601",
+            "lat": "40.34584534",
+            "lng": "-78.77448601",
             "description": "The South Fork dam failed on Friday, May 31, 1889 and unleashed 20,000,000 tons of water that devastated Johnstown, PA.  The flood killed 2,209 people but it brought the nation and the world together to aid the \"Johnstown sufferers.\"  The story of the Johnstown Flood reminds us all, \"...that we must leave nothing undone for the preservation and protection of our brother men.\"",
             "designation": "National Memorial",
             "parkCode": "jofl",
@@ -3572,7 +3562,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:33.91418525, long:-115.8398125",
+            "lat": "33.91418525",
+            "lng": "-115.8398125",
             "description": "Two distinct desert ecosystems, the Mojave and the Colorado, come together in Joshua Tree National Park. A fascinating variety of plants and animals make their homes in a land sculpted by strong winds and occasional torrents of rain. Dark night skies, a rich cultural history, and surreal geologic features add to the wonder of this vast wilderness in southern California. Come explore for yourself.",
             "designation": "National Park",
             "parkCode": "jotr",
@@ -3585,36 +3576,9 @@
             "name": "Joshua Tree"
         },
         {
-            "states": "MD,PA,WV,VA",
-            "latLong": "lat:38.8904075622559, long:-77.8056488037109",
-            "description": "The Journey is a unique historic, natural and scenic region, with farms and orchards; woodlands and forests; rivers and streams; rolling hills and mountain views; and unspoiled landscapes that can be explored by car, bike, canoe, foot or on horseback. The region is alive with vibrant historic downtowns, rich agriculture and an abundant bounty of wineries, inns and unique cultural events.",
-            "designation": "National Heritage Area",
-            "parkCode": "jthg",
-            "id": "AD483AA2-2AFE-4518-9D97-6ED3EE5BBCE2",
-            "directionsInfo": "For details and directions on places of interest in the Journey Through Hallowed Ground National Heritage Area, visit, https://www.hallowedground.org/.",
-            "directionsUrl": "https://www.hallowedground.org/",
-            "fullName": "Journey Through Hallowed Ground National Heritage Area",
-            "url": "https://www.nps.gov/jthg/index.htm",
-            "weatherInfo": "For details and information, visit, https://www.hallowedground.org.",
-            "name": "Journey Through Hallowed Ground"
-        },
-        {
-            "states": "AZ,CA",
-            "latLong": "",
-            "description": "\"¡Vayan Subiendo!\"(\"Everyone mount up!\") was the rousing call from Juan Bautista de Anza. In 1775-76, he led some 240 men, women, and children on an epic journey to establish the first non-Native settlement at San Francisco Bay. Today, the 1,200-mile Juan Bautista de Anza National Historic Trail connects history, culture, and outdoor recreation from Nogales, Arizona, to the San Francisco Bay Area.",
-            "designation": "National Historic Trail",
-            "parkCode": "juba",
-            "id": "062F89B7-8DB4-4ACD-88D1-573669E63091",
-            "directionsInfo": "Details listed are for the San Francisco administrative office of the Anza Trail. The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
-            "directionsUrl": "http://www.nps.gov/juba/planyourvisit/placestogo.htm",
-            "fullName": "Juan Bautista de Anza National Historic Trail",
-            "url": "https://www.nps.gov/juba/index.htm",
-            "weatherInfo": "The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details.",
-            "name": "Juan Bautista de Anza"
-        },
-        {
             "states": "HI",
-            "latLong": "lat:21.1731108, long:-156.9511609",
+            "lat": "21.1731108",
+            "lng": "-156.9511609",
             "description": "When Hansen's disease (leprosy) was introduced to the Hawaiian Islands, King Kamehameha V banished all afflicted to the isolated Kalaupapa peninsula on the north shore of Molokai.  \n\nSince 1866, more than 8000 people, mostly Hawaiians, have died at Kalaupapa. Once a prison, Kalaupapa is now refuge for the few remaining residents who are now cured, but were forced to live their lives in isolation.",
             "designation": "National Historical Park",
             "parkCode": "kala",
@@ -3628,7 +3592,8 @@
         },
         {
             "states": "HI",
-            "latLong": "lat:19.68083237, long:-156.0306932",
+            "lat": "19.68083237",
+            "lng": "-156.0306932",
             "description": "To survive in a hot and arid environment the native Hawaiians (kanaka maoli) used ancient fishing skills, including the building of fishponds, and the knowledge of the location of precious fresh water (wai) that flows into the many brackish pools throughout the park. The spirit of the people (poe) and the knowledge of the elders (kupuna) created a tradition of respect and reverence for this area.",
             "designation": "National Historical Park",
             "parkCode": "kaho",
@@ -3642,7 +3607,8 @@
         },
         {
             "states": "ME",
-            "latLong": "lat:45.9567565917969, long:-68.712287902832",
+            "lat": "45.9567565917969",
+            "lng": "-68.712287902832",
             "description": "Spread across a wild landscape offering spectacular views of Mount Katahdin, Katahdin Woods and Waters invites discovery of its rivers, streams, woods, flora, fauna, geology, and the night skies that have attracted humans for millennia.",
             "designation": "National Monument",
             "parkCode": "kaww",
@@ -3656,7 +3622,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:58.62235668, long:-155.0126574",
+            "lat": "58.62235668",
+            "lng": "-155.0126574",
             "description": "A landscape alive underneath our feet, filled with creatures that remind us what it is to be wild.\n\nKatmai was established in 1918 to protect the volcanically devastated region surrounding Novarupta and the Valley of Ten Thousand Smokes. Today, Katmai National Park and Preserve also protects 9,000 years of human history and important habitat for salmon and thousands of brown bears.",
             "designation": "National Park & Preserve",
             "parkCode": "katm",
@@ -3670,7 +3637,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:59.81804414, long:-150.106502",
+            "lat": "59.81804414",
+            "lng": "-150.106502",
             "description": "At the edge of the Kenai Peninsula lies a land where the ice age lingers. Nearly 40 glaciers flow from the Harding Icefield, Kenai Fjords' crowning feature. Wildlife thrives in icy waters and lush forests around this vast expanse of ice. Sugpiaq people relied on these resources to nurture a life entwined with the sea. Today, shrinking glaciers bear witness to the effects of our changing climate.",
             "designation": "National Park",
             "parkCode": "kefj",
@@ -3684,7 +3652,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.91284776, long:-76.94340616",
+            "lat": "38.91284776",
+            "lng": "-76.94340616",
             "description": "In an age old dance wind, water, and land combine here.  Sparkling in the sun on a breezy day, this natural area of Anacostia Park has origins in a 1926 act of Congress to preserve the forests, water quality, and recreation value of the waterways of Washington, DC.  The park reflects the policies that affect rivers and wetlands.  Come, join the dance.",
             "designation": "",
             "parkCode": "keaq",
@@ -3698,7 +3667,8 @@
         },
         {
             "states": "GA",
-            "latLong": "lat:33.95370717, long:-84.59214186",
+            "lat": "33.95370717",
+            "lng": "-84.59214186",
             "description": "Kennesaw Mountain National Battlefield Park is a 2,965 acre National Battlefield that preserves a Civil War battleground of the Atlanta Campaign. Opposing forces maneuvered and fought here from June 19, 1864 until July 2, 1864. Although most famous as a Civil War battlefield, Kennesaw Mountain has a much richer story.",
             "designation": "National Battlefield Park",
             "parkCode": "kemo",
@@ -3712,7 +3682,8 @@
         },
         {
             "states": "MI",
-            "latLong": "lat:47.1792308, long:-88.52275344",
+            "lat": "47.1792308",
+            "lng": "-88.52275344",
             "description": "From 7,000 years ago to the 1900s people mined Keweenaw copper. Native peoples made copper into tools and trade items. Investors and immigrants arrived in the 1800s in a great mineral rush, developing thriving industries and cosmopolitan communities. Though the mines have since closed, their mark is still visible on the land and people.",
             "designation": "National Historical Park",
             "parkCode": "kewe",
@@ -3726,7 +3697,8 @@
         },
         {
             "states": "SC",
-            "latLong": "lat:35.13900723, long:-81.38978712",
+            "lat": "35.13900723",
+            "lng": "-81.38978712",
             "description": "Thomas Jefferson called it \"The turn of the tide of success.\" The battle of Kings Mountain, fought October 7th, 1780, was an important American victory during the Revolutionary War. The battle was the first major patriot victory to occur after the British invasion of Charleston, SC in May 1780. The park preserves the site of this important battle.",
             "designation": "National Military Park",
             "parkCode": "kimo",
@@ -3740,7 +3712,8 @@
         },
         {
             "states": "WA",
-            "latLong": "lat:47.5993663, long:-122.3319664",
+            "lat": "47.5993663",
+            "lng": "-122.3319664",
             "description": "After surviving a devastating fire and an economic depression, Seattle flourished with the Klondike Gold Rush. As a key port city, merchants supplied would-be Klondike Kings and Queens on their way to Alaska. This cemented Seattle as an anchor of the Pacific Northwest. Today the park is your gateway to learn about the gold rush, explore Seattle area parks, and be involved with the local community.",
             "designation": "National Historical Park",
             "parkCode": "klse",
@@ -3754,7 +3727,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:59.61042373, long:-135.2618535",
+            "lat": "59.61042373",
+            "lng": "-135.2618535",
             "description": "Headlines screamed \"Gold!\" The dream of a better life catapulted thousands of people to Alaska and the Yukon Territory. Their journey shaped them, and changed the people they encountered and the north forever. Today, the park remembers the trails, boomtowns, and stories of the Klondike Gold Rush.",
             "designation": "National Historical Park",
             "parkCode": "klgo",
@@ -3768,7 +3742,8 @@
         },
         {
             "states": "ND",
-            "latLong": "lat:47.3540219, long:-101.3860533",
+            "lat": "47.3540219",
+            "lng": "-101.3860533",
             "description": "Earthlodge people hunted bison and other game, but were in essence farmers living in villages along the Missouri and its tributaries. The site was a major Native American trade center for hundreds of years prior to becoming an important market place for fur traders after 1750.",
             "designation": "National Historic Site",
             "parkCode": "knri",
@@ -3782,7 +3757,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:67.35631336, long:-159.2002293",
+            "lat": "67.35631336",
+            "lng": "-159.2002293",
             "description": "Caribou, sand dunes, the Kobuk River, Onion Portage - just some of the facets of Kobuk Valley National Park. Half a million caribou migrate through, their tracks crisscrossing sculpted dunes. The Kobuk River is an ancient and current path for people and wildlife. For 9000 years, people came to Onion Portage to harvest caribou as they swam the river. Even today, that rich tradition continues.",
             "designation": "National Park",
             "parkCode": "kova",
@@ -3796,7 +3772,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.88784226, long:-77.04773857",
+            "lat": "38.88784226",
+            "lng": "-77.04773857",
             "description": "Our nation honors her sons and daughters who answered the call to defend a country they never knew and a people they never met.",
             "designation": "",
             "parkCode": "kowa",
@@ -3810,7 +3787,8 @@
         },
         {
             "states": "AK",
-            "latLong": "lat:60.57405857, long:-153.55535",
+            "lat": "60.57405857",
+            "lng": "-153.55535",
             "description": "Lake Clark National Park and Preserve is a land of stunning beauty. Volcanoes steam, salmon run, bears forage, and craggy mountains reflect in shimmering turquoise lakes. Here, too, local people and culture still depend on the land and water. Venture into the park to become part of the wilderness.",
             "designation": "National Park & Preserve",
             "parkCode": "lacl",
@@ -3823,8 +3801,9 @@
             "name": "Lake Clark"
         },
         {
-            "states": "AZ,NV",
-            "latLong": "lat:35.96622528, long:-114.3469067",
+            "states": "NV",
+            "lat": "35.96622528",
+            "lng": "-114.3469067",
             "description": "Boat, hike, cycle, camp and fish at America’s most diverse national recreation area. With striking landscapes and brilliant blue waters, this year-round playground spreads across 1.5 million acres of mountains, canyons, valleys and two vast lakes. See the Hoover Dam from the waters of Lake Mead or Lake Mohave, or find solitude in one of the park's nine wilderness areas.",
             "designation": "National Recreation Area",
             "parkCode": "lake",
@@ -3838,7 +3817,8 @@
         },
         {
             "states": "TX",
-            "latLong": "lat:35.61926203, long:-101.6820066",
+            "lat": "35.61926203",
+            "lng": "-101.6820066",
             "description": "Within the dry and windswept high plains of the Texas Panhandle lies a hidden oasis, a welcoming haven where wildlife and humans find respite from the dry grasslands above. Through this plain, the Canadian River has cut dramatic 200-foot canyons, or breaks, where humans have eked out a living for over 13,000 years. Lake Meredith now occupies these hidden coves where early humans once roamed.",
             "designation": "National Recreation Area",
             "parkCode": "lamr",
@@ -3852,7 +3832,8 @@
         },
         {
             "states": "WA",
-            "latLong": "lat:48.17148735, long:-118.3513713",
+            "lat": "48.17148735",
+            "lng": "-118.3513713",
             "description": "In 1941 the Grand Coulee Dam was built on the Columbia River as part of the Columbia River Basin project, creating a 130-mile long lake. Named for President Franklin D. Roosevelt, Lake Roosevelt National Recreation Area provides opportunities for boating, fishing, swimming, camping, canoeing, hunting and visiting historic Fort Spokane and St. Paul's Mission.",
             "designation": "National Recreation Area",
             "parkCode": "laro",
@@ -3866,7 +3847,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:40.49354575, long:-121.4075993",
+            "lat": "40.49354575",
+            "lng": "-121.4075993",
             "description": "Lassen Volcanic National Park is home to steaming fumaroles, meadows freckled with wildflowers, clear mountain lakes, and numerous volcanoes. Jagged peaks tell the story of its eruptive past while hot water continues to shape the land. Lassen Volcanic offers opportunities to discover the wonder and mysteries of volcanoes and hot water for visitors willing to explore the undiscovered.",
             "designation": "National Park",
             "parkCode": "lavo",
@@ -3880,7 +3862,8 @@
         },
         {
             "states": "CA",
-            "latLong": "lat:41.75915823, long:-121.5172189",
+            "lat": "41.75915823",
+            "lng": "-121.5172189",
             "description": "Lava Beds National Monument is a land of turmoil, both geological and historical. Over the last half-million years, volcanic eruptions on the Medicine Lake shield volcano have created a rugged landscape dotted with diverse volcanic features. More than 700 caves, Native American rock art sites, historic battlefields and campsites, and a high desert wilderness experience await you!",
             "designation": "National Monument",
             "parkCode": "labe",
@@ -3894,7 +3877,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.87858036, long:-77.05145832",
+            "lat": "38.87858036",
+            "lng": "-77.05145832",
             "description": "From this distance the seat of national power appears pristine across the river, so President Johnson came here often when he needed to escape from the stresses of building a Great Society. After he died, his wife chose this place for his memorial. A landscape of serpentine paths, white pines, a granite monolith, and an open meadow honors his legacy of social justice and conservation legislation.",
             "designation": "",
             "parkCode": "lyba",
@@ -3907,22 +3891,9 @@
             "name": "LBJ Memorial Grove on the Potomac"
         },
         {
-            "states": "ID,IL,IA,KS,MO,MT,NE,ND,OR,SD,WA",
-            "latLong": "lat:41.2646141052246, long:-95.9245147705078",
-            "description": "Between May 1804 and September 1806, 31 men, one woman, and a baby traveled from the plains of the Midwest to the shores of the Pacific Ocean. They called themselves the Corps of Discovery. In their search for a water route to the Pacific Ocean, they opened a window into the west for the young United States.\n\nRead the Lewis and Clark Pups blog, the Newfie News!",
-            "designation": "National Historic Trail",
-            "parkCode": "lecl",
-            "id": "5D443C5F-19A0-4A06-9CE4-30534A3DD81A",
-            "directionsInfo": "Lewis & Clark National Historic Trail Visitor Center is located inside the National Park Service Mid-West Regional Office. We are right on the Missouri River next to the Bob Kerrey Pedestrian Bridge in downtown Omaha, NE.",
-            "directionsUrl": "https://www.nps.gov/lecl/planyourvisit/lecl_headquarters.htm",
-            "fullName": "Lewis & Clark National Historic Trail",
-            "url": "https://www.nps.gov/lecl/index.htm",
-            "weatherInfo": "In winter, watch for ice on trails and sidewalks.\n \nIn summer, make sure to drink plenty of water and wear sunscreen on hot days.\n\nKeep in mind the Trail covers 11 states, use www.weather.gov to look up the specific area you plan to visit.",
-            "name": "Lewis & Clark"
-        },
-        {
-            "states": "OR,WA",
-            "latLong": "lat:46.21178735, long:-123.9638583",
+            "states": "OR",
+            "lat": "46.21178735",
+            "lng": "-123.9638583",
             "description": "Explore the timeless rainforests and majestic coastal vistas. Discover the rich heritage of the native people. Unfold the dramatic stories of America's most famous explorers. The park encompasses sites along the Columbia River and the Pacific Coast. Follow in the footsteps of the explorers and have an adventure in history.",
             "designation": "National Historical Park",
             "parkCode": "lewi",
@@ -3936,7 +3907,8 @@
         },
         {
             "states": "IN",
-            "latLong": "lat:38.11817004, long:-86.99656861",
+            "lat": "38.11817004",
+            "lng": "-86.99656861",
             "description": "Abraham Lincoln grew from youth to manhood on this southern Indiana soil.  Many character and moral traits of one of the world's most respected leaders was formed and nurtured here.  Explore Lincoln's boyhood and learn about the boy who would one day become the leader of our nation.",
             "designation": "National Memorial",
             "parkCode": "libo",
@@ -3950,7 +3922,8 @@
         },
         {
             "states": "IL",
-            "latLong": "lat:39.79715642, long:-89.64513397",
+            "lat": "39.79715642",
+            "lng": "-89.64513397",
             "description": "Abraham Lincoln believed in the ideal that everyone in America should have the opportunity to improve his/her economic and social condition.  Lincoln’s life was the embodiment of that idea.  We know him as the sixteenth president but he was also a spouse, parent, and neighbor who experienced the same hopes, dreams, and challenges of life that are still experienced by many people.",
             "designation": "National Historic Site",
             "parkCode": "liho",
@@ -3964,7 +3937,8 @@
         },
         {
             "states": "DC",
-            "latLong": "lat:38.88927229, long:-77.05017778",
+            "lat": "38.88927229",
+            "lng": "-77.05017778",
             "description": "\"In this temple, as in the hearts of the people for whom he saved the Union, the memory of Abraham Lincoln is enshrined forever.\" Beneath these words, the 16th President of the United States sits immortalized in marble as an enduring symbol of unity, strength, and wisdom.",
             "designation": "",
             "parkCode": "linc",
