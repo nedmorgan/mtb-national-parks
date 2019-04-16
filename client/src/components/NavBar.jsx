@@ -9,7 +9,7 @@ export default class NavBar extends Component {
                 <nav className="navbar" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
                         <a className="navbar-item" href="/">
-                            <span>radPark</span>
+                            <span>radParks</span>
                         </a>
 
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -26,7 +26,7 @@ export default class NavBar extends Component {
                             <div className="navbar-item has-dropdown is-hoverable">
                                 <a className="navbar-link">More</a>
                                 <div className="navbar-dropdown">
-                                    <a className="navbar-item">About</a>
+                                    <a href="https://www.nationalparks.org/support" target="_blank" rel="noopener noreferrer" className="navbar-item">Support National Parks</a>
                                 </div>
                             </div>
                         </div>
