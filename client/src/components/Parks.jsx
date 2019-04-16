@@ -12,7 +12,7 @@ export default class Parks extends Component {
                             <div class="card">
                                 <div class="card-content">
                                     <p class="title">
-                                        {park.fullName}
+                                        {park.name}
                                     </p>
                                     <p class="subtitle">
                                         {park.designation}
