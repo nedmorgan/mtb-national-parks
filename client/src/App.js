@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import 'bulma/css/bulma.css'
 import './App.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
             {/* <Route exact path='/' component={ArtistList} />
             <Route path='/artists/:id' component={Artist} /> */}
           </Switch>
+          <Footer />
         </div>
       </Router>
     );
