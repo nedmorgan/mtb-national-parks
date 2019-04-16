@@ -12,6 +12,9 @@ justify-content: space-evenly;
     width: 25% !important;
     height: auto !important;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer {
