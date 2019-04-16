@@ -13,7 +13,7 @@ export default class StateSearch extends Component {
                                     id="state"
                                     name="state"
                                     onChange={this.props.handleStateChange}>
-                                    <option selected>Select State</option>
+                                    <option defaultValue>Select State</option>
                                     {
                                         this.props.states.map(state => {
                                             return (

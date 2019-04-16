@@ -20,7 +20,6 @@ export default class Home extends Component {
 
     componentDidMount() {
         this.getStates()
-        this.getparks()
     }
 
     getStates = () => {
@@ -41,19 +40,14 @@ export default class Home extends Component {
         this.setState({ radius: updatedRadius })
     }
 
-    getparks = () => {
-        axios.get('./national-parks.json').then(res => {
-            console.log(res.data.data)
-        })
-    }
-
     findParks = (e) => {
         let state = this.state.selectedState.state
         e.preventDefault()
         axios.get('./national-parks.json').then(res => {
-            this.setState({ parks: res.data.data })
+            const specificStateParks = res.data.data.filter(park => park.states == state)
+            console.log(specificStateParks)
+            this.setState({ parks: specificStateParks })
         })
-        this.setState({ isParkOptionDisplayed: !state.isParkOptionDisplayed })
     }
 
     addPark = (e) => {
@@ -68,10 +62,10 @@ export default class Home extends Component {
                 <h1>Select a state to find some amazing national parks!</h1>
                 {
                     this.state.hasHomeLoaded ?
-                            <StateSearch
-                                states={this.state.states}
-                                handleStateChange={this.handleStateChange}
-                                findParks={this.findParks} />
+                        <StateSearch
+                            states={this.state.states}
+                            handleStateChange={this.handleStateChange}
+                            findParks={this.findParks} />
                         :
                         <h2>Loading....</h2>
                 }
