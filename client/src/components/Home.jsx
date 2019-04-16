@@ -11,13 +11,18 @@ export default class Home extends Component {
         isParkOptionDisplayed: false,
         hasHomeLoaded: false,
         displayParks: false,
+        redirectToDashboard: false,
         selectedState: {
-            state: ''
+            acronym: '',
         },
         parks: [],
         radius: {
             distance: ''
         },
+        stateName: {
+            abbreviation: '',
+            name: '',
+        }
     }
 
     componentDidMount() {
@@ -43,11 +48,16 @@ export default class Home extends Component {
     }
 
     findParks = (e) => {
-        let state = this.state.selectedState.state
+        let state = this.state.selectedState.acronym
         e.preventDefault()
         axios.get('./national-parks.json').then(res => {
             const specificStateParks = res.data.data.filter(park => park.states == state)
             this.setState({ parks: specificStateParks })
+        }).then(res => {
+            axios.get('./states.json').then(res => {
+                let stateName = res.data.filter(state => state.abbreviation == this.state.selectedState.acronym)
+                this.setState({ stateName: stateName[0] })
+            })
         })
         this.toggleParksDisplay()
     }
@@ -58,10 +68,27 @@ export default class Home extends Component {
         })
     }
 
-    addPark = (e) => {
+    addState = (e, park) => {
         e.preventDefault()
+        axios.post('/api/v1/states/', {
+            acronym: this.state.stateName.abbreviation,
+            name: this.state.stateName.name,
+        }).then(res => {
+            this.addPark(e, park)
+        }).catch(err => {
+            console.log('Error: ', err)
+        })
+    }
 
-        this.setState({ isParkOptionDisplayed: false })
+    addPark = (e, park) => {
+        e.preventDefault()
+        axios.post('/api/v1/parks/', {
+            name: park.name,
+            lat: park.lat,
+            lng: park.lng,
+            description: park.description,
+        })
+        this.setState({ displayParks: false })
     }
 
     render() {
@@ -80,7 +107,8 @@ export default class Home extends Component {
                 {
                     this.state.displayParks ?
                         <Parks
-                            parks={this.state.parks} />
+                            parks={this.state.parks}
+                            addState={this.addState} />
                         :
                         null
                 }

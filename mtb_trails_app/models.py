@@ -16,7 +16,6 @@ class Park(models.Model):
     lat = models.CharField(max_length=255)
     lng = models.CharField(max_length=255)
     description = models.TextField()
-    photo_url = models.TextField()
     state = models.ForeignKey(
         State, on_delete=models.CASCADE, related_name='states')
 

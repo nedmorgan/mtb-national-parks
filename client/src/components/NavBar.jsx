@@ -9,7 +9,7 @@ export default class NavBar extends Component {
                 <nav className="navbar" role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
                         <a className="navi navbar-item" href="/">
-                            <span>radParks</span>
+                            <span>radTrails</span>
                         </a>
 
                         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

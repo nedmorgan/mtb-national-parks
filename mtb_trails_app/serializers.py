@@ -25,7 +25,7 @@ class ParkSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Park
-        fields = ('name', 'lat', 'long', 'description', 'photo_url', 'trails')
+        fields = ('name', 'lat', 'long', 'description', 'trails')
 
 
 class StateSerializer(serializers.ModelSerializer):

@@ -11,13 +11,14 @@ export default class StateSearch extends Component {
                             <form onSubmit={(e) => this.props.findParks(e)}>
                                 <select
                                     id="state"
-                                    name="state"
+                                    name="acronym"
+                                    name="acronym"
                                     onChange={this.props.handleStateChange}>
                                     <option defaultValue>Select State</option>
                                     {
                                         this.props.states.map(state => {
                                             return (
-                                                <option value={state.abbreviation}>{state.name}</option>
+                                                <option value={state.abbreviation}> {state.name}</option>
                                             )
                                         })
                                     }
