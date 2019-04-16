@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { HomeContainer } from './styled_components/HomeStyles'
 import axios from 'axios'
 import StateSearch from './StateSearch'
+import Parks from './Parks'
 
 export default class Home extends Component {
 
@@ -9,10 +10,11 @@ export default class Home extends Component {
         states: {},
         isParkOptionDisplayed: false,
         hasHomeLoaded: false,
+        displayParks: false,
         selectedState: {
             state: ''
         },
-        parks: {},
+        parks: [],
         radius: {
             distance: ''
         },
@@ -45,8 +47,14 @@ export default class Home extends Component {
         e.preventDefault()
         axios.get('./national-parks.json').then(res => {
             const specificStateParks = res.data.data.filter(park => park.states == state)
-            console.log(specificStateParks)
             this.setState({ parks: specificStateParks })
+        })
+        this.toggleParksDisplay()
+    }
+
+    toggleParksDisplay = () => {
+        this.setState((state, props) => {
+            return ({ displayParks: true })
         })
     }
 
@@ -68,6 +76,13 @@ export default class Home extends Component {
                             findParks={this.findParks} />
                         :
                         <h2>Loading....</h2>
+                }
+                {
+                    this.state.displayParks ?
+                        <Parks
+                            parks={this.state.parks} />
+                        :
+                        null
                 }
             </HomeContainer>
         )
