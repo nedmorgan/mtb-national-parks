@@ -4,9 +4,13 @@
   "private": true,
   "proxy": "http://localhost:8000",
   "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.7.4",
+    "dotenv": "^7.0.0",
     "react": "^16.8.6",
     "react-animations": "^1.0.0",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "styled-components": "^4.2.0"
   },
