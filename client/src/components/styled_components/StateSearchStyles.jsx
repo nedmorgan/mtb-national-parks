@@ -22,7 +22,16 @@ button:hover {
      color: whitesmoke;
 }
 
+.add-state-button {
+    color: whitesmoke;
+    margin-left: 1.5vw;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+
 a:hover {
     cursor: pointer;
+    background: rgba(200,200,200,.5);
 }
 `

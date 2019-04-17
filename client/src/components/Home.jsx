@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { HomeContainer } from './styled_components/HomeStyles'
 import axios from 'axios'
+import { Redirect } from 'react-router-dom'
 import StateSearch from './StateSearch'
 import Parks from './Parks'
 
@@ -94,10 +95,13 @@ export default class Home extends Component {
             description: park.description,
             state: this.state.postedState[0].id,
         })
-        this.setState({ displayParks: false })
+        this.setState({ displayParks: false, redirectToDashboard: true })
     }
 
     render() {
+        if (this.state.redirectToDashboard) {
+            return (<Redirect to={`/dashboard`} />)
+        }
         return (
             <HomeContainer>
                 <h1>Select a state to find some amazing national parks!</h1>

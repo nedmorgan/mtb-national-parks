@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Home from './components/Home'
+import Dashboard from './components/Dashboard'
 import 'bulma/css/bulma.css'
 import './App.css';
 
@@ -15,7 +16,7 @@ class App extends Component {
           <NavBar />
           <Switch>
             <Route exact path='/' component={Home} />
-            {/* <Route path='/artists/:id' component={Artist} /> */}
+            <Route path='/dashboard' component={Dashboard} />
           </Switch>
           <Footer />
         </div>
