@@ -18,17 +18,17 @@ export default class NavBar extends Component {
                             <span aria-hidden="true"></span>
                         </a>
                     </div>
-
                     <div id="navbarBasicExample" class="navbar-menu">
-                        <div className="navbar-start">
-                            <a className="navi navbar-item" href='/dashboard'>National Parks Search</a>
-                            <div className="navbar-item has-dropdown is-hoverable">
-                                <a className="navi navbar-link">More</a>
-                                <div className="navbar-dropdown">
+                        <div class="navbar-start">
+                            <a class="navbar-item" href='/dashboard'>National Parks Search</a>
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">More</a>
+                                <div class="navbar-dropdown">
                                     <a href="https://www.nationalparks.org/support" target="_blank" rel="noopener noreferrer" className="navbar-item">Support National Parks</a>
                                 </div>
                             </div>
                         </div>
+
                         <div className="navbar-end">
                             <div className="navbar-item">
                                 <div className="buttons">
@@ -41,7 +41,7 @@ export default class NavBar extends Component {
                         </div>
                     </div>
                 </nav>
-            </NavContainer>
+            </NavContainer >
         )
     }
 }
