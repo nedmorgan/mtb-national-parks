@@ -18,7 +18,7 @@ export default class StateSearch extends Component {
                                     {
                                         this.props.states.map(state => {
                                             return (
-                                                <option value={state.abbreviation}> {state.name}</option>
+                                                <option value={state.abbreviation}>{state.name}</option>
                                             )
                                         })
                                     }
