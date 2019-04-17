@@ -32,6 +32,22 @@ export default class Dashboard extends Component {
         })
     }
 
+    deleteState = (e, stateId) => {
+        e.preventDefault()
+        axios.delete(`/api/v1/states/${stateId}/`).then(res => {
+            this.getStates()
+            this.getParks()
+        })
+    }
+
+    deletePark = (e, parkId) => {
+        e.preventDefault()
+        axios.delete(`/api/v1/parks/${parkId}/`).then(res => {
+            this.getStates()
+            this.getParks()
+        })
+    }
+
     render() {
         return (
             <DashboardContainer>
@@ -39,7 +55,9 @@ export default class Dashboard extends Component {
                     this.state.isDashboardDisplayed ?
                         <StateAndParks
                             states={this.state.states}
-                            parks={this.state.parks} />
+                            parks={this.state.parks}
+                            deleteState={this.deleteState}
+                            deletePark={this.deletePark} />
                         :
                         <h2>Loading....</h2>
                 }
