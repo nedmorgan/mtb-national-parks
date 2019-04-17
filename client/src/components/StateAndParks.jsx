@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { StateAndParksContainer } from './styled_components/StateAndParksStyles'
+import { Link } from 'react-router-dom'
 
 export default class StateAndParks extends Component {
     render() {
@@ -17,7 +18,9 @@ export default class StateAndParks extends Component {
                                                 this.props.parks.map(park => {
                                                     return park.state == state.id ? (
                                                         <div className="park-info">
-                                                            <p className="subtitle">{park.name}<a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i class="far fa-trash-alt"></i></a></p>
+                                                            <p className="subtitle"><Link to={{
+                                                                pathname: `/parks/${park.id}`
+                                                            }}>{park.name}</Link><a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i class="far fa-trash-alt"></i></a></p>
                                                             <div className="content">
                                                                 <p>{park.description}</p>
                                                             </div>

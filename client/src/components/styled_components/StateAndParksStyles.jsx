@@ -24,6 +24,10 @@ padding-bottom: 7vw;
     width: 100%;
 }
 
+.subtitle {
+    margin-top: .75vw;
+}
+
 p {
     color: whitesmoke !important;
 }
