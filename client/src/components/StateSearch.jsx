@@ -24,6 +24,14 @@ export default class StateSearch extends Component {
                                     }
                                 </select>
                                 <button>Check out Parks!</button>
+                                {
+                                    this.props.displayParks ?
+                                        <span>
+                                            <a onClick={(e) => this.props.addState(e)}>Add State</a>
+                                        </span>
+                                        :
+                                        null
+                                }
                             </form>
                         </div>
                         <div class="icon is-small is-left">

@@ -21,7 +21,7 @@ export default class Parks extends Component {
                                 <footer class="card-footer">
                                     <p class="card-footer-item">
                                         <span>
-                                            Add <a onClick={(e) => this.props.addState(e, park)} href="https://twitter.com/codinghorror/status/506010907021828096">Park</a>
+                                            <a onClick={(e) => this.props.addPark(e, park)}>Add Park</a>
                                         </span>
                                     </p>
                                     <p class="card-footer-item">

@@ -22,7 +22,8 @@ export default class Home extends Component {
         stateName: {
             abbreviation: '',
             name: '',
-        }
+        },
+        postedState: {},
     }
 
     componentDidMount() {
@@ -68,13 +69,16 @@ export default class Home extends Component {
         })
     }
 
-    addState = (e, park) => {
+    addState = (e) => {
         e.preventDefault()
         axios.post('/api/v1/states/', {
             acronym: this.state.stateName.abbreviation,
             name: this.state.stateName.name,
         }).then(res => {
-            this.addPark(e, park)
+            axios.get('/api/v1/states/').then(res => {
+                let statePosted = res.data.filter(state => state.acronym == this.state.selectedState.acronym)
+                this.setState({ postedState: statePosted })
+            })
         }).catch(err => {
             console.log('Error: ', err)
         })
@@ -82,11 +86,13 @@ export default class Home extends Component {
 
     addPark = (e, park) => {
         e.preventDefault()
+        console.log(park)
         axios.post('/api/v1/parks/', {
             name: park.name,
             lat: park.lat,
             lng: park.lng,
             description: park.description,
+            state: this.state.postedState[0].id,
         })
         this.setState({ displayParks: false })
     }
@@ -100,7 +106,9 @@ export default class Home extends Component {
                         <StateSearch
                             states={this.state.states}
                             handleStateChange={this.handleStateChange}
-                            findParks={this.findParks} />
+                            findParks={this.findParks}
+                            addState={this.addState}
+                            displayParks={this.state.displayParks} />
                         :
                         <h2>Loading....</h2>
                 }
@@ -108,7 +116,7 @@ export default class Home extends Component {
                     this.state.displayParks ?
                         <Parks
                             parks={this.state.parks}
-                            addState={this.addState} />
+                            addPark={this.addPark} />
                         :
                         null
                 }

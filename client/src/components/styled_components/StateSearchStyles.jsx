@@ -21,4 +21,8 @@ button:hover {
      cursor: pointer;
      color: whitesmoke;
 }
+
+a:hover {
+    cursor: pointer;
+}
 `

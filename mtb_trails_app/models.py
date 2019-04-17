@@ -17,7 +17,7 @@ class Park(models.Model):
     lng = models.CharField(max_length=255)
     description = models.TextField()
     state = models.ForeignKey(
-        State, on_delete=models.CASCADE, related_name='states')
+        State, on_delete=models.CASCADE, related_name='parks')
 
     def __str__(self):
         return self.name
@@ -32,7 +32,7 @@ class Trail(models.Model):
     max_elv = models.CharField(max_length=255)
     min_elv = models.CharField(max_length=255)
     park = models.ForeignKey(
-        Park, on_delete=models.CASCADE, related_name='parks')
+        Park, on_delete=models.CASCADE, related_name='trails')
 
     def __str__(self):
         return self.name
@@ -49,7 +49,7 @@ class Bike(models.Model):
     dropper_post = models.BooleanField(default=False)
     photo_url = models.CharField(max_length=400, blank=True)
     trail = models.ForeignKey(
-        Trail, on_delete=models.CASCADE, related_name='trails')
+        Trail, on_delete=models.CASCADE, related_name='bikes')
 
     def __str__(self):
         return self.make

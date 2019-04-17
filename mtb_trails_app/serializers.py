@@ -7,8 +7,8 @@ class BikeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Bike
-        fields = ('make', 'model', 'tire_size', 'tubeless', 'groupset',
-                  'weight', 'full_suspension', 'dropper_post', 'photo_url')
+        fields = ('id', 'make', 'model', 'tire_size', 'tubeless', 'groupset',
+                  'weight', 'full_suspension', 'dropper_post', 'photo_url', 'trail')
 
 
 class TrailSerializer(serializers.ModelSerializer):
@@ -16,8 +16,8 @@ class TrailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Trail
-        fields = ('name', 'location', 'site_url',
-                  'photo_url', 'length', 'max_elv', 'min_elv', 'bikes')
+        fields = ('id', 'name', 'location', 'site_url',
+                  'photo_url', 'length', 'max_elv', 'min_elv', 'park', 'bikes')
 
 
 class ParkSerializer(serializers.ModelSerializer):
@@ -25,7 +25,7 @@ class ParkSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Park
-        fields = ('name', 'lat', 'long', 'description', 'trails')
+        fields = ('id', 'name', 'lat', 'lng', 'description', 'trails', 'state')
 
 
 class StateSerializer(serializers.ModelSerializer):
@@ -33,4 +33,4 @@ class StateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = State
-        fields = ('name', 'acronym', 'parks')
+        fields = ('id', 'name', 'acronym', 'parks')
