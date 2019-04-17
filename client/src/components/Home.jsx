@@ -17,9 +17,6 @@ export default class Home extends Component {
             acronym: '',
         },
         parks: [],
-        radius: {
-            distance: ''
-        },
         stateName: {
             abbreviation: '',
             name: '',
@@ -41,12 +38,6 @@ export default class Home extends Component {
         const updatedState = { ...this.state.selectedState }
         updatedState[e.target.name] = e.target.value
         this.setState({ selectedState: updatedState })
-    }
-
-    handleRadiusChange = (e) => {
-        const updatedRadius = { ...this.state.radius }
-        updatedRadius[e.target.name] = e.target.value
-        this.setState({ radius: updatedRadius })
     }
 
     findParks = (e) => {

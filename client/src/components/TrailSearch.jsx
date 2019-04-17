@@ -8,13 +8,12 @@ export default class TrailSearch extends Component {
                 <div class="field">
                     <div class="control has-icons-left">
                         <div class="select is-rounded">
-                            <form onSubmit={(e) => this.props.addPark(e)}>
+                            <form onSubmit={(e) => this.props.getTrails(e)}>
                                 <select
                                     id="distance"
                                     name="distance"
                                     onChange={this.props.handleRadiusChange}>
                                     <option selected>Select Radius</option>
-                                    <option value="10">10 miles</option>
                                     <option value="25">25 miles</option>
                                     <option value="50">50 miles</option>
                                     <option value="100">100 miles</option>
