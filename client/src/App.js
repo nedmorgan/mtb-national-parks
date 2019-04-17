@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Dashboard from './components/Dashboard'
 import Park from './components/Park'
+import Trail from './components/Trail'
 
 import 'bulma/css/bulma.css'
 import './App.css';
@@ -20,6 +21,7 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/dashboard' component={Dashboard} />
             <Route path='/parks/:parkId' component={Park} />
+            <Route path='/trails/:trailId' component={Trail} />
           </Switch>
           <Footer />
         </div>

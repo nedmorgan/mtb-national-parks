@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { SearchContainer } from './styled_components/TrailSearchStyles'
+import Trails from './Trails'
 
 export default class TrailSearch extends Component {
     render() {
@@ -13,7 +14,7 @@ export default class TrailSearch extends Component {
                                     id="distance"
                                     name="distance"
                                     onChange={this.props.handleRadiusChange}>
-                                    <option selected>Select Radius</option>
+                                    <option defaultValue>Select Radius</option>
                                     <option value="25">25 miles</option>
                                     <option value="50">50 miles</option>
                                     <option value="100">100 miles</option>
@@ -28,6 +29,13 @@ export default class TrailSearch extends Component {
                         </div>
                     </div>
                 </div>
+                {
+                    this.props.showTrailResults ?
+                        <Trails
+                            trails={this.props.trails} />
+                        :
+                        null
+                }
 
             </SearchContainer>
         )

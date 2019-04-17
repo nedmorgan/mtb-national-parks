@@ -12,6 +12,7 @@ export default class Park extends Component {
         didParkLoad: false,
         displayTrailForm: false,
         displayTrailSearchForm: false,
+        showTrailResults: false,
         trails: [],
         radius: ''
     }
@@ -42,7 +43,7 @@ export default class Park extends Component {
     getTrails = (e) => {
         e.preventDefault()
         axios.get(`https://www.mtbproject.com/data/get-trails?lat=${this.state.park.lat}&lon=${this.state.park.lng}&maxDistance=${this.state.radius.distance}&key=${TRAIL_KEY}`).then(res => {
-            this.setState({ trails: res.data.trails })
+            this.setState({ trails: res.data.trails, showTrailResults: true })
         })
     }
 
@@ -54,17 +55,21 @@ export default class Park extends Component {
                         <div className="park-flex">
                             <h1>{this.state.park.name}</h1>
                             <p>{this.state.park.description}</p>
-                            {
-                                this.state.displayTrailSearchForm ?
-                                    <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
-                                    :
-                                    <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
-                            }
+                            <div className="trail-search-div">
+                                {
+                                    this.state.displayTrailSearchForm ?
+                                        <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
+                                        :
+                                        <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
+                                }
+                            </div>
                             {
                                 this.state.displayTrailSearchForm ?
                                     <TrailSearch
                                         getTrails={this.getTrails}
-                                        handleRadiusChange={this.handleRadiusChange} />
+                                        handleRadiusChange={this.handleRadiusChange}
+                                        trails={this.state.trails}
+                                        showTrailResults={this.state.showTrailResults} />
                                     :
                                     this.state.park.trails.map(trail => {
                                         return (
