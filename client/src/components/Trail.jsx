@@ -34,6 +34,12 @@ export default class Trail extends Component {
         })
     }
 
+    getSpecificBike = (bikeId) => {
+        axios.get(`/api/v1/bikes/${bikeId}/`).then(res => {
+            this.setState({ bike: res.data })
+        })
+    }
+
     handleBikeChange = (e) => {
         const target = e.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -95,7 +101,8 @@ export default class Trail extends Component {
         })
     }
 
-    toggleBikeUpdateForm = () => {
+    toggleBikeUpdateForm = (bikeId) => {
+        this.getSpecificBike(bikeId)
         this.setState((state, props) => {
             return ({ displayBikeForm: !state.displayBikeForm, isBikeAdd: false })
         })
@@ -141,6 +148,7 @@ export default class Trail extends Component {
                                 isBikeAdd={this.state.isBikeAdd}
                                 handleBooleanChange={this.handleBooleanChange}
                                 displayBikeForm={this.state.displayBikeForm}
+                                toggleBikeUpdateForm={this.toggleBikeUpdateForm}
                                 isTrue={this.state.isTrue} />
                         </div>
                         :

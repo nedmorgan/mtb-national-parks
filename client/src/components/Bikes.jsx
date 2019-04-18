@@ -3,6 +3,7 @@ import BikesForm from './BikesForm'
 import { BikesContainer } from './styled_components/BikeStyles'
 
 export default class Bikes extends Component {
+
     render() {
         return (
             <BikesContainer>
@@ -21,7 +22,7 @@ export default class Bikes extends Component {
                         this.props.trail.bikes.map(bike => {
                             return (
                                 <div className="bike-info">
-                                    <h1>{bike.make}</h1>
+                                    <h1>{bike.make}<a onClick={() => this.props.toggleBikeUpdateForm(bike.id)}><i class="far fa-edit"></i></a></h1>
                                     <a onClick={(e) => this.props.deleteBike(e, bike.id)}><i class="far fa-trash-alt"></i></a>
                                 </div>
 

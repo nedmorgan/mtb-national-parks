@@ -136,7 +136,11 @@ export default class BikeForm extends Component {
                             </span>
                         </div>
                     </div>
-                    <button class="button">Add Bike</button>
+                    {
+                        this.props.isBikeAdd
+                            ? <button class="button">Add Bike</button>
+                            : <button class="button">Update Bike</button>
+                    }
                 </form>
             </BikeFormContainer >
         )
