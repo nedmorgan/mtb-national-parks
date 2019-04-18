@@ -10,6 +10,7 @@ export default class Trail extends Component {
         trail: {},
         didTrailLoad: false,
         displayBikeForm: false,
+        bike: {},
     }
 
     componentDidMount() {
@@ -22,16 +23,22 @@ export default class Trail extends Component {
         })
     }
 
-    addBike = (e, bike) => {
+    handleBikeChange = (e) => {
+        const updatedBike = { ...this.state.bike }
+        updatedBike[e.target.name] = e.target.value
+        this.setState({ bike: updatedBike })
+    }
+
+    addBike = (e) => {
         e.preventDefault()
         axios.post('/api/v1/bikes/', {
-            make: bike.make,
-            model: bike.model,
-            tire_size: bike.tire_size,
-            tubeless: bike.tubeless,
-            weight: bike.weight,
-            full_suspension: bike.full_suspension,
-            photo_url: bike.photo_url,
+            make: this.state.bike.make,
+            model: this.state.bike.model,
+            tire_size: this.state.bike.tire_size,
+            tubeless: this.state.bike.tubeless,
+            weight: this.state.bike.weight,
+            full_suspension: this.state.bike.full_suspension,
+            photo_url: this.state.bike.photo_url,
             trail: this.props.match.params.trailId,
         })
         this.setState({ displayBikeForm: false, didTrailLoad: false })
@@ -42,13 +49,13 @@ export default class Trail extends Component {
     updateBike = (e, bike) => {
         e.preventDefault()
         axios.put(`/api/v1/bikes/${bike.id}/`, {
-            make: bike.make,
-            model: bike.model,
-            tire_size: bike.tire_size,
-            tubeless: bike.tubeless,
-            weight: bike.weight,
-            full_suspension: bike.full_suspension,
-            photo_url: bike.photo_url,
+            make: this.state.bike.make,
+            model: this.state.bike.model,
+            tire_size: this.state.bike.tire_size,
+            tubeless: this.state.bike.tubeless,
+            weight: this.state.bike.weight,
+            full_suspension: this.state.bike.full_suspension,
+            photo_url: this.state.bike.photo_url,
             trail: this.props.match.params.trailId,
         })
         this.setState({ displayBikeForm: false, didTrailLoad: false })
@@ -89,6 +96,15 @@ export default class Trail extends Component {
                         </div>
                         :
                         <h2>Loading.....</h2>
+                }
+                {
+                    this.state.displayBikeForm ?
+                        <BikesForm
+                            addBike={this.addBike}
+                            deleteBike={this.deleteBike}
+                            updateBike={this.updateBike} />
+                        :
+                        null
                 }
             </TrailContainer>
         )

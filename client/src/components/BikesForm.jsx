@@ -9,21 +9,32 @@ export default class BikeForm extends Component {
                     <div className="field">
                         <label className="label">Make</label>
                         <div className="control has-icons-left has-icons-right">
-                            <input 
-                            className="input" 
-                            type="text" 
-                            placeholder="Bike Model" 
-                            value="bulma"
-                            required
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="Bike Model"
+                                value="bulma"
+                                required
                             ></input>
                             <span className="icon is-small is-left">
-                                <i className="fas fa-user"></i>
-                            </span>
-                            <span className="icon is-small is-right">
-                                <i className="fas fa-check"></i>
+                                <i class="fas fa-bicycle"></i>
                             </span>
                         </div>
-                        <p className="help is-success">This username is available</p>
+                    </div>
+                    <div className="field">
+                        <label className="label">Model</label>
+                        <div className="control has-icons-left has-icons-right">
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="Bike Model"
+                                value="bulma"
+                                required
+                            ></input>
+                            <span className="icon is-small is-left">
+                                <i class="fas fa-bicycle"></i>
+                            </span>
+                        </div>
                     </div>
                 </form>
             </BikeFormContainer>
