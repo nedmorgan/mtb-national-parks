@@ -49,7 +49,6 @@ export default class Park extends Component {
 
     addTrail = (e, trail, id) => {
         e.preventDefault()
-        console.log(trail)
         axios.post('/api/v1/trails/', {
             name: trail.name,
             location: trail.location,

@@ -21,6 +21,24 @@ export default class Trail extends Component {
             this.setState({ trail: res.data, didTrailLoad: true })
         })
     }
+
+    addBike = (e, bike) => {
+        e.preventDefault()
+        axios.post('/api/v1/bikes/', {
+            make: bike.make,
+            model: bike.model,
+            tire_size: bike.tire_size,
+            tubeless: bike.tubeless,
+            weight: bike.weight,
+            full_suspension: bike.full_suspension,
+            photo_url: bike.photo_url,
+            trail: this.props.match.params.trailId,
+        })
+        this.setState({ displayBikeForm: false, didTrailLoad: false })
+        this.getTrail()
+        this.getTrail()
+    }
+
     render() {
         return (
             <TrailContainer>
