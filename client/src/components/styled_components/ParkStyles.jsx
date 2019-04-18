@@ -27,4 +27,11 @@ color: whitesmoke;
 .card {
     margin-bottom: 8vw;
 }
+
+.delete-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
 `

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import axios from 'axios';
+import axios from 'axios'
 import { ParkContainer } from './styled_components/ParkStyles'
-import Trails from './Trails'
+import { Link } from 'react-router-dom'
 import TrailSearch from './TrailSearch'
 const TRAIL_KEY = process.env.REACT_APP_KEY
 
@@ -113,13 +113,17 @@ export default class Park extends Component {
                                                         <div className="card-content">
                                                             <div className="media">
                                                                 <div className="media-content">
-                                                                    <p className="title is-4">{trail.name}</p>
-                                                                    <p className="subtitle is-6">Length: {trail.length} feet</p>
+                                                                    <p className="title is-4"><Link to={{
+                                                                        pathname: `/trails/${trail.id}`
+                                                                    }}>{trail.name}</Link></p>
+                                                                    <p className="subtitle is-6">Length: {trail.length} miles</p>
                                                                     <p className="subtitle is-6">Location: {trail.location}</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <button onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
+                                                        <div className="delete-div">
+                                                            <button className="delete-button" onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
+                                                        </div>
                                                     </div>
                                                 )
                                             })
