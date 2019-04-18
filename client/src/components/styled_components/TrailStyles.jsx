@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const TrailContainer = styled.div`
 display: flex;
 justify-content: center;
+flex-direction: column;
+align-items: center;
 
 .card {
     height: auto;
@@ -14,5 +16,12 @@ justify-content: center;
 img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.bike-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 `

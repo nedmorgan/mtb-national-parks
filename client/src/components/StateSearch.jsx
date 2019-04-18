@@ -12,7 +12,6 @@ export default class StateSearch extends Component {
                                 <select
                                     id="state"
                                     name="acronym"
-                                    name="acronym"
                                     onChange={this.props.handleStateChange}>
                                     <option defaultValue>Select State</option>
                                     {

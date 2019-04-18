@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import BikesForm from './BikesForm'
 import Bikes from './Bikes'
 import { TrailContainer } from './styled_components/TrailStyles'
 
@@ -11,6 +10,8 @@ export default class Trail extends Component {
         didTrailLoad: false,
         displayBikeForm: false,
         bike: {},
+        isBikeAdd: true,
+        isTrue: true,
     }
 
     componentDidMount() {
@@ -24,8 +25,11 @@ export default class Trail extends Component {
     }
 
     handleBikeChange = (e) => {
+        const target = e.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
         const updatedBike = { ...this.state.bike }
-        updatedBike[e.target.name] = e.target.value
+        updatedBike[name] = value
         this.setState({ bike: updatedBike })
     }
 
@@ -71,6 +75,18 @@ export default class Trail extends Component {
         })
     }
 
+    toggleBikeAddForm = () => {
+        this.setState((state, props) => {
+            return ({ displayBikeForm: !state.displayBikeForm, isBikeAdd: true })
+        })
+    }
+
+    toggleBikeUpdateForm = () => {
+        this.setState((state, props) => {
+            return ({ displayBikeForm: !state.displayBikeForm, isBikeAdd: false })
+        })
+    }
+
     render() {
         return (
             <TrailContainer>
@@ -97,15 +113,20 @@ export default class Trail extends Component {
                         :
                         <h2>Loading.....</h2>
                 }
-                {
-                    this.state.displayBikeForm ?
-                        <BikesForm
-                            addBike={this.addBike}
-                            deleteBike={this.deleteBike}
-                            updateBike={this.updateBike} />
-                        :
-                        null
-                }
+                <div className="bike-div">
+                    <h1>Trail Bikes: <a onClick={this.toggleBikeAddForm}><i class="fas fa-plus"></i></a></h1>
+                    <Bikes
+                        addBike={this.addBike}
+                        deleteBike={this.deleteBike}
+                        updateBike={this.updateBike}
+                        handleBikeChange={this.handleBikeChange}
+                        bike={this.state.bike}
+                        trail={this.state.trail}
+                        isBikeAdd={this.state.isBikeAdd}
+                        handleBooleanChange={this.handleBooleanChange}
+                        displayBikeForm={this.state.displayBikeForm}
+                        isTrue={this.state.isTrue} />
+                </div>
             </TrailContainer>
         )
     }

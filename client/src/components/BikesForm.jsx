@@ -5,17 +5,24 @@ export default class BikeForm extends Component {
     render() {
         return (
             <BikeFormContainer>
-                <form action="">
+                <form onSubmit={
+                    this.props.isBikeAdd
+                        ? (e) => this.props.addBike(e)
+                        : (e) => this.props.updateBike(e, this.props.bike)
+
+                }>
                     <div className="field">
                         <label className="label">Make</label>
                         <div className="control has-icons-left has-icons-right">
                             <input
                                 className="input"
                                 type="text"
-                                placeholder="Bike Model"
-                                value="bulma"
-                                required
-                            ></input>
+                                placeholder="Bike Make"
+                                name="make"
+                                value={this.props.bike.make}
+                                onChange={this.props.handleBikeChange}
+                                required>
+                            </input>
                             <span className="icon is-small is-left">
                                 <i class="fas fa-bicycle"></i>
                             </span>
@@ -28,16 +35,121 @@ export default class BikeForm extends Component {
                                 className="input"
                                 type="text"
                                 placeholder="Bike Model"
-                                value="bulma"
-                                required
-                            ></input>
+                                name="model"
+                                value={this.props.bike.model}
+                                onChange={this.props.handleBikeChange}
+                                required>
+                            </input>
                             <span className="icon is-small is-left">
                                 <i class="fas fa-bicycle"></i>
                             </span>
                         </div>
                     </div>
+                    <div className="field">
+                        <label className="label">Tire Size:</label>
+                        <div className="control">
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="Tire Size"
+                                name="tire_size"
+                                value={this.props.bike.tire_size}
+                                onChange={this.props.handleBikeChange}
+                                required>
+                            </input>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Tubeless:</label>
+                        <div class="control">
+                            <div class="select">
+                                <select
+                                    id="tubeless"
+                                    name="tubeless"
+                                    onChange={this.props.handleBooleanChange}>
+                                    <option value="true">Yes</option>
+                                    <option value="false">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="field">
+                        <label className="label">Groupset:</label>
+                        <div className="control has-icons-left has-icons-right">
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="SRAM GX Eagle"
+                                name="groupset"
+                                value={this.props.bike.groupset}
+                                onChange={this.props.handleBikeChange}
+                                required>
+                            </input>
+                            <span className="icon is-small is-left">
+                                <i class="fas fa-cogs"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div className="field">
+                        <label className="label">Weight:</label>
+                        <div className="control has-icons-left has-icons-right">
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="Enter weight in lbs"
+                                name="weight"
+                                value={this.props.bike.weight}
+                                onChange={this.props.handleBikeChange}
+                                required>
+                            </input>
+                            <span className="icon is-small is-left">
+                                <i class="fas fa-weight"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Full Suspension:</label>
+                        <div class="control">
+                            <div class="select">
+                                <select
+                                    id="suspension"
+                                    name="full_suspension"
+                                    onChange={this.props.handleBooleanChange}>
+                                    <option value="true">Yes</option>
+                                    <option value="false">No</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">Dropper Post</label>
+                            <input
+                                type="checkbox"
+                                name="dropper_post"
+                                onChange={this.props.handleBikeChange}></input>
+                            I agree to the <a href="#">terms and conditions</a>
+                        </div>
+                    </div>
+                    <div className="field">
+                        <label className="label">Photo Link:</label>
+                        <div className="control has-icons-left has-icons-right">
+                            <input
+                                className="input"
+                                type="text"
+                                placeholder="enter image url"
+                                name="photo_url"
+                                value={this.props.bike.photo_url}
+                                onChange={this.props.handleBikeChange}
+                            >
+                            </input>
+                            <span className="icon is-small is-left">
+                                <i class="far fa-image"></i>
+                            </span>
+                        </div>
+                    </div>
                 </form>
-            </BikeFormContainer>
+            </BikeFormContainer >
         )
     }
 }
