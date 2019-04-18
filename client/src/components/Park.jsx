@@ -35,7 +35,7 @@ export default class Park extends Component {
     }
 
     getPark = () => {
-        axios.get(`/api/v1/parks/${this.props.match.params.parkId}`).then(res => {
+        axios.get(`/api/v1/parks/${this.props.match.params.parkId}/`).then(res => {
             this.setState({ park: res.data, didParkLoad: true })
         })
     }
@@ -58,16 +58,15 @@ export default class Park extends Component {
             max_elv: trail.high,
             min_elv: trail.low,
             park: id,
+        }).then(res => {
+            this.setState({ displayTrailSearchForm: false, didParkLoad: false })
+            this.getPark()
         })
-        this.setState({ displayTrailSearchForm: false, didParkLoad: false })
-        this.getPark()
-        this.getPark()
     }
 
     deleteTrail = (e, trailId) => {
         e.preventDefault()
         axios.delete(`/api/v1/trails/${trailId}/`).then(res => {
-            this.getPark()
             this.getPark()
         })
     }
@@ -75,6 +74,9 @@ export default class Park extends Component {
     render() {
         return (
             <ParkContainer>
+                <div className="back-div">
+                    <a href='/dashboard'><i class="fas fa-arrow-left"></i></a>
+                </div>
                 {
                     this.state.didParkLoad ?
                         <div className="park-flex">

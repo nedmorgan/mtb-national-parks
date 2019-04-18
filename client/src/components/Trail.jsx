@@ -111,6 +111,9 @@ export default class Trail extends Component {
     render() {
         return (
             <TrailContainer>
+                <div className="back-div">
+                    <a href={`/parks/${this.state.trail.park}`}><i class="fas fa-arrow-left"></i></a>
+                </div>
                 {
                     this.state.didTrailLoad ?
                         <div className="card">

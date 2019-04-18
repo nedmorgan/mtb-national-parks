@@ -3,6 +3,23 @@ import styled from 'styled-components'
 export const ParkContainer = styled.div`
 color: whitesmoke;
 
+.back-div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+i {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+i:hover {
+    color: #0095ff;
+}
+
 .trail-search-div {
     display: flex;
     justify-content: center;

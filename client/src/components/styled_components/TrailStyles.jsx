@@ -24,4 +24,21 @@ img {
     flex-direction: column;
     align-items: center;
 }
+
+.back-div {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+i {
+    color: whitesmoke;
+    font-size: 2em;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+i:hover {
+    color: #0095ff;
+}
 `
