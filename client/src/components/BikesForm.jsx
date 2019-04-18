@@ -9,7 +9,6 @@ export default class BikeForm extends Component {
                     this.props.isBikeAdd
                         ? (e) => this.props.addBike(e)
                         : (e) => this.props.updateBike(e, this.props.bike)
-
                 }>
                     <div className="field">
                         <label className="label">Make</label>
@@ -60,17 +59,12 @@ export default class BikeForm extends Component {
                         </div>
                     </div>
                     <div class="field">
-                        <label class="label">Tubeless:</label>
                         <div class="control">
-                            <div class="select">
-                                <select
-                                    id="tubeless"
-                                    name="tubeless"
-                                    onChange={this.props.handleBooleanChange}>
-                                    <option value="true">Yes</option>
-                                    <option value="false">No</option>
-                                </select>
-                            </div>
+                            <label class="checkbox">Tubeless: </label>
+                            <input
+                                type="checkbox"
+                                name="tubeless"
+                                onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
                     <div className="field">
@@ -108,27 +102,21 @@ export default class BikeForm extends Component {
                         </div>
                     </div>
                     <div class="field">
-                        <label class="label">Full Suspension:</label>
                         <div class="control">
-                            <div class="select">
-                                <select
-                                    id="suspension"
-                                    name="full_suspension"
-                                    onChange={this.props.handleBooleanChange}>
-                                    <option value="true">Yes</option>
-                                    <option value="false">No</option>
-                                </select>
-                            </div>
+                            <label class="checkbox">Full Suspension: </label>
+                            <input
+                                type="checkbox"
+                                name="full_suspension"
+                                onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
                     <div class="field">
                         <div class="control">
-                            <label class="checkbox">Dropper Post</label>
+                            <label class="checkbox">Dropper Post: </label>
                             <input
                                 type="checkbox"
                                 name="dropper_post"
                                 onChange={this.props.handleBikeChange}></input>
-                            I agree to the <a href="#">terms and conditions</a>
                         </div>
                     </div>
                     <div className="field">
@@ -148,6 +136,7 @@ export default class BikeForm extends Component {
                             </span>
                         </div>
                     </div>
+                    <button class="button">Add Bike</button>
                 </form>
             </BikeFormContainer >
         )

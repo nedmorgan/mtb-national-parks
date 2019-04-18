@@ -10,7 +10,6 @@ export default class Bikes extends Component {
                     this.props.displayBikeForm ?
                         <BikesForm
                             addBike={this.props.addBike}
-                            deleteBike={this.props.deleteBike}
                             updateBike={this.props.updateBike}
                             handleBikeChange={this.props.handleBikeChange}
                             bike={this.props.bike}
@@ -19,15 +18,15 @@ export default class Bikes extends Component {
                             displayBikeForm={this.props.displayBikeForm}
                             isTrue={this.props.isTrue} />
                         :
-                        null
-                    //         this.props.trail.bikes.map(bike => {
-                    //             return (
-                    //                 <div className="bike-info">
-                    //                     <h1>{}</h1>
-                    //                 </div>
+                        this.props.trail.bikes.map(bike => {
+                            return (
+                                <div className="bike-info">
+                                    <h1>{bike.make}</h1>
+                                    <a onClick={(e) => this.props.deleteBike(e, bike.id)}><i class="far fa-trash-alt"></i></a>
+                                </div>
 
-                    //             )
-                    // })
+                            )
+                        })
                 }
             </BikesContainer>
         )
