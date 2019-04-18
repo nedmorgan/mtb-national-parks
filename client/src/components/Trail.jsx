@@ -39,6 +39,31 @@ export default class Trail extends Component {
         this.getTrail()
     }
 
+    updateBike = (e, bike) => {
+        e.preventDefault()
+        axios.put(`/api/v1/bikes/${bike.id}/`, {
+            make: bike.make,
+            model: bike.model,
+            tire_size: bike.tire_size,
+            tubeless: bike.tubeless,
+            weight: bike.weight,
+            full_suspension: bike.full_suspension,
+            photo_url: bike.photo_url,
+            trail: this.props.match.params.trailId,
+        })
+        this.setState({ displayBikeForm: false, didTrailLoad: false })
+        this.getTrail()
+        this.getTrail()
+    }
+
+    deleteBike = (e, bikeId) => {
+        e.preventDefault()
+        axios.delete(`/api/v1/bikes/${bikeId}/`).then(res => {
+            this.getTrail()
+            this.getTrail()
+        })
+    }
+
     render() {
         return (
             <TrailContainer>
