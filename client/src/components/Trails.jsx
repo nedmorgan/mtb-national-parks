@@ -21,6 +21,7 @@ export default class Trails extends Component {
                                             <p className="subtitle is-6">Length: {trail.length} feet</p>
                                             <p className="subtitle is-6">Location: {trail.location}</p>
                                         </div>
+                                        <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} class="button is-primary">Add Trail</button>
                                     </div>
                                 </div>
                             </div>

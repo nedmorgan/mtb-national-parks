@@ -18,4 +18,9 @@ color: whitesmoke;
     align-items: flex-start;
     margin: 0 auto;
 }
+
+.trail-title {
+    font-size: 2em;
+    text-decoration: underline;
+}
 `

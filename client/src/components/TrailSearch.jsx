@@ -32,7 +32,9 @@ export default class TrailSearch extends Component {
                 {
                     this.props.showTrailResults ?
                         <Trails
-                            trails={this.props.trails} />
+                            trails={this.props.trails}
+                            addTrail={this.props.addTrail}
+                            parkId={this.props.parkId} />
                         :
                         null
                 }

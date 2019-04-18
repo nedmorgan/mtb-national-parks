@@ -78,7 +78,6 @@ export default class Home extends Component {
 
     addPark = (e, park) => {
         e.preventDefault()
-        console.log(park)
         axios.post('/api/v1/parks/', {
             name: park.name,
             lat: park.lat,

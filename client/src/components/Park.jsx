@@ -47,6 +47,23 @@ export default class Park extends Component {
         })
     }
 
+    addTrail = (e, trail, id) => {
+        e.preventDefault()
+        console.log(trail)
+        axios.post('/api/v1/trails/', {
+            name: trail.name,
+            location: trail.location,
+            site_url: trail.url,
+            photo_url: trail.imgSmallMed,
+            length: trail.length,
+            max_elv: trail.high,
+            min_elv: trail.low,
+            park: id,
+        })
+        this.setState({ displayTrailSearchForm: false, didParkLoad: false })
+        this.getPark()
+    }
+
     render() {
         return (
             <ParkContainer>
@@ -69,28 +86,35 @@ export default class Park extends Component {
                                         getTrails={this.getTrails}
                                         handleRadiusChange={this.handleRadiusChange}
                                         trails={this.state.trails}
-                                        showTrailResults={this.state.showTrailResults} />
+                                        showTrailResults={this.state.showTrailResults}
+                                        addTrail={this.addTrail}
+                                        parkId={this.props.match.params.parkId} />
                                     :
-                                    this.state.park.trails.map(trail => {
-                                        return (
-                                            <div className="card">
-                                                <div className="card-image">
-                                                    <figure class="image is-4by3">
-                                                        <img src={trail.photo_url} alt={trail.name}></img>
-                                                    </figure>
-                                                </div>
-                                                <div className="card-content">
-                                                    <div className="media">
-                                                        <div className="media-content">
-                                                            <p className="title is-4">{trail.name}</p>
-                                                            <p className="subtitle is-6">Length: {trail.length} feet</p>
-                                                            <p className="subtitle is-6">Location: {trail.location}</p>
+                                    <div>
+                                        <h1 className="trail-title">Trails</h1>
+                                        {
+                                            this.state.park.trails.map(trail => {
+                                                return (
+                                                    <div className="card">
+                                                        <div className="card-image">
+                                                            <figure class="image is-4by3">
+                                                                <img src={trail.photo_url} alt={trail.name}></img>
+                                                            </figure>
+                                                        </div>
+                                                        <div className="card-content">
+                                                            <div className="media">
+                                                                <div className="media-content">
+                                                                    <p className="title is-4">{trail.name}</p>
+                                                                    <p className="subtitle is-6">Length: {trail.length} feet</p>
+                                                                    <p className="subtitle is-6">Location: {trail.location}</p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        )
-                                    })
+                                                )
+                                            })
+                                        }
+                                    </div>
                             }
                         </div>
                         :
