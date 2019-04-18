@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import BikesForm from './BikesForm'
+import Bikes from './Bikes'
 import { TrailContainer } from './styled_components/TrailStyles'
 
 export default class Trail extends Component {
@@ -7,6 +9,7 @@ export default class Trail extends Component {
     state = {
         trail: {},
         didTrailLoad: false,
+        displayBikeForm: false,
     }
 
     componentDidMount() {
