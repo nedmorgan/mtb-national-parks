@@ -62,6 +62,15 @@ export default class Park extends Component {
         })
         this.setState({ displayTrailSearchForm: false, didParkLoad: false })
         this.getPark()
+        this.getPark()
+    }
+
+    deleteTrail = (e, trailId) => {
+        e.preventDefault()
+        axios.delete(`/api/v1/trails/${trailId}/`).then(res => {
+            this.getPark()
+            this.getPark()
+        })
     }
 
     render() {
@@ -110,6 +119,7 @@ export default class Park extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <button onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
                                                     </div>
                                                 )
                                             })

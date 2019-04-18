@@ -23,4 +23,8 @@ color: whitesmoke;
     font-size: 2em;
     text-decoration: underline;
 }
+
+.card {
+    margin-bottom: 8vw;
+}
 `
