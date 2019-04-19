@@ -80,8 +80,10 @@ export default class Park extends Component {
                 {
                     this.state.didParkLoad ?
                         <div className="park-flex">
-                            <h1>{this.state.park.name}</h1>
-                            <p>{this.state.park.description}</p>
+                            <div className="park-title-div">
+                                <h1 className="park-name">{this.state.park.name}</h1>
+                            </div>
+                            <p className="park-description">{this.state.park.description}</p>
                             <div className="trail-search-div">
                                 {
                                     this.state.displayTrailSearchForm ?
@@ -100,7 +102,7 @@ export default class Park extends Component {
                                         addTrail={this.addTrail}
                                         parkId={this.props.match.params.parkId} />
                                     :
-                                    <div>
+                                    <div className="trail-container">
                                         <h1 className="trail-title">Trails</h1>
                                         {
                                             this.state.park.trails.map(trail => {

@@ -17,11 +17,13 @@ export default class Trails extends Component {
                                 <div className="card-content">
                                     <div className="media">
                                         <div className="media-content">
-                                            <p className="title is-4">{trail.name}</p>
-                                            <p className="subtitle is-6">Length: {trail.length} feet</p>
-                                            <p className="subtitle is-6">Location: {trail.location}</p>
+                                            <p className="title is-4" id="trail-name">{trail.name}</p>
+                                            <p className="subtitle is-6"><u>Length</u>: {trail.length} feet</p>
+                                            <p className="subtitle is-6"><u>Location</u>: {trail.location}</p>
                                         </div>
-                                        <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} class="button is-primary">Add Trail</button>
+                                        <div className="add-trail-div">
+                                            <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} class="button is-primary">Add Trail</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

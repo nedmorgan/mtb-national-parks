@@ -13,6 +13,10 @@ justify-content: center;
     background: rgba(200,200,200,.5);
 }
 
+p {
+    color: whitesmoke;
+}
+
 figure {
     height: auto;
     width: auto;
@@ -22,5 +26,30 @@ figure {
 img {
     height: auto;
     width: auto;
+}
+
+.add-trail-div {
+    width: 100%;
+}
+
+.media {
+    flex-direction: column;
+    align-items: center;
+    }
+
+@media (max-width: 768px) {
+    margin-top: 4em;
+
+    .add-trail-div {
+        margin-top: .5em;
+    }
+
+    p {
+        margin-bottom: .5rem !important;
+    }
+
+    #trail-name {
+        margin-top: .5em;
+    }
 }
 `

@@ -21,7 +21,9 @@ export default class TrailSearch extends Component {
                                     <option value="250">250 miles</option>
                                     <option value="500">500 miles</option>
                                 </select>
-                                <button>Find Trail!</button>
+                                <div className="find-trail-div">
+                                    <button className="find-trail button is-normal">Find Trail!</button>
+                                </div>
                             </form>
                         </div>
                         <div class="icon is-small is-left">

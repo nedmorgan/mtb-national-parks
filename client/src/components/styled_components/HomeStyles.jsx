@@ -14,8 +14,4 @@ h1, h2 {
     text-align: center;
     margin-bottom: 1vw;
 }
-
-@media (max-width: 768px) {
-
-}
 `

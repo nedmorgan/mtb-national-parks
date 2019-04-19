@@ -9,6 +9,17 @@ color: whitesmoke;
     justify-content: flex-start;
 }
 
+.park-name {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.park-title-div {
+    width: 100%;
+}
+
 i {
     color: whitesmoke;
     font-size: 2em;
@@ -28,6 +39,14 @@ i:hover {
     margin-bottom: 2vw;
 }
 
+.trail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
 .park-flex {
     width: 80%;
     display: flex;
@@ -39,6 +58,7 @@ i:hover {
 .trail-title {
     font-size: 2em;
     text-decoration: underline;
+    text-align: center;
 }
 
 .card {
@@ -50,5 +70,13 @@ i:hover {
     display: flex;
     justify-content: center;
     padding-bottom: 2vw;
+}
+
+@media (max-width: 768px) {
+    padding-bottom: 3em;
+
+    .park-title {
+        font-size: 2em;
+    }
 }
 `
