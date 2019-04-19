@@ -6,6 +6,8 @@ export const fade = keyframes`${fadeIn}`
 export const SearchContainer = styled.div`
 margin: 0 auto;
 animation: .5s ${fade};
+margin: 0 auto;
+width: 100%;
 
 form {
     width: 100%;

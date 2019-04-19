@@ -59,11 +59,12 @@ export default class BikeForm extends Component {
                         </div>
                     </div>
                     <div class="field">
-                        <div class="control">
+                        <div class="control check-box">
                             <label class="checkbox">Tubeless: </label>
                             <input
                                 type="checkbox"
                                 name="tubeless"
+                                className="boolean-box"
                                 onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
@@ -102,20 +103,22 @@ export default class BikeForm extends Component {
                         </div>
                     </div>
                     <div class="field">
-                        <div class="control">
+                        <div class="control check-box">
                             <label class="checkbox">Full Suspension: </label>
                             <input
                                 type="checkbox"
                                 name="full_suspension"
+                                className="boolean-box"
                                 onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
                     <div class="field">
-                        <div class="control">
+                        <div class="control check-box">
                             <label class="checkbox">Dropper Post: </label>
                             <input
                                 type="checkbox"
                                 name="dropper_post"
+                                className="boolean-box"
                                 onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
@@ -136,11 +139,13 @@ export default class BikeForm extends Component {
                             </span>
                         </div>
                     </div>
+                    <div className="button-div">
                     {
                         this.props.isBikeAdd
                             ? <button class="button">Add Bike</button>
                             : <button class="button">Update Bike</button>
                     }
+                    </div>
                 </form>
             </BikeFormContainer >
         )

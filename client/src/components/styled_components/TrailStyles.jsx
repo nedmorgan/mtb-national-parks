@@ -9,6 +9,7 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 animation: .5s ${fade};
+margin: 0 auto;
 
 .card {
     height: auto;
@@ -23,7 +24,7 @@ img {
 }
 
 .bike-div {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,8 +36,19 @@ img {
     justify-content: flex-start;
 }
 
-.title {
+.title,
+.bike-title {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.bike-title {
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.add-bike {
+    font-size: 1em;
+    margin-left: .75em;
 }
 
 .subtitle {
@@ -51,6 +63,6 @@ i {
 }
 
 i:hover {
-    color: #0095ff;
+    color: #0095ff !important;
 }
 `
