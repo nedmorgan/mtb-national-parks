@@ -25,6 +25,10 @@ a {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a:hover {
+    border-radius: 10px;
+}
+
 span:hover {
     color: black;
 }

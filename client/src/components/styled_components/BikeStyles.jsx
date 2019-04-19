@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const BikesContainer = styled.div`
 width: 75%;
-margin-top: 4vw;
+margin-top: 1.5em;
 margin-bottom: 8vw;
 
 #bike-edit-icon {

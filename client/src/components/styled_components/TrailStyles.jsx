@@ -65,4 +65,11 @@ i {
 i:hover {
     color: #0095ff !important;
 }
+
+.seperator {
+    width: 100%;
+    background: rgba(200,200,200,.5);
+    height: 2em;
+    margin-top: 1.5em;
+}
 `

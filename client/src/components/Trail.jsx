@@ -65,7 +65,7 @@ export default class Trail extends Component {
         }).then(res => {
             const clonedTrail = { ...this.state.trail }
             clonedTrail.bikes.push(res.data)
-            this.setState({ displayBikeForm: false, trail: clonedTrail })
+            this.setState({ displayBikeForm: false, trail: clonedTrail, bike: {} })
         })
     }
 
@@ -139,7 +139,8 @@ export default class Trail extends Component {
                 }
                 {
                     this.state.didTrailLoad ?
-                        <div className="bike-div">
+                    <div className="bike-div">
+                    <div className="seperator"></div>
                             <h1 className="bike-title">Trail Bikes: <a onClick={this.toggleBikeAddForm}><i class="add-bike fas fa-plus"></i></a></h1>
                             <Bikes
                                 addBike={this.addBike}
