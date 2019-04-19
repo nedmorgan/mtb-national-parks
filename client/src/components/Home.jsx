@@ -25,6 +25,7 @@ export default class Home extends Component {
         },
         postedState: {},
         nationalParks: nationalParks,
+        stateAdded: false,
     }
 
     handleStateChange = (e) => {
@@ -40,7 +41,7 @@ export default class Home extends Component {
         const specificStateParks = nationalParks.data.filter(park => park.states == state)
         this.setState({ parks: specificStateParks })
         let stateName = this.state.states.filter(state => state.abbreviation == this.state.selectedState.acronym)
-        this.setState({ stateName: stateName[0] })
+        this.setState({ stateName: stateName[0], stateAdded: false })
         this.toggleParksDisplay()
     }
 
@@ -58,7 +59,7 @@ export default class Home extends Component {
         }).then(res => {
             axios.get('/api/v1/states/').then(res => {
                 let statePosted = res.data.filter(state => state.acronym == this.state.selectedState.acronym)
-                this.setState({ postedState: statePosted })
+                this.setState({ postedState: statePosted, stateAdded: true })
             })
         }).catch(err => {
             console.log('Error: ', err)
@@ -91,7 +92,8 @@ export default class Home extends Component {
                             handleStateChange={this.handleStateChange}
                             findParks={this.findParks}
                             addState={this.addState}
-                            displayParks={this.state.displayParks} />
+                            displayParks={this.state.displayParks}
+                            stateAdded={this.state.stateAdded} />
                         :
                         <h2>Loading....</h2>
                 }

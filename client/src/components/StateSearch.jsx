@@ -26,7 +26,11 @@ export default class StateSearch extends Component {
                                 {
                                     this.props.displayParks ?
                                         <span>
-                                            <a className="add-state-button" onClick={(e) => this.props.addState(e)}>Add State</a>
+                                            {
+                                                this.props.stateAdded
+                                                    ? <a className="add-state-button">Added</a>
+                                                    : <a className="add-state-button" onClick={(e) => this.props.addState(e)}>Add State</a>
+                                            }
                                         </span>
                                         :
                                         null
