@@ -126,10 +126,10 @@ export default class Trail extends Component {
                                 <div className="media">
                                     <div className="media-content">
                                         <p className="title is-4"><a href={this.state.trail.site_url} target="_blank" rel="noopener noreferrer">{this.state.trail.name}</a></p>
-                                        <p className="subtitle is-6">Length: {this.state.trail.length} miles</p>
-                                        <p className="subtitle is-6">Max Elevation: {this.state.trail.max_elv} feet</p>
-                                        <p className="subtitle is-6">Min Elevation: {this.state.trail.min_elv} feet</p>
-                                        <p className="subtitle is-6">Location: {this.state.trail.location}</p>
+                                        <p className="subtitle is-6"><b><u>Length</u></b>: {this.state.trail.length} miles</p>
+                                        <p className="subtitle is-6"><b><u>Max Elevation</u></b>: {this.state.trail.max_elv} feet</p>
+                                        <p className="subtitle is-6"><b><u>Min Elevation</u></b>: {this.state.trail.min_elv} feet</p>
+                                        <p className="subtitle is-6"><b><u>Location</u></b>: {this.state.trail.location}</p>
                                     </div>
                                 </div>
                             </div>

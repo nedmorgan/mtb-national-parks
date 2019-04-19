@@ -72,6 +72,12 @@ i:hover {
 
 .card {
     margin-bottom: 8vw;
+    border-radius: 5px;
+}
+
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .delete-div {

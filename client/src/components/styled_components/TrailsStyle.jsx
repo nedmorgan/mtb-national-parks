@@ -1,16 +1,23 @@
 import styled from 'styled-components'
 
 export const TrailsContainer = styled.div`
-margin-top: 3vw;
+margin-top: 4em;
 display: flex;
 align-items: center;
 flex-direction: column;
 justify-content: center;
+padding-bottom: 4em;
 
 .card {
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
     background: rgba(200,200,200,.5);
+    border-radius: 5px;
+}
+
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 p {
@@ -30,6 +37,14 @@ img {
 
 .add-trail-div {
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vw;
+}
+
+.find-trail:hover {
+    cursor: pointer;
+    background: rgba(200,200,200,.5);
 }
 
 .media {

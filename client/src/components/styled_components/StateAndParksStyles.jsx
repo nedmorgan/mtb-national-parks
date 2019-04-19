@@ -1,4 +1,7 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
 
 export const StateAndParksContainer = styled.div`
 
@@ -11,6 +14,7 @@ height: auto;
 margin-top: 3vw;
 width: 100%;
 padding-bottom: 7vw;
+animation: .5s ${fade};
 
 .main {
     width: 75%;

@@ -23,6 +23,7 @@ export default class Trails extends Component {
                                         </div>
                                         <div className="add-trail-div">
                                             <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} class="button is-primary">Add Trail</button>
+                                            <a className="button find-trail" href={`http://maps.google.com/maps?z=12&t=m&q=loc:${trail.latitude}+${trail.longitude}`} target="_blank" rel="noopener noreferrer">Locate Trail!</a>
                                         </div>
                                     </div>
                                 </div>

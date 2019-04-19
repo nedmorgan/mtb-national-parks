@@ -1,4 +1,7 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
 
 export const ParksContainer = styled.div`
 width: 100%;
@@ -6,6 +9,7 @@ margin: 2vw;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+animation: .5s ${fade};
 
 .card {
     margin: 2vw;

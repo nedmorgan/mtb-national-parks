@@ -1,10 +1,14 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
 
 export const TrailContainer = styled.div`
 display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: center;
+animation: .5s ${fade};
 
 .card {
     height: auto;

@@ -43,6 +43,7 @@ export default class Park extends Component {
     getTrails = (e) => {
         e.preventDefault()
         axios.get(`https://www.mtbproject.com/data/get-trails?lat=${this.state.park.lat}&lon=${this.state.park.lng}&maxDistance=${this.state.radius.distance}&key=${TRAIL_KEY}`).then(res => {
+            console.log(res)
             this.setState({ trails: res.data.trails, showTrailResults: true })
         })
     }
@@ -118,9 +119,10 @@ export default class Park extends Component {
                                                         <div className="card-content">
                                                             <div className="media">
                                                                 <div className="media-content">
-                                                                    <p className="title is-4"><Link to={{
-                                                                        pathname: `/trails/${trail.id}`
-                                                                    }}>{trail.name}</Link></p>
+                                                                    <p className="title is-4"><Link
+                                                                        to={{
+                                                                            pathname: `/trails/${trail.id}`
+                                                                        }}>{trail.name}</Link></p>
                                                                     <p className="subtitle is-6">Length: {trail.length} miles</p>
                                                                     <p className="subtitle is-6">Location: {trail.location}</p>
                                                                 </div>
