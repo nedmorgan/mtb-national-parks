@@ -4,13 +4,15 @@ import axios from 'axios'
 import { Redirect } from 'react-router-dom'
 import StateSearch from './StateSearch'
 import Parks from './Parks'
+import states from '../states.json'
+import nationalParks from '../national-parks.json'
 
 export default class Home extends Component {
 
     state = {
-        states: {},
+        states: states,
         isParkOptionDisplayed: false,
-        hasHomeLoaded: false,
+        hasHomeLoaded: true,
         displayParks: false,
         redirectToDashboard: false,
         selectedState: {
@@ -22,16 +24,7 @@ export default class Home extends Component {
             name: '',
         },
         postedState: {},
-    }
-
-    componentDidMount() {
-        this.getStates()
-    }
-
-    getStates = () => {
-        axios.get('./states.json').then(res => {
-            this.setState({ states: res.data, hasHomeLoaded: true })
-        })
+        nationalParks: nationalParks,
     }
 
     handleStateChange = (e) => {
@@ -43,15 +36,11 @@ export default class Home extends Component {
     findParks = (e) => {
         let state = this.state.selectedState.acronym
         e.preventDefault()
-        axios.get('./national-parks.json').then(res => {
-            const specificStateParks = res.data.data.filter(park => park.states == state)
-            this.setState({ parks: specificStateParks })
-        }).then(res => {
-            axios.get('./states.json').then(res => {
-                let stateName = res.data.filter(state => state.abbreviation == this.state.selectedState.acronym)
-                this.setState({ stateName: stateName[0] })
-            })
-        })
+        let nationalParks = { ...this.state.nationalParks }
+        const specificStateParks = nationalParks.data.filter(park => park.states == state)
+        this.setState({ parks: specificStateParks })
+        let stateName = this.state.states.filter(state => state.abbreviation == this.state.selectedState.acronym)
+        this.setState({ stateName: stateName[0] })
         this.toggleParksDisplay()
     }
 
