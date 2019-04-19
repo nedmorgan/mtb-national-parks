@@ -24,6 +24,14 @@ p {
     color: whitesmoke;
 }
 
+.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 figure {
     height: auto;
     width: auto;
@@ -65,6 +73,16 @@ img {
 
     #trail-name {
         margin-top: .5em;
+    }
+
+    .title {
+        margin-bottom: 0;
+        font-size: 1.5em;
+    }
+
+    .subtitle {
+        padding-top: 1em;
+        margin: 0;
     }
 }
 `

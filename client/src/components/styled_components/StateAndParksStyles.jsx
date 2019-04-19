@@ -32,9 +32,36 @@ animation: .5s ${fade};
     width: 100%;
 }
 
-.subtitle {
-    margin-top: .75vw;
+.title {
+    font-family: 'Ubuntu', sans-serif;
 }
+
+.park-title-div {
+    display: flex;
+    align-items: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.subtitle,
+.description {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.sub-title {
+    margin-top: .75vw;
+    margin: 0;
+}
+
+a {
+    font-size: 1.25em;
+}
+
+.sub-title:hover {
+    color: #0095ff !important;
+    cursor: pointer;
+}
+
 
 p {
     color: whitesmoke !important;
@@ -47,6 +74,10 @@ p {
 
 .remove-state {
     margin-left: 1vw;
+}
+
+i {
+    color: whitesmoke;
 }
 
 i:hover {

@@ -35,6 +35,14 @@ img {
     justify-content: flex-start;
 }
 
+.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 i {
     color: whitesmoke;
     font-size: 2em;

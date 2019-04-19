@@ -10,8 +10,15 @@ padding-bottom: 3em;
 
 h1, h2 {
     color: whitesmoke;
-    font-size: 1.5em;
+    font-size: 3em;
     text-align: center;
     margin-bottom: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
 }
 `

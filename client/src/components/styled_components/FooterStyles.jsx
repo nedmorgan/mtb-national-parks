@@ -9,7 +9,7 @@ export const FooterContainer = styled.div`
   width: 100%;
   padding: 1.5rem;
   padding: 0;
-  position: fixed;
+  position: static;
   height: 5vh;
   margin-top: 0;
   background: rgba(200,200,200,.5) !important;

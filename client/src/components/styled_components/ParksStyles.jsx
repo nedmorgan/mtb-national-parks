@@ -31,15 +31,22 @@ footer {
     bottom: 0;
 }
 
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+span {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 4em;
-    }
 
     #card-width {
         width: 70%;
     }
-
+}
 `

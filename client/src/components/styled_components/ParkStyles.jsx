@@ -18,10 +18,24 @@ color: whitesmoke;
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.park-description {
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .park-title-div {
     width: 100%;
+}
+
+.button {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.button:hover {
+     background: rgba(200,200,200,.5);
+     cursor: pointer;
 }
 
 i {
@@ -68,10 +82,19 @@ i:hover {
     font-size: 2em;
     text-decoration: underline;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .card {
-    margin-bottom: 8vw;
+    margin-bottom: 1em;
     border-radius: 5px;
 }
 
@@ -88,10 +111,10 @@ img {
 }
 
 @media (max-width: 768px) {
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 
-    .park-title {
-        font-size: 2em;
+    .park-name {
+        font-size: 1.7em;
     }
 }
 `

@@ -17,6 +17,7 @@ button {
     font-size: 16px;
     border-radius: 8px;
     margin-top: 1vw;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 button:hover {

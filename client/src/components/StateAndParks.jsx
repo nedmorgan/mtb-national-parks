@@ -23,11 +23,13 @@ export default class StateAndParks extends Component {
                                                 this.props.parks.map(park => {
                                                     return park.state == state.id ? (
                                                         <div className="park-info">
-                                                            <p className="subtitle"><Link to={{
-                                                                pathname: `/parks/${park.id}`
-                                                            }}>{park.name}</Link><a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i class="far fa-trash-alt"></i></a></p>
+                                                            <div className="park-title-div">
+                                                                <p className="sub-title"><Link to={{
+                                                                    pathname: `/parks/${park.id}`
+                                                                }}>{park.name}</Link></p><a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i class="far fa-trash-alt"></i></a>
+                                                            </div>
                                                             <div className="content">
-                                                                <p>{park.description}</p>
+                                                                <p className="description">{park.description}</p>
                                                             </div>
                                                         </div>
                                                     ) :
