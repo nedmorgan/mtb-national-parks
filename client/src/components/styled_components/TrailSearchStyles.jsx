@@ -1,7 +1,11 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
 
 export const SearchContainer = styled.div`
 margin: 0 auto;
+animation: .5s ${fade};
 
 form {
     width: 100%;

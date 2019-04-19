@@ -1,7 +1,11 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
 
 export const SearchContainer = styled.div`
 margin-bottom: 3vw;
+animation: .5s ${fade};
 
 form {
     width: 100%;
@@ -33,6 +37,5 @@ button:hover {
 a:hover {
     cursor: pointer;
     background: rgba(200,200,200,.5);
-}
 }
 `

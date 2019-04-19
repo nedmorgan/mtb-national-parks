@@ -80,17 +80,19 @@ export default class Park extends Component {
                 {
                     this.state.didParkLoad ?
                         <div className="park-flex">
-                            <div className="park-title-div">
-                                <h1 className="park-name">{this.state.park.name}</h1>
-                            </div>
-                            <p className="park-description">{this.state.park.description}</p>
-                            <div className="trail-search-div">
-                                {
-                                    this.state.displayTrailSearchForm ?
-                                        <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
-                                        :
-                                        <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
-                                }
+                            <div className="park-animation">
+                                <div className="park-title-div">
+                                    <h1 className="park-name">{this.state.park.name}</h1>
+                                </div>
+                                <p className="park-description">{this.state.park.description}</p>
+                                <div className="trail-search-div">
+                                    {
+                                        this.state.displayTrailSearchForm ?
+                                            <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
+                                            :
+                                            <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
+                                    }
+                                </div>
                             </div>
                             {
                                 this.state.displayTrailSearchForm ?

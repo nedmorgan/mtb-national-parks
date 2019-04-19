@@ -1,4 +1,8 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+import { fadeIn, fadeInDown } from 'react-animations'
+
+export const fade = keyframes`${fadeIn}`
+export const fadeDown = keyframes`${fadeInDown}`
 
 export const ParkContainer = styled.div`
 color: whitesmoke;
@@ -39,12 +43,17 @@ i:hover {
     margin-bottom: 2vw;
 }
 
+.park-animation {
+    animation: .6s ${fadeDown};
+}
+
 .trail-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    animation: .5s ${fade};
 }
 
 .park-flex {
