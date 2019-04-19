@@ -140,7 +140,6 @@ export default class Trail extends Component {
                 {
                     this.state.didTrailLoad ?
                     <div className="bike-div">
-                    <div className="seperator"></div>
                             <h1 className="bike-title">Trail Bikes: <a onClick={this.toggleBikeAddForm}><i class="add-bike fas fa-plus"></i></a></h1>
                             <Bikes
                                 addBike={this.addBike}

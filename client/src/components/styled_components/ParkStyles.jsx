@@ -76,6 +76,7 @@ i:hover {
     flex-direction: column;
     align-items: flex-start;
     margin: 0 auto;
+    padding-bottom: 2.5em;
 }
 
 .trail-title {
