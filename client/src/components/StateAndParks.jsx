@@ -3,6 +3,11 @@ import { StateAndParksContainer } from './styled_components/StateAndParksStyles'
 import { Link } from 'react-router-dom'
 
 export default class StateAndParks extends Component {
+
+    componentDidMount() {
+        this.props.getParks()
+    }
+
     render() {
         return (
             <StateAndParksContainer>

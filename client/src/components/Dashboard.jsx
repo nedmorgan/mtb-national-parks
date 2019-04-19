@@ -54,6 +54,7 @@ export default class Dashboard extends Component {
                 {
                     this.state.isDashboardDisplayed ?
                         <StateAndParks
+                            getParks={this.getParks}
                             states={this.state.states}
                             parks={this.state.parks}
                             deleteState={this.deleteState}
