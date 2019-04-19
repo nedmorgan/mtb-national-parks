@@ -34,4 +34,5 @@ a:hover {
     cursor: pointer;
     background: rgba(200,200,200,.5);
 }
+}
 `

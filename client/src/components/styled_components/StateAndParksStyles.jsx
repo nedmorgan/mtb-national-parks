@@ -20,6 +20,10 @@ padding-bottom: 7vw;
     background: rgba(200,200,200,.5);
 }
 
+.subtitle:hover {
+    cursor: pointer;
+}
+
 .is-parent {
     width: 100%;
 }

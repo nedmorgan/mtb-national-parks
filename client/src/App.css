@@ -1,21 +1,21 @@
 @font-face {
   font-family: "National Park Light";
-  src: url("./font/NationalPark-Thin.otf") format("opentype"),
+  src: local("National Park Light") url(./font/NationalPark-Thin.otf) format("opentype"),
 }
 
 @font-face {
-  font-family: "National Park Regular";
-  src: url("./font//NationalPark-Regular.otf") format("opentype"),
+  font-family: "NationalPark-Regular";
+  src: local("NationalPark-Regular") url(./font/NationalPark-Regular.otf) format("opentype"),
 }
 
 @font-face {
   font-family: "National Park Outline";
-  src: url("./font/NationalPark-Outline.otf") format("opentype"),
+  src: local("National Park Outline") url(./font/NationalPark-Outline.otf) format("opentype"),
 }
 
 @font-face {
   font-family: "National Park Heavy";
-  src: url("./font//NationalPark-Heavy.otf") format("opentype"),
+  src: local("National Park Heavy") url(./font/NationalPark-Heavy.otf) format("opentype"),
 }
 
 .App {

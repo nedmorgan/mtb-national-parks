@@ -9,7 +9,7 @@ export default class Parks extends Component {
                 {
                     this.props.parks.map(park => {
                         return (
-                            <div class="card">
+                            <div class="card" id="card-width">
                                 <div class="card-content">
                                     <p class="title">
                                         {park.name}
@@ -26,7 +26,7 @@ export default class Parks extends Component {
                                     </p>
                                     <p class="card-footer-item">
                                         <span>
-                                            Visit <a href={park.url}>Park</a>
+                                            <a href={park.url}>Explore Park</a>
                                         </span>
                                     </p>
                                 </footer>

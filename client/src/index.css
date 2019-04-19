@@ -1,29 +1,28 @@
 @font-face {
   font-family: "National Park Light";
-  src: local("National Park Light") url("./font/NationalPark-Thin.otf") format("opentype"),
+  src: local("National Park Light") url(./font/NationalPark-Thin.otf) format("opentype"),
 }
 
 @font-face {
   font-family: "National Park Regular";
-  src: local("National Park Regular") url("./font/NationalPark-Regular.otf") format("opentype"),
+  src: local("National Park Regular") url(./font/NationalPark-Regular.otf) format("opentype"),
 }
 
 @font-face {
   font-family: "National Park Outline";
-  src: local("National Park Outline") url("./font/NationalPark-Outline.otf") format("opentype"),
+  src: local("National Park Outline") url(./font/NationalPark-Outline.otf) format("opentype"),
 }
 
 @font-face {
   font-family: "National Park Heavy";
-  src: local("National Park Heavy") url("./font/NationalPark-Heavy.otf") format("opentype"),
+  src: local("National Park Heavy") url(./font/NationalPark-Heavy.otf) format("opentype"),
 }
 
 
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "National Park Regular",
-    sans-serif;
+  font-family: "National Park Regular", -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
