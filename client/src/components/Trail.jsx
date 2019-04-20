@@ -64,7 +64,7 @@ export default class Trail extends Component {
             trail: this.props.match.params.trailId,
         }).then(res => {
             const clonedTrail = { ...this.state.trail }
-            clonedTrail.bikes.push(res.data)
+            clonedTrail.bikes.unshift(res.data)
             this.setState({ displayBikeForm: false, trail: clonedTrail, bike: {} })
         })
     }
