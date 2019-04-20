@@ -13,7 +13,7 @@ margin: 0 auto;
 
 .card {
     height: auto;
-    width: 50vw;
+    width: 50%;
     margin-top: 3vw;
     border-radius: 5px;
 }
@@ -37,6 +37,10 @@ img {
     justify-content: flex-start;
 }
 
+.middle-row {
+    margin-bottom: 1em !important;
+}
+
 .title,
 .bike-title {
     font-family: 'Ubuntu', sans-serif;
@@ -44,7 +48,7 @@ img {
 
 .bike-title {
     color: whitesmoke;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .add-bike {
@@ -65,6 +69,20 @@ i {
 
 i:hover {
     color: #0095ff !important;
+}
+
+@media (max-width: 768px) {
+    .add-bike {
+        margin-left: .3em;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    .middle-row {
+        margin-bottom: .5em !important;
+    }
 }
 
 `

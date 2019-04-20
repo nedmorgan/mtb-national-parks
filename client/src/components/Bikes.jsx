@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BikesForm from './BikesForm'
-import { BikesContainer } from './styled_components/BikeStyles'
+import { BikesContainer } from './styled_components/BikesStyles'
 
 export default class Bikes extends Component {
 
@@ -21,7 +21,7 @@ export default class Bikes extends Component {
                         :
                         this.props.trail.bikes.map(bike => {
                             return (
-                                <div className="card">
+                                <div id="bike-card" className="card">
                                     <div className="card-image">
                                         <figure class="image is-4by3">
                                             <img src={bike.photo_url} alt={bike.model}></img>
@@ -30,7 +30,7 @@ export default class Bikes extends Component {
                                     <div className="card-content">
                                         <div className="media">
                                             <div className="media-content">
-                                                <p className="title is-4">{bike.make}<a onClick={() => this.props.toggleBikeUpdateForm(bike.id)}><i id="bike-edit-icon" className="far fa-edit"></i></a></p>
+                                                <p id="bike-title" className="title is-4">{bike.make}<a onClick={() => this.props.toggleBikeUpdateForm(bike.id)}><i id="bike-edit-icon" className="far fa-edit"></i></a></p>
                                                 <p className="subtitle is-6"><b><u>Model</u></b>: {bike.model}</p>
                                                 <p className="subtitle is-6"><b><u>Tire Size</u></b>: {bike.tire_size}</p>
                                                 <p className="subtitle is-6"><b><u>Groupset</u></b>: {bike.groupset}</p>

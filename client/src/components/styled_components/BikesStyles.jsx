@@ -2,8 +2,16 @@ import styled from 'styled-components'
 
 export const BikesContainer = styled.div`
 width: 75%;
-margin-top: 1.5em;
-margin-bottom: 8vw;
+margin-top: .5em;
+margin-bottom: 4em;
+
+#bike-card {
+    width: 25%;
+}
+
+#bike-title {
+    text-decoration: underline;
+}
 
 #bike-edit-icon {
     font-size: 1em;
@@ -28,5 +36,18 @@ margin-bottom: 8vw;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 768px) {
+margin-top: .25em;
+
+#bike-card {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+#bike-title {
+    font-size: 1em;
+}
+
 }
 `

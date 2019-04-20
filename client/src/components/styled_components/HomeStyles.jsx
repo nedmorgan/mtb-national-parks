@@ -17,8 +17,10 @@ h1, h2 {
 }
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 1.5em;
-    }
+margin-top: 25%;    
+    
+h1 {
+    font-size: 1.5em;
+}
 }
 `

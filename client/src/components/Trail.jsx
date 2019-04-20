@@ -126,9 +126,9 @@ export default class Trail extends Component {
                                 <div className="media">
                                     <div className="media-content">
                                         <p className="title is-4"><a href={this.state.trail.site_url} target="_blank" rel="noopener noreferrer">{this.state.trail.name}</a></p>
-                                        <p className="subtitle is-6"><b><u>Length</u></b>: {this.state.trail.length} miles</p>
-                                        <p className="subtitle is-6"><b><u>Max Elevation</u></b>: {this.state.trail.max_elv} feet</p>
-                                        <p className="subtitle is-6"><b><u>Min Elevation</u></b>: {this.state.trail.min_elv} feet</p>
+                                        <p className="middle-row subtitle is-6"><b><u>Length</u></b>: {this.state.trail.length} miles</p>
+                                        <p className="middle-row subtitle is-6"><b><u>Max Elevation</u></b>: {this.state.trail.max_elv} feet</p>
+                                        <p className="middle-row subtitle is-6"><b><u>Min Elevation</u></b>: {this.state.trail.min_elv} feet</p>
                                         <p className="subtitle is-6"><b><u>Location</u></b>: {this.state.trail.location}</p>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ export default class Trail extends Component {
                 {
                     this.state.didTrailLoad ?
                     <div className="bike-div">
-                            <h1 className="bike-title">Trail Bikes: <a onClick={this.toggleBikeAddForm}><i class="add-bike fas fa-plus"></i></a></h1>
+                            <h1 className="bike-title"><u>Trail Bikes</u><a onClick={this.toggleBikeAddForm}><i class="add-bike fas fa-plus"></i></a></h1>
                             <Bikes
                                 addBike={this.addBike}
                                 deleteBike={this.deleteBike}
