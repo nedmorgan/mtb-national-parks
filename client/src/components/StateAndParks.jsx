@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { StateAndParksContainer } from './styled_components/StateAndParksStyles'
 import { Link } from 'react-router-dom'
+import nationalParks from '../national-parks.json'
 
 export default class StateAndParks extends Component {
 
     state = {
         displayNewParkList: false,
         selectedState: {},
+        nationalParks: nationalParks,
+        specificParks: {},
     }
 
     componentDidMount() {
@@ -20,9 +23,9 @@ export default class StateAndParks extends Component {
     }
 
     showNewParkList = (selectedState) => {
-        this.setState((state, props) => {
-            return ({ displayNewParkList: true, selectedState: selectedState })
-        })
+        let nationalParks = { ...this.state.nationalParks }
+        const specificStateParks = nationalParks.data.filter(park => park.states == selectedState.acronym)
+        this.setState({ specificParks: specificStateParks, displayNewParkList: true, selectedState: selectedState })
     }
 
     render() {
