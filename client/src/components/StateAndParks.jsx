@@ -50,7 +50,7 @@ export default class StateAndParks extends Component {
                     this.state.displayNewParkList ?
                         <div>
                             <div className="state-display-button-div">
-                                <button onClick={this.hideNewParkListDisplay} className="button new-park-button">Back to State Dashboard</button>
+                                <button onClick={this.hideNewParkListDisplay} className="button back-park-button">Back to State Dashboard</button>
                             </div>
                             <div className="state-park-container">
                                 {

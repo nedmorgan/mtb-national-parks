@@ -67,7 +67,8 @@ animation: .5s ${fade};
     animation: .5s ${fade};
 }
 
-.new-park-button {
+.new-park-button,
+.back-park-button {
     font-size: 16px;
     border-radius: 8px;
     margin-top: 1vw;
@@ -81,7 +82,8 @@ animation: .5s ${fade};
     justify-content: flex-end;
 }
 
-.new-park-button:hover {
+.new-park-button:hover,
+.back-park-button:hover {
      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
      background: rgba(200,200,200,.5) !important;
      cursor: pointer;
@@ -134,5 +136,20 @@ i {
 i:hover {
     color: #0095ff;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+.new-park-button-div{
+    margin-bottom: .5em;
+}
+
+.back-park-button {
+    margin-right: 1em;
+}
+
+.remove-state {
+    font-size: 1em;
+}
 }
 `

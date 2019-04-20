@@ -54,7 +54,7 @@ i {
     }
     
     .navLink {
-        font-size: .75em;
+        font-size: .85em;
         padding-bottom: 0 !important;
     }
 }
