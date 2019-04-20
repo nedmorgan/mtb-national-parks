@@ -19,7 +19,6 @@ export default class Park extends Component {
 
     componentDidMount() {
         this.getPark()
-        console.log(TRAIL_KEY)
     }
 
     handleRadiusChange = (e) => {
@@ -43,7 +42,6 @@ export default class Park extends Component {
     getTrails = (e) => {
         e.preventDefault()
         axios.get(`https://www.mtbproject.com/data/get-trails?lat=${this.state.park.lat}&lon=${this.state.park.lng}&maxDistance=${this.state.radius.distance}&key=${TRAIL_KEY}`).then(res => {
-            console.log(res)
             this.setState({ trails: res.data.trails, showTrailResults: true })
         })
     }
@@ -60,6 +58,7 @@ export default class Park extends Component {
             min_elv: trail.low,
             park: id,
         }).then(res => {
+            console.log(res)
             this.setState({ displayTrailSearchForm: false, didParkLoad: false })
             this.getPark()
         })

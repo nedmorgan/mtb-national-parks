@@ -16,7 +16,7 @@ export default class NavBar extends Component {
                         <a href="/dashboard" className="navbar-item navLink">Dashboard</a>
                     </div>
                     <div className="link-div">
-                        <a href="https://www.nationalparks.org/support" target="_blank" rel="noopener noreferrer" className="navbar-item navLink"><i class="fas fa-tree"></i> Support National Parks</a>
+                        <a href="https://www.nationalparks.org/support" target="_blank" rel="noopener noreferrer" className="navbar-item navLink"><i className="fas fa-tree"></i> Support National Parks</a>
                     </div>
                 </nav>
             </NavContainer >

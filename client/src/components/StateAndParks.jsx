@@ -26,7 +26,7 @@ export default class StateAndParks extends Component {
                                                             <div className="park-title-div">
                                                                 <p className="sub-title"><Link to={{
                                                                     pathname: `/parks/${park.id}`
-                                                                }}>{park.name}</Link></p><a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i class="far fa-trash-alt"></i></a>
+                                                                }}>{park.name}</Link></p><a className="remove-state" onClick={(e) => this.props.deletePark(e, park.id)}><i className="far fa-trash-alt"></i></a>
                                                             </div>
                                                             <div className="content">
                                                                 <p className="description">{park.description}</p>

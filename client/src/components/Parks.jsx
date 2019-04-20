@@ -9,22 +9,22 @@ export default class Parks extends Component {
                 {
                     this.props.parks.map(park => {
                         return (
-                            <div class="card" id="card-width">
-                                <div class="card-content">
-                                    <p class="title">
+                            <div className="card" id="card-width">
+                                <div className="card-content">
+                                    <p className="title">
                                         {park.name}
                                     </p>
-                                    <p class="subtitle">
+                                    <p className="subtitle">
                                         {park.designation}
                                     </p>
                                 </div>
-                                <footer class="card-footer">
-                                    <p class="card-footer-item">
+                                <footer className="card-footer">
+                                    <p className="card-footer-item">
                                         <span>
                                             <a onClick={(e) => this.props.addPark(e, park)}>Add Park</a>
                                         </span>
                                     </p>
-                                    <p class="card-footer-item">
+                                    <p className="card-footer-item">
                                         <span>
                                             <a href={park.url}>Explore Park</a>
                                         </span>

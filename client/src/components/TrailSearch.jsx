@@ -6,9 +6,9 @@ export default class TrailSearch extends Component {
     render() {
         return (
             <SearchContainer>
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <div class="select is-rounded">
+                <div className="field">
+                    <div className="control has-icons-left">
+                        <div className="select is-rounded">
                             <form onSubmit={(e) => this.props.getTrails(e)}>
                                 <select
                                     id="distance"
@@ -26,8 +26,8 @@ export default class TrailSearch extends Component {
                                 </div>
                             </form>
                         </div>
-                        <div class="icon is-small is-left">
-                            <i class="far fa-map"></i>
+                        <div className="icon is-small is-left">
+                            <i className="far fa-map"></i>
                         </div>
                     </div>
                 </div>

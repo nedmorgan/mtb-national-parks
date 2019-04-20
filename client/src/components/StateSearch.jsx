@@ -5,9 +5,9 @@ export default class StateSearch extends Component {
     render() {
         return (
             <SearchContainer>
-                <div class="field">
-                    <div class="control has-icons-left">
-                        <div class="select is-rounded">
+                <div className="field">
+                    <div className="control has-icons-left">
+                        <div className="select is-rounded">
                             <form onSubmit={(e) => this.props.findParks(e)}>
                                 <select
                                     id="state"
@@ -37,8 +37,8 @@ export default class StateSearch extends Component {
                                 }
                             </form>
                         </div>
-                        <div class="icon is-small is-left">
-                            <i class="fas fa-flag-usa"></i>
+                        <div className="icon is-small is-left">
+                            <i className="fas fa-flag-usa"></i>
                         </div>
                     </div>
                 </div>

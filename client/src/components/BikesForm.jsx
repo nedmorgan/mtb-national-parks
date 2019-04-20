@@ -40,7 +40,7 @@ export default class BikeForm extends Component {
                                 required>
                             </input>
                             <span className="icon is-small is-left">
-                                <i class="fas fa-bicycle"></i>
+                                <i className="fas fa-bicycle"></i>
                             </span>
                         </div>
                     </div>
@@ -58,9 +58,9 @@ export default class BikeForm extends Component {
                             </input>
                         </div>
                     </div>
-                    <div class="field">
-                        <div class="control check-box">
-                            <label class="checkbox">Tubeless: </label>
+                    <div className="field">
+                        <div className="control check-box">
+                            <label className="checkbox">Tubeless: </label>
                             <input
                                 type="checkbox"
                                 name="tubeless"
@@ -81,7 +81,7 @@ export default class BikeForm extends Component {
                                 required>
                             </input>
                             <span className="icon is-small is-left">
-                                <i class="fas fa-cogs"></i>
+                                <i className="fas fa-cogs"></i>
                             </span>
                         </div>
                     </div>
@@ -98,13 +98,13 @@ export default class BikeForm extends Component {
                                 required>
                             </input>
                             <span className="icon is-small is-left">
-                                <i class="fas fa-weight"></i>
+                                <i className="fas fa-weight"></i>
                             </span>
                         </div>
                     </div>
-                    <div class="field">
-                        <div class="control check-box">
-                            <label class="checkbox">Full Suspension: </label>
+                    <div className="field">
+                        <div className="control check-box">
+                            <label className="checkbox">Full Suspension: </label>
                             <input
                                 type="checkbox"
                                 name="full_suspension"
@@ -112,9 +112,9 @@ export default class BikeForm extends Component {
                                 onChange={this.props.handleBikeChange}></input>
                         </div>
                     </div>
-                    <div class="field">
-                        <div class="control check-box">
-                            <label class="checkbox">Dropper Post: </label>
+                    <div className="field">
+                        <div className="control check-box">
+                            <label className="checkbox">Dropper Post: </label>
                             <input
                                 type="checkbox"
                                 name="dropper_post"
@@ -135,15 +135,15 @@ export default class BikeForm extends Component {
                             >
                             </input>
                             <span className="icon is-small is-left">
-                                <i class="far fa-image"></i>
+                                <i className="far fa-image"></i>
                             </span>
                         </div>
                     </div>
                     <div className="button-div">
                     {
                         this.props.isBikeAdd
-                            ? <button class="button">Add Bike</button>
-                            : <button class="button">Update Bike</button>
+                            ? <button className="button">Add Bike</button>
+                            : <button className="button">Update Bike</button>
                     }
                     </div>
                 </form>

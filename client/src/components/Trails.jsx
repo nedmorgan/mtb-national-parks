@@ -10,7 +10,7 @@ export default class Trails extends Component {
                         return (
                             <div className="card">
                                 <div className="card-image">
-                                    <figure class="image is-4by3">
+                                    <figure className="image is-4by3">
                                         <img src={trail.imgSmallMed} alt={trail.name}></img>
                                     </figure>
                                 </div>
@@ -22,7 +22,7 @@ export default class Trails extends Component {
                                             <p className="subtitle is-6"><u>Location</u>: {trail.location}</p>
                                         </div>
                                         <div className="add-trail-div">
-                                            <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} class="button is-primary">Add Trail</button>
+                                            <button onClick={(e) => this.props.addTrail(e, trail, this.props.parkId)} className="button is-primary">Add Trail</button>
                                             <a className="button find-trail" href={`http://maps.google.com/maps?z=12&t=m&q=loc:${trail.latitude}+${trail.longitude}`} target="_blank" rel="noopener noreferrer">Locate Trail!</a>
                                         </div>
                                     </div>
