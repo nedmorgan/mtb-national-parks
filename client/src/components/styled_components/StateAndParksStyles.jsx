@@ -36,6 +36,27 @@ animation: .5s ${fade};
     font-family: 'Ubuntu', sans-serif;
 }
 
+.new-park-button {
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 1vw;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.new-park-button-div,
+.state-display-button-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new-park-button:hover {
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+     background: rgba(200,200,200,.5) !important;
+     cursor: pointer;
+     color: whitesmoke;
+}
+
 .park-title-div {
     display: flex;
     align-items: center;
@@ -61,7 +82,6 @@ a {
     color: #0095ff !important;
     cursor: pointer;
 }
-
 
 p {
     color: whitesmoke !important;
