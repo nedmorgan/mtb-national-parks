@@ -26,7 +26,7 @@ export default class Parks extends Component {
                                     </p>
                                     <p className="card-footer-item">
                                         <span>
-                                            <a href={park.url}>Explore Park</a>
+                                            <a href={park.url} target="_blank" rel="noopener noreferrer">Explore Park</a>
                                         </span>
                                     </p>
                                 </footer>

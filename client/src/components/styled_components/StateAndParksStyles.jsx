@@ -36,6 +36,37 @@ animation: .5s ${fade};
     font-family: 'Ubuntu', sans-serif;
 }
 
+.state-park-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    animation: .5s ${fade};
+}
+
+.new-park-container {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.park-name,
+.park-des {
+    color: black !important;
+}
+
+.park-des:hover {
+    cursor: default;
+}
+
+.main {
+    animation: .5s ${fade};
+}
+
 .new-park-button {
     font-size: 16px;
     border-radius: 8px;

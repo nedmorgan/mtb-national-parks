@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { StateAndParksContainer } from './styled_components/StateAndParksStyles'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 import nationalParks from '../national-parks.json'
 
 export default class StateAndParks extends Component {
@@ -28,15 +29,58 @@ export default class StateAndParks extends Component {
         this.setState({ specificParks: specificStateParks, displayNewParkList: true, selectedState: selectedState })
     }
 
+    addNewPark = (e, park) => {
+        e.preventDefault()
+        axios.post('/api/v1/parks/', {
+            name: park.name,
+            lat: park.lat,
+            lng: park.lng,
+            description: park.description,
+            state: this.state.selectedState.id,
+        }).then(res => {
+            this.props.getParks()
+        })
+        this.setState({ displayNewParkList: false })
+    }
+
     render() {
         return (
             <StateAndParksContainer>
                 {
                     this.state.displayNewParkList ?
                         <div>
-                            <h1>New Park List</h1>
                             <div className="state-display-button-div">
                                 <button onClick={this.hideNewParkListDisplay} className="button new-park-button">Back to State Dashboard</button>
+                            </div>
+                            <div className="state-park-container">
+                                {
+                                    this.state.specificParks.map(park => {
+                                        return (
+                                            <div className="card new-park-container" id="card-width">
+                                                <div className="card-content">
+                                                    <p className="park-name title">
+                                                        {park.name}
+                                                    </p>
+                                                    <p className="park-des subtitle">
+                                                        {park.designation}
+                                                    </p>
+                                                </div>
+                                                <footer className="card-footer">
+                                                    <p className="card-footer-item">
+                                                        <span>
+                                                            <a onClick={(e) => this.addNewPark(e, park)}>Add Park</a>
+                                                        </span>
+                                                    </p>
+                                                    <p className="card-footer-item">
+                                                        <span>
+                                                            <a href={park.url} target="_blank" rel="noopener noreferrer">Explore Park</a>
+                                                        </span>
+                                                    </p>
+                                                </footer>
+                                            </div>
+                                        )
+                                    })
+                                }
                             </div>
                         </div>
                         :
