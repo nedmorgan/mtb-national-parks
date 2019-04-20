@@ -18,7 +18,7 @@ export default class StateAndParks extends Component {
                                 <div className="tile is-10">
                                     <div className="tile is-parent">
                                         <article className="tile is-child notification background">
-                                            <p className="title">{state.name}<a className="remove-state" onClick={(e) => this.props.deleteState(e, state.id)}><i class="far fa-trash-alt"></i></a></p>
+                                            <p className="title">{state.name}<a className="remove-state" onClick={(e) => this.props.deleteState(e, state.id)}><i className="far fa-trash-alt"></i></a></p>
                                             {
                                                 this.props.parks.map(park => {
                                                     return park.state == state.id ? (

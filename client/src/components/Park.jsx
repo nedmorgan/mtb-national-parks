@@ -58,9 +58,9 @@ export default class Park extends Component {
             min_elv: trail.low,
             park: id,
         }).then(res => {
-            console.log(res)
-            this.setState({ displayTrailSearchForm: false, didParkLoad: false })
-            this.getPark()
+            const clonedPark = { ...this.state.park }
+            clonedPark.trails.unshift(res.data)
+            this.setState({ displayTrailSearchForm: false, park: clonedPark })
         })
     }
 
