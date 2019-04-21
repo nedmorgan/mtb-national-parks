@@ -3,6 +3,7 @@ import { StateAndParksContainer } from './styled_components/StateAndParksStyles'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 import nationalParks from '../national-parks.json'
+import Parks from './Parks'
 
 export default class StateAndParks extends Component {
 
@@ -53,34 +54,9 @@ export default class StateAndParks extends Component {
                                 <button onClick={this.hideNewParkListDisplay} className="button back-park-button">Back to State Dashboard</button>
                             </div>
                             <div className="state-park-container">
-                                {
-                                    this.state.specificParks.map(park => {
-                                        return (
-                                            <div className="card new-park-container" id="card-width">
-                                                <div className="card-content">
-                                                    <p className="park-name title">
-                                                        {park.name}
-                                                    </p>
-                                                    <p className="park-des subtitle">
-                                                        {park.designation}
-                                                    </p>
-                                                </div>
-                                                <footer className="card-footer">
-                                                    <p className="card-footer-item">
-                                                        <span>
-                                                            <a onClick={(e) => this.addNewPark(e, park)}>Add Park</a>
-                                                        </span>
-                                                    </p>
-                                                    <p className="card-footer-item">
-                                                        <span>
-                                                            <a href={park.url} target="_blank" rel="noopener noreferrer">Explore Park</a>
-                                                        </span>
-                                                    </p>
-                                                </footer>
-                                            </div>
-                                        )
-                                    })
-                                }
+                                <Parks
+                                    addPark={this.addNewPark}
+                                    parks={this.state.specificParks} />
                             </div>
                         </div>
                         :

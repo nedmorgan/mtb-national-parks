@@ -9,12 +9,12 @@ export default class Parks extends Component {
                 {
                     this.props.parks.map(park => {
                         return (
-                            <div className="card" id="card-width">
+                            <div className="card new-park-container" id="card-width">
                                 <div className="card-content">
-                                    <p className="title">
+                                    <p className="park-name title">
                                         {park.name}
                                     </p>
-                                    <p className="subtitle">
+                                    <p className="park-des subtitle">
                                         {park.designation}
                                     </p>
                                 </div>
