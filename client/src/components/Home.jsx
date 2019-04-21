@@ -26,6 +26,11 @@ export default class Home extends Component {
         postedState: {},
         nationalParks: nationalParks,
         stateAdded: false,
+        currentStates: {},
+    }
+
+    componentDidMount() {
+        this.getCurrentStates()
     }
 
     handleStateChange = (e) => {
@@ -42,12 +47,29 @@ export default class Home extends Component {
         this.setState({ parks: specificStateParks })
         let stateName = this.state.states.filter(state => state.abbreviation == this.state.selectedState.acronym)
         this.setState({ stateName: stateName[0], stateAdded: false })
+        this.checkStates()
         this.toggleParksDisplay()
+    }
+
+    checkStates = () => {
+        let savedStates = [...this.state.currentStates]
+        let hasStatePostedAlready = savedStates.some(state => state.acronym == this.state.selectedState.acronym)
+        if (hasStatePostedAlready == true) {
+            this.setState({ stateAdded: true })
+        }
+        let stateInDatabase = savedStates.filter(state => state.acronym == this.state.selectedState.acronym)
+        this.setState({ postedState: stateInDatabase })
     }
 
     toggleParksDisplay = () => {
         this.setState((state, props) => {
             return ({ displayParks: true })
+        })
+    }
+
+    getCurrentStates = () => {
+        axios.get('/api/v1/states/').then(res => {
+            this.setState({ currentStates: res.data })
         })
     }
 

@@ -75,6 +75,10 @@ animation: .5s ${fade};
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+.back-park-button {
+    margin-right: 2vw;
+}
+
 .new-park-button-div,
 .state-display-button-div {
     width: 100%;
