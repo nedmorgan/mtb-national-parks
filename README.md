@@ -18,19 +18,22 @@ Through this application you are able to see the national parks in each state. O
 ## Wireframe:
 
 ### Home Page
-<img src='client/src/media/home.jpg' alt='landing page' height=250 width=200/>
+<img src='client/src/media/landing_page.png' alt='landing page' height=250 width=325/>
 
 ### Dashboard Page
-<img src='client/src/media/dashboard.jpg' alt='login page' height=250 width=200/>
+<img src='client/src/media/dashboard.png' alt='login page' height=250 width=325/>
+
+### Park Search Results
+<img src='client/src/media/park_search_results.png' alt='user page' height=250 width=325/>
 
 ### Parks Page
-<img src='client/src/media/park_page.jpg' alt='user page' height=250 width=200/>
+<img src='client/src/media/park_page.png' alt='user page' height=250 width=325/>
 
 ### Trail Page
-<img src='client/src/media/trail_page.jpg' alt='user page' height=250 width=200/>
+<img src='client/src/media/trail_page.png' alt='user page' height=250 width=325/>
 
 ### ERD
-<img src='client/src/media/models.jpg' alt='erd page' height=250 width=200/>
+<img src='client/src/media/models.jpg' alt='erd page' height=250 width=325/>
 
 ## Technologies:
 
