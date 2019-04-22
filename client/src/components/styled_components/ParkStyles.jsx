@@ -61,17 +61,22 @@ i:hover {
     animation: .6s ${fadeDown};
 }
 
+.parent-trail-container {
+    width: 100%;
+}
+
 .trail-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
     margin: 0 auto;
     animation: .5s ${fade};
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1.5em;
 }
 
 .park-flex {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -84,6 +89,10 @@ i:hover {
     text-decoration: underline;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .7);
 }
 
 .title {
@@ -116,6 +125,10 @@ img {
 
     .park-name {
         font-size: 1.7em;
+    }
+
+    .trail-container {
+        margin-top: .5em;
     }
 }
 `

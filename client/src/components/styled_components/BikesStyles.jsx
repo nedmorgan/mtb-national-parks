@@ -4,6 +4,9 @@ export const BikesContainer = styled.div`
 width: 75%;
 margin-top: .5em;
 margin-bottom: 4em;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 
 #bike-card {
     width: 25%;
@@ -11,6 +14,10 @@ margin-bottom: 4em;
 
 #bike-title {
     text-decoration: underline;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, .7);
 }
 
 #bike-edit-icon {

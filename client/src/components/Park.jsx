@@ -104,8 +104,9 @@ export default class Park extends Component {
                                         addTrail={this.addTrail}
                                         parkId={this.props.match.params.parkId} />
                                     :
-                                    <div className="trail-container">
+                                    <div className="parent-trail-container">
                                         <h1 className="trail-title">Trails</h1>
+                                    <div className="trail-container">
                                         {
                                             this.state.park.trails.map(trail => {
                                                 return (
@@ -122,8 +123,8 @@ export default class Park extends Component {
                                                                         to={{
                                                                             pathname: `/trails/${trail.id}`
                                                                         }}>{trail.name}</Link></p>
-                                                                    <p className="subtitle is-6">Length: {trail.length} miles</p>
-                                                                    <p className="subtitle is-6">Location: {trail.location}</p>
+                                                                    <p className="subtitle is-6"><b>Length</b>: {trail.length} miles</p>
+                                                                    <p className="subtitle is-6"><b>Location</b>: {trail.location}</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -135,9 +136,10 @@ export default class Park extends Component {
                                             })
                                         }
                                     </div>
+                            </div>
                             }
                         </div>
-                        :
+                            :
                         <h2>Loading.....</h2>
                 }
             </ParkContainer>
