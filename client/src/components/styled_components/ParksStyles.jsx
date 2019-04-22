@@ -18,6 +18,7 @@ animation: .5s ${fade};
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgba(255, 255, 255, .7)
 }
 
 #card-width {
