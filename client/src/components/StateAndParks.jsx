@@ -18,18 +18,21 @@ export default class StateAndParks extends Component {
         this.props.getParks()
     }
 
+    // Function to hide the list of Parks associated with a state
     hideNewParkListDisplay = () => {
         this.setState((state, props) => {
             return ({ displayNewParkList: false })
         })
     }
 
+    // Function to show other parks associated with a state.
     showNewParkList = (selectedState) => {
         let nationalParks = { ...this.state.nationalParks }
         const specificStateParks = nationalParks.data.filter(park => park.states == selectedState.acronym)
         this.setState({ specificParks: specificStateParks, displayNewParkList: true, selectedState: selectedState })
     }
 
+    // Function to add a new park to the database
     addNewPark = (e, park) => {
         e.preventDefault()
         axios.post('/api/v1/parks/', {

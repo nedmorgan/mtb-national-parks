@@ -16,6 +16,7 @@ export default class Dashboard extends Component {
         this.getParks()
     }
 
+    // Function to retrieve states from database
     getStates = () => {
         axios.get('/api/v1/states/').then(res => {
             this.setState({ states: res.data })
@@ -24,6 +25,7 @@ export default class Dashboard extends Component {
         })
     }
 
+    // Function to retrieve parks from database
     getParks = () => {
         axios.get('/api/v1/parks/').then(res => {
             this.setState({ parks: res.data, isDashboardDisplayed: true })
@@ -32,6 +34,7 @@ export default class Dashboard extends Component {
         })
     }
 
+    // Function to remove state from database
     deleteState = (e, stateId) => {
         e.preventDefault()
         axios.delete(`/api/v1/states/${stateId}/`).then(res => {
@@ -40,6 +43,7 @@ export default class Dashboard extends Component {
         })
     }
 
+    // Function to remove park from database
     deletePark = (e, parkId) => {
         e.preventDefault()
         axios.delete(`/api/v1/parks/${parkId}/`).then(res => {

@@ -33,12 +33,14 @@ export default class Home extends Component {
         this.getCurrentStates()
     }
 
+    // Function to handle change for states in dropdown menu
     handleStateChange = (e) => {
         const updatedState = { ...this.state.selectedState }
         updatedState[e.target.name] = e.target.value
         this.setState({ selectedState: updatedState })
     }
 
+    // Function to filter national parks based on the state selected
     findParks = (e) => {
         let state = this.state.selectedState.acronym
         e.preventDefault()
@@ -51,6 +53,7 @@ export default class Home extends Component {
         this.toggleParksDisplay()
     }
 
+    // Helper function to check if they state selected has already been added to the database
     checkStates = () => {
         let savedStates = [...this.state.currentStates]
         let hasStatePostedAlready = savedStates.some(state => state.acronym == this.state.selectedState.acronym)
@@ -61,18 +64,21 @@ export default class Home extends Component {
         this.setState({ postedState: stateInDatabase })
     }
 
+    // Function to toggle the Parks display
     toggleParksDisplay = () => {
         this.setState((state, props) => {
             return ({ displayParks: true })
         })
     }
 
+    // Function to get the current states listed in the database
     getCurrentStates = () => {
         axios.get('/api/v1/states/').then(res => {
             this.setState({ currentStates: res.data })
         })
     }
 
+    // Function to add a state to the database
     addState = (e) => {
         e.preventDefault()
         axios.post('/api/v1/states/', {
@@ -88,6 +94,7 @@ export default class Home extends Component {
         })
     }
 
+    // Function to add a park to the database
     addPark = (e, park) => {
         e.preventDefault()
         axios.post('/api/v1/parks/', {

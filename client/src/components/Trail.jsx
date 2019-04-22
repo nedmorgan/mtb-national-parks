@@ -28,18 +28,21 @@ export default class Trail extends Component {
         this.getTrail()
     }
 
+    // Function to find a specific trail in the database
     getTrail = () => {
         axios.get(`/api/v1/trails/${this.props.match.params.trailId}/`).then(res => {
             this.setState({ trail: res.data, didTrailLoad: true })
         })
     }
 
+    // Function to get specific data about a bike from the database
     getSpecificBike = (bikeId) => {
         axios.get(`/api/v1/bikes/${bikeId}/`).then(res => {
             this.setState({ bike: res.data })
         })
     }
 
+    // Function to handle the change to the bike form
     handleBikeChange = (e) => {
         const target = e.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -49,6 +52,7 @@ export default class Trail extends Component {
         this.setState({ bike: updatedBike })
     }
 
+    // Function to add a bike to the database
     addBike = (e) => {
         e.preventDefault()
         axios.post('/api/v1/bikes/', {
@@ -69,6 +73,7 @@ export default class Trail extends Component {
         })
     }
 
+    // Function to update a bike in the database
     updateBike = (e, bike) => {
         e.preventDefault()
         axios.put(`/api/v1/bikes/${bike.id}/`, {
@@ -88,6 +93,7 @@ export default class Trail extends Component {
         })
     }
 
+    // Function to remove bike from database
     deleteBike = (e, bikeId) => {
         e.preventDefault()
         axios.delete(`/api/v1/bikes/${bikeId}/`).then(res => {
@@ -95,12 +101,14 @@ export default class Trail extends Component {
         })
     }
 
+    // Function to toggle the bike form and the function to add a bike to database
     toggleBikeAddForm = () => {
         this.setState((state, props) => {
             return ({ displayBikeForm: !state.displayBikeForm, isBikeAdd: true })
         })
     }
 
+    // Function to toggle the bike form and activate funtion to update bike
     toggleBikeUpdateForm = (bikeId) => {
         this.getSpecificBike(bikeId)
         this.setState((state, props) => {

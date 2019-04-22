@@ -21,24 +21,28 @@ export default class Park extends Component {
         this.getPark()
     }
 
+    // Function to handle the change of the radius in trail search
     handleRadiusChange = (e) => {
         const updatedRadius = { ...this.state.radius }
         updatedRadius[e.target.name] = e.target.value
         this.setState({ radius: updatedRadius })
     }
 
+    // Function to toggle the trail search form
     toggleTrailSearchForm = () => {
         this.setState((state, props) => {
             return ({ displayTrailSearchForm: !state.displayTrailSearchForm })
         })
     }
 
+    // Function to get a specific park in the database
     getPark = () => {
         axios.get(`/api/v1/parks/${this.props.match.params.parkId}/`).then(res => {
             this.setState({ park: res.data, didParkLoad: true })
         })
     }
 
+    // API call to get trails based on certain search criteria
     getTrails = (e) => {
         e.preventDefault()
         axios.get(`https://www.mtbproject.com/data/get-trails?lat=${this.state.park.lat}&lon=${this.state.park.lng}&maxDistance=${this.state.radius.distance}&key=${TRAIL_KEY}`).then(res => {
@@ -46,6 +50,7 @@ export default class Park extends Component {
         })
     }
 
+    // Function to add trail to the database
     addTrail = (e, trail, id) => {
         e.preventDefault()
         axios.post('/api/v1/trails/', {
@@ -64,6 +69,7 @@ export default class Park extends Component {
         })
     }
 
+    // Function to remove trail from database
     deleteTrail = (e, trailId) => {
         e.preventDefault()
         axios.delete(`/api/v1/trails/${trailId}/`).then(res => {
