@@ -18,7 +18,7 @@ export default class Trails extends Component {
                                     <div className="media">
                                         <div className="media-content">
                                             <p className="title is-4" id="trail-name">{trail.name}</p>
-                                            <p className="subtitle is-6"><u>Length</u>: {trail.length} feet</p>
+                                            <p className="subtitle is-6"><u>Length</u>: {trail.length} miles</p>
                                             <p className="subtitle is-6"><u>Location</u>: {trail.location}</p>
                                         </div>
                                         <div className="add-trail-div">
