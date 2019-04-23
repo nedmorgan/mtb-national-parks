@@ -62,7 +62,7 @@ ___
 
 * In Version 2 of this application I would like to have a map that calculates the distance from the national park to the trail.
 
-* I would like to be able to integrate any ride data from Strava when riding a trial.
+* I would like to be able to integrate any ride data from Strava when riding a trail.
 
 ## Credits
 
