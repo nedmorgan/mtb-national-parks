@@ -106,6 +106,10 @@ animation: .5s ${fade};
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+.description {
+    font-size: 1.25em;
+}
+
 .sub-title {
     margin-top: .75vw;
     margin: 0;
@@ -154,6 +158,10 @@ i:hover {
 
 .remove-state {
     font-size: 1em;
+}
+
+.description {
+    font-size: .9em;
 }
 }
 `
