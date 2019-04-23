@@ -66,6 +66,4 @@ ___
 
 ## Credits
 
-[Wheel Logo] (https://www.vecteezy.com)
-
 Background Photo by Maksymilian Śleziak on Unsplash
