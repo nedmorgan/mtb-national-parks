@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const TrailsContainer = styled.div`
-margin-top: 4em;
+margin-top: 5em !important;
 display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
+flex-wrap: wrap;
+width: 75%;
+margin: 0 auto;
 padding-bottom: 4em;
+justify-content: space-around;
 
 .card {
     margin-top: 1.5vw;
@@ -62,6 +63,8 @@ img {
 
 @media (max-width: 768px) {
     margin-top: 4em;
+    flex-direction: column;
+    align-items: center;
 
     .add-trail-div {
         margin-top: .5em;

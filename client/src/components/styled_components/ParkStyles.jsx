@@ -23,6 +23,7 @@ color: whitesmoke;
 
 .park-description {
     font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
 }
 
 .park-title-div {
@@ -129,6 +130,10 @@ img {
 
     .trail-container {
         margin-top: .5em;
+    }
+
+    .park-description {
+        font-size: 1em;
     }
 }
 `
