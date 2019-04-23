@@ -33,7 +33,7 @@ Through this application you are able to see the national parks in each state. O
 <img src='client/src/media/trail_page.png' alt='user page' height=250 width=325/>
 
 ### ERD
-<img src='client/src/media/models.jpg' alt='erd page' height=250 width=325/>
+<img src='client/src/media/erd.png' alt='erd page' height=250 width=325/>
 
 ## Technologies:
 

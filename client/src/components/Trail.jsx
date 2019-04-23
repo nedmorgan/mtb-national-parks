@@ -147,7 +147,7 @@ export default class Trail extends Component {
                 }
                 {
                     this.state.didTrailLoad ?
-                    <div className="bike-div">
+                        <div className="bike-div">
                             <h1 className="bike-title"><u>Trail Bikes</u><a onClick={this.toggleBikeAddForm}><i class="add-bike fas fa-plus"></i></a></h1>
                             <Bikes
                                 addBike={this.addBike}
