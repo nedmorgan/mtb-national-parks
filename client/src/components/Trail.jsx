@@ -63,7 +63,7 @@ export default class Trail extends Component {
         if (bikeMake !== '' && bikeModel !== '' && bikeTire !== '' && bikeGroup !== '' && bikeWeight !== '') {
             this.setState({ active: true })
         } else {
-            this.setState({active: false})
+            this.setState({ active: false })
             return
         }
     }
