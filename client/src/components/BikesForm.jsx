@@ -20,6 +20,7 @@ export default class BikeForm extends Component {
                                 name="make"
                                 value={this.props.bike.make}
                                 onChange={this.props.handleBikeChange}
+                                onKeyUp={this.props.checkFields}
                                 required>
                             </input>
                             <span className="icon is-small is-left">
@@ -37,6 +38,7 @@ export default class BikeForm extends Component {
                                 name="model"
                                 value={this.props.bike.model}
                                 onChange={this.props.handleBikeChange}
+                                onKeyUp={this.props.checkFields}
                                 required>
                             </input>
                             <span className="icon is-small is-left">
@@ -54,6 +56,7 @@ export default class BikeForm extends Component {
                                 name="tire_size"
                                 value={this.props.bike.tire_size}
                                 onChange={this.props.handleBikeChange}
+                                onKeyUp={this.props.checkFields}
                                 required>
                             </input>
                         </div>
@@ -78,6 +81,7 @@ export default class BikeForm extends Component {
                                 name="groupset"
                                 value={this.props.bike.groupset}
                                 onChange={this.props.handleBikeChange}
+                                onKeyUp={this.props.checkFields}
                                 required>
                             </input>
                             <span className="icon is-small is-left">
@@ -95,6 +99,7 @@ export default class BikeForm extends Component {
                                 name="weight"
                                 value={this.props.bike.weight}
                                 onChange={this.props.handleBikeChange}
+                                onKeyUp={this.props.checkFields}
                                 required>
                             </input>
                             <span className="icon is-small is-left">

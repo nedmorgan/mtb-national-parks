@@ -22,7 +22,6 @@ export default class Trail extends Component {
         },
         isBikeAdd: true,
         isTrue: true,
-        error: false,
         active: false,
     }
 
@@ -61,10 +60,12 @@ export default class Trail extends Component {
         let bikeTire = this.state.bike.tire_size
         let bikeGroup = this.state.bike.groupset
         let bikeWeight = this.state.bike.weight
-        if (bikeMake === '' || bikeModel === '' || bikeTire === '' || bikeGroup === '' || bikeWeight === '') {
-
+        if (bikeMake !== '' && bikeModel !== '' && bikeTire !== '' && bikeGroup !== '' && bikeWeight !== '') {
+            this.setState({ active: true })
+        } else {
+            this.setState({active: false})
+            return
         }
-
     }
 
     // Function to add a bike to the database
@@ -175,9 +176,9 @@ export default class Trail extends Component {
                                 handleBooleanChange={this.handleBooleanChange}
                                 displayBikeForm={this.state.displayBikeForm}
                                 toggleBikeUpdateForm={this.toggleBikeUpdateForm}
-                                isTrue={this.state.isTrue} 
-                                errorBorder = {this.state.error}
-                                active={this.state.active}/>
+                                isTrue={this.state.isTrue}
+                                active={this.state.active}
+                                checkFields={this.checkFields} />
                         </div>
                         :
                         <h2>Loading.....</h2>
