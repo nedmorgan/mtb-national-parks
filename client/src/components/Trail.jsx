@@ -22,6 +22,7 @@ export default class Trail extends Component {
         },
         isBikeAdd: true,
         isTrue: true,
+        error: false,
     }
 
     componentDidMount() {
@@ -50,6 +51,19 @@ export default class Trail extends Component {
         const updatedBike = { ...this.state.bike }
         updatedBike[name] = value
         this.setState({ bike: updatedBike })
+    }
+
+    // Function to check if field is blank
+    checkFields = () => {
+        let bikeMake = this.state.bike.make
+        let bikeModel = this.state.bike.model
+        let bikeTire = this.state.bike.tire_size
+        let bikeGroup = this.state.bike.groupset
+        let bikeWeight = this.state.bike.weight
+        if (bikeMake === '' || bikeModel === '' || bikeTire === '' || bikeGroup === '' || bikeWeight === '') {
+
+        }
+
     }
 
     // Function to add a bike to the database
@@ -160,7 +174,8 @@ export default class Trail extends Component {
                                 handleBooleanChange={this.handleBooleanChange}
                                 displayBikeForm={this.state.displayBikeForm}
                                 toggleBikeUpdateForm={this.toggleBikeUpdateForm}
-                                isTrue={this.state.isTrue} />
+                                isTrue={this.state.isTrue} 
+                                errorBorder = {this.state.error}/>
                         </div>
                         :
                         <h2>Loading.....</h2>

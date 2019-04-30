@@ -61,6 +61,10 @@ img {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+.error-border {
+    border: 2px solid tomato;
+}
+
 i {
     color: whitesmoke;
     font-size: 2em;
