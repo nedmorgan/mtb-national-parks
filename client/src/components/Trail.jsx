@@ -23,6 +23,7 @@ export default class Trail extends Component {
         isBikeAdd: true,
         isTrue: true,
         error: false,
+        active: false,
     }
 
     componentDidMount() {
@@ -175,7 +176,8 @@ export default class Trail extends Component {
                                 displayBikeForm={this.state.displayBikeForm}
                                 toggleBikeUpdateForm={this.toggleBikeUpdateForm}
                                 isTrue={this.state.isTrue} 
-                                errorBorder = {this.state.error}/>
+                                errorBorder = {this.state.error}
+                                active={this.state.active}/>
                         </div>
                         :
                         <h2>Loading.....</h2>

@@ -17,8 +17,9 @@ export default class Bikes extends Component {
                             isBikeAdd={this.props.isBikeAdd}
                             handleBooleanChange={this.props.handleBooleanChange}
                             displayBikeForm={this.props.displayBikeForm}
-                            isTrue={this.props.isTrue} 
-                            errorBorder={this.props.errorBorder}/>
+                            isTrue={this.props.isTrue}
+                            errorBorder={this.props.errorBorder}
+                            active={this.props.active} />
                         :
                         this.props.trail.bikes.map(bike => {
                             return (

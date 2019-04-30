@@ -65,6 +65,10 @@ img {
     border: 2px solid tomato;
 }
 
+.hide-button {
+    display: none;
+}
+
 i {
     color: whitesmoke;
     font-size: 2em;

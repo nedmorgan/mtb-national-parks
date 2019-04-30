@@ -14,7 +14,7 @@ export default class BikeForm extends Component {
                         <label className="label">Make</label>
                         <div className="control has-icons-left has-icons-right">
                             <input
-                                className={`input ${this.props.errorBorder ? 'error-border': null}`}
+                                className={`input ${this.props.bike.make === '' ? 'error-border' : null}`}
                                 type="text"
                                 placeholder="Bike Make"
                                 name="make"
@@ -31,7 +31,7 @@ export default class BikeForm extends Component {
                         <label className="label">Model</label>
                         <div className="control has-icons-left has-icons-right">
                             <input
-                                className={`input ${this.props.errorBorder ? 'error-border' : null}`}
+                                className={`input ${this.props.bike.model === '' ? 'error-border' : null}`}
                                 type="text"
                                 placeholder="Bike Model"
                                 name="model"
@@ -48,7 +48,7 @@ export default class BikeForm extends Component {
                         <label className="label">Tire Size:</label>
                         <div className="control">
                             <input
-                                className={`input ${this.props.errorBorder ? 'error-border' : null}`}
+                                className={`input ${this.props.bike.tire_size === '' ? 'error-border' : null}`}
                                 type="text"
                                 placeholder="Tire Size"
                                 name="tire_size"
@@ -72,7 +72,7 @@ export default class BikeForm extends Component {
                         <label className="label">Groupset:</label>
                         <div className="control has-icons-left has-icons-right">
                             <input
-                                className={`input ${this.props.errorBorder ? 'error-border' : null}`}
+                                className={`input ${this.props.bike.groupset === '' ? 'error-border' : null}`}
                                 type="text"
                                 placeholder="SRAM GX Eagle"
                                 name="groupset"
@@ -89,7 +89,7 @@ export default class BikeForm extends Component {
                         <label className="label">Weight:</label>
                         <div className="control has-icons-left has-icons-right">
                             <input
-                                className={`input ${this.props.errorBorder ? 'error-border' : null}`}
+                                className={`input ${this.props.bike.weight === '' ? 'error-border' : null}`}
                                 type="text"
                                 placeholder="Enter weight in lbs"
                                 name="weight"
@@ -140,11 +140,11 @@ export default class BikeForm extends Component {
                         </div>
                     </div>
                     <div className="button-div">
-                    {
-                        this.props.isBikeAdd
-                            ? <button className="button">Add Bike</button>
-                            : <button className="button">Update Bike</button>
-                    }
+                        {
+                            this.props.isBikeAdd
+                                ? <button className={`button ${this.props.active ? null : 'hide-button'}`}>Add Bike</button>
+                                : <button className={`button ${this.props.active ? null : 'hide-button'}`}>Update Bike</button>
+                        }
                     </div>
                 </form>
             </BikeFormContainer >
