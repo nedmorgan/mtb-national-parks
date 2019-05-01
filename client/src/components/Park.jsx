@@ -118,7 +118,7 @@ export default class Park extends Component {
         return (
             <ParkContainer>
                 <div className="back-div">
-                    <a href='/dashboard'><i class="fas fa-arrow-left"></i></a>
+                    <a href='/dashboard'><i className="fas fa-arrow-left"></i></a>
                 </div>
                 {
                     this.state.didParkLoad ?
@@ -131,9 +131,9 @@ export default class Park extends Component {
                                 <div className="trail-search-div">
                                     {
                                         this.state.displayTrailSearchForm ?
-                                            <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
+                                            <a className="button is-medium" onClick={this.toggleTrailSearchForm}>Hide Trail Search</a>
                                             :
-                                            <a class="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
+                                            <a className="button is-medium" onClick={this.toggleTrailSearchForm}>Display Trail Search</a>
                                     }
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ export default class Park extends Component {
                                                     return (
                                                         <div className="card">
                                                             <div className="card-image">
-                                                                <figure class="image is-4by3">
+                                                                <figure className="image is-4by3">
                                                                     <img src={trail.photo_url} alt={trail.name}></img>
                                                                 </figure>
                                                             </div>
@@ -173,7 +173,7 @@ export default class Park extends Component {
                                                                 </div>
                                                             </div>
                                                             <div className="delete-div">
-                                                                <button className="delete-button" onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
+                                                                <button className="delete-button" onClick={(e) => this.deleteTrail(e, trail.id)} className="button is-danger">Remove Trail</button>
                                                             </div>
                                                         </div>
                                                     )
