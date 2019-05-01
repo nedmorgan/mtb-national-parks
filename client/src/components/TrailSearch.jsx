@@ -36,7 +36,10 @@ export default class TrailSearch extends Component {
                         <Trails
                             trails={this.props.trails}
                             addTrail={this.props.addTrail}
-                            parkId={this.props.parkId} />
+                            parkId={this.props.parkId} 
+                            sortTrailLongToShort={this.props.sortTrailLongToShort}
+                            sortTrailShortToLong={this.props.sortTrailShortToLong}
+                            sortLong={this.props.sortLong}/>
                         :
                         null
                 }

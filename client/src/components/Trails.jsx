@@ -6,7 +6,10 @@ export default class Trails extends Component {
     render() {
         return (
             <TrailsContainer>
-                <SortTrail />
+                <SortTrail
+                    sortTrailLongToShort={this.props.sortTrailLongToShort}
+                    sortTrailShortToLong={this.props.sortTrailShortToLong} 
+                    sortLong={this.props.sortLong}/>
                 {
                     this.props.trails.map(trail => {
                         return (

@@ -8,13 +8,16 @@ export default class SortTrail extends Component {
                 <div className="field">
                     <div className="control">
                         <div className="select is-rounded">
-                                <select
-                                    id="length"
-                                    name="length">
-                                    <option defaultValue>Sort Trails</option>
-                                    <option>Length: Longest to Shortest</option>
-                                    <option>Length: Shortest to Longest</option>
-                                </select>
+                            <select
+                                id="length"
+                                name="length"
+                                onChange={this.props.sortLong
+                                    ? (e) => this.props.sortTrailLongToShort(e)
+                                    : (e) => this.props.sortTrailShortToLong(e)}>
+                                <option defaultValue>Sort Trails</option>
+                                <option>Length: Longest to Shortest</option>
+                                <option>Length: Shortest to Longest</option>
+                            </select>
                         </div>
                     </div>
                 </div>

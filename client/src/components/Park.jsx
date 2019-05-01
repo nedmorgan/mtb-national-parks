@@ -14,7 +14,8 @@ export default class Park extends Component {
         displayTrailSearchForm: false,
         showTrailResults: false,
         trails: [],
-        radius: ''
+        radius: '',
+        sortLong: true,
     }
 
     componentDidMount() {
@@ -40,6 +41,33 @@ export default class Park extends Component {
         axios.get(`/api/v1/parks/${this.props.match.params.parkId}/`).then(res => {
             this.setState({ park: res.data, didParkLoad: true })
         })
+    }
+
+    // Toggle trail sort
+    toggleTrailSort = () => {
+        this.setState((state, props) => {
+            return ({ sortLong: !state.sortLong })
+        })
+    }
+
+    // Sort the trail list by longest to shortest
+    sortTrailLongToShort = (e) => {
+        e.preventDefault()
+        let trails = [...this.state.trails]
+        trails.sort((a, b) => {
+            return a.length - b.length
+        })
+        this.setState({ trails: trails })
+    }
+
+    // Sort the trail search by shortest to longest
+    sortTrailShortToLong = (e) => {
+        e.preventDefault()
+        let trails = [...this.state.trails]
+        trails.sort((a, b) => {
+            return b.length - a.length
+        })
+        this.setState({ trails: trails })
     }
 
     // API call to get trails based on certain search criteria
@@ -108,44 +136,47 @@ export default class Park extends Component {
                                         trails={this.state.trails}
                                         showTrailResults={this.state.showTrailResults}
                                         addTrail={this.addTrail}
-                                        parkId={this.props.match.params.parkId} />
+                                        parkId={this.props.match.params.parkId}
+                                        sortTrailLongToShort={this.sortTrailLongToShort}
+                                        sortTrailShortToLong={this.sortTrailShortToLong}
+                                        sortLong={this.state.sortLong} />
                                     :
                                     <div className="parent-trail-container">
                                         <h1 className="trail-title">Trails</h1>
-                                    <div className="trail-container">
-                                        {
-                                            this.state.park.trails.map(trail => {
-                                                return (
-                                                    <div className="card">
-                                                        <div className="card-image">
-                                                            <figure class="image is-4by3">
-                                                                <img src={trail.photo_url} alt={trail.name}></img>
-                                                            </figure>
-                                                        </div>
-                                                        <div className="card-content">
-                                                            <div className="media">
-                                                                <div className="media-content">
-                                                                    <p className="title is-4"><Link
-                                                                        to={{
-                                                                            pathname: `/trails/${trail.id}`
-                                                                        }}>{trail.name}</Link></p>
-                                                                    <p className="subtitle is-6"><b>Length</b>: {trail.length} miles</p>
-                                                                    <p className="subtitle is-6"><b>Location</b>: {trail.location}</p>
+                                        <div className="trail-container">
+                                            {
+                                                this.state.park.trails.map(trail => {
+                                                    return (
+                                                        <div className="card">
+                                                            <div className="card-image">
+                                                                <figure class="image is-4by3">
+                                                                    <img src={trail.photo_url} alt={trail.name}></img>
+                                                                </figure>
+                                                            </div>
+                                                            <div className="card-content">
+                                                                <div className="media">
+                                                                    <div className="media-content">
+                                                                        <p className="title is-4"><Link
+                                                                            to={{
+                                                                                pathname: `/trails/${trail.id}`
+                                                                            }}>{trail.name}</Link></p>
+                                                                        <p className="subtitle is-6"><b>Length</b>: {trail.length} miles</p>
+                                                                        <p className="subtitle is-6"><b>Location</b>: {trail.location}</p>
+                                                                    </div>
                                                                 </div>
                                                             </div>
+                                                            <div className="delete-div">
+                                                                <button className="delete-button" onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
+                                                            </div>
                                                         </div>
-                                                        <div className="delete-div">
-                                                            <button className="delete-button" onClick={(e) => this.deleteTrail(e, trail.id)} class="button is-danger">Remove Trail</button>
-                                                        </div>
-                                                    </div>
-                                                )
-                                            })
-                                        }
+                                                    )
+                                                })
+                                            }
+                                        </div>
                                     </div>
-                            </div>
                             }
                         </div>
-                            :
+                        :
                         <h2>Loading.....</h2>
                 }
             </ParkContainer>
