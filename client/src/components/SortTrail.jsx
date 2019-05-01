@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { SortTrailContainer } from './styled_components/SortTrailStyles'
 
 export default class SortTrail extends Component {
+
     render() {
         return (
             <SortTrailContainer>
@@ -11,10 +12,7 @@ export default class SortTrail extends Component {
                             <select
                                 id="length"
                                 name="length"
-                                onChange={this.props.sortLong
-                                    ? (e) => this.props.sortTrailLongToShort(e)
-                                    : (e) => this.props.sortTrailShortToLong(e)}>
-                                <option defaultValue>Sort Trails</option>
+                                onChange={(e) => this.props.toggleTrailSort(e)}>
                                 <option>Length: Longest to Shortest</option>
                                 <option>Length: Shortest to Longest</option>
                             </select>

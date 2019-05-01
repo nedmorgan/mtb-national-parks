@@ -43,11 +43,16 @@ export default class Park extends Component {
         })
     }
 
-    // Toggle trail sort
-    toggleTrailSort = () => {
+    // Toggle trail sort long
+    toggleTrailSort = (e) => {
         this.setState((state, props) => {
             return ({ sortLong: !state.sortLong })
         })
+        if (this.state.sortLong === true) {
+            this.sortTrailLongToShort(e)
+        } else {
+            this.sortTrailShortToLong(e)
+        }
     }
 
     // Sort the trail list by longest to shortest
@@ -137,9 +142,7 @@ export default class Park extends Component {
                                         showTrailResults={this.state.showTrailResults}
                                         addTrail={this.addTrail}
                                         parkId={this.props.match.params.parkId}
-                                        sortTrailLongToShort={this.sortTrailLongToShort}
-                                        sortTrailShortToLong={this.sortTrailShortToLong}
-                                        sortLong={this.state.sortLong} />
+                                        toggleTrailSort={this.toggleTrailSort} />
                                     :
                                     <div className="parent-trail-container">
                                         <h1 className="trail-title">Trails</h1>

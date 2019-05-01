@@ -7,9 +7,8 @@ export default class Trails extends Component {
         return (
             <TrailsContainer>
                 <SortTrail
-                    sortTrailLongToShort={this.props.sortTrailLongToShort}
-                    sortTrailShortToLong={this.props.sortTrailShortToLong} 
-                    sortLong={this.props.sortLong}/>
+                    toggleTrailSort={this.props.toggleTrailSort}
+                />
                 {
                     this.props.trails.map(trail => {
                         return (
