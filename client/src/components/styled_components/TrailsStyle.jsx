@@ -10,8 +10,7 @@ padding-bottom: 4em;
 justify-content: space-around;
 
 .card {
-    margin-top: 1.5vw;
-    margin-bottom: 1.5vw;
+    margin: 1.5vw .75em 1.5vw .75em;
     background: rgba(200,200,200,.5);
     border-radius: 5px;
 }
