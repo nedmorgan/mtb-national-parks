@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import SortTrail from './SortTrail'
 import { TrailsContainer } from './styled_components/TrailsStyle'
 
 export default class Trails extends Component {
     render() {
         return (
             <TrailsContainer>
+                <SortTrail />
                 {
                     this.props.trails.map(trail => {
                         return (
