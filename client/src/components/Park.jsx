@@ -49,9 +49,9 @@ export default class Park extends Component {
             return ({ sortLong: !state.sortLong })
         })
         if (this.state.sortLong === true) {
-            this.sortTrailLongToShort(e)
-        } else {
             this.sortTrailShortToLong(e)
+        } else {
+            this.sortTrailLongToShort(e)
         }
     }
 
@@ -60,7 +60,7 @@ export default class Park extends Component {
         e.preventDefault()
         let trails = [...this.state.trails]
         trails.sort((a, b) => {
-            return a.length - b.length
+            return b.length - a.length
         })
         this.setState({ trails: trails })
     }
@@ -70,7 +70,7 @@ export default class Park extends Component {
         e.preventDefault()
         let trails = [...this.state.trails]
         trails.sort((a, b) => {
-            return b.length - a.length
+            return a.length - b.length
         })
         this.setState({ trails: trails })
     }
@@ -79,7 +79,11 @@ export default class Park extends Component {
     getTrails = (e) => {
         e.preventDefault()
         axios.get(`https://www.mtbproject.com/data/get-trails?lat=${this.state.park.lat}&lon=${this.state.park.lng}&maxDistance=${this.state.radius.distance}&key=${TRAIL_KEY}`).then(res => {
-            this.setState({ trails: res.data.trails, showTrailResults: true })
+            let trails = res.data.trails
+            trails.sort((a, b) => {
+                return b.length - a.length
+            })
+            this.setState({ trails: trails, showTrailResults: true })
         })
     }
 
