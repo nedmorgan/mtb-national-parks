@@ -5,19 +5,19 @@ export const FooterContainer = styled.div`
   justify-content: center;
   border-top: 1px solid black;
   background-color: #fafafa;
-  bottom: 0 !important;
+  bottom: 0;
   width: 100%;
-  padding: 1.5rem;
-  padding: 0;
-  position: fixed;
-  height: 5vh;
-  margin-top: 0;
+  margin-top: 5vw;
   background: rgba(200,200,200,.5) !important;
+  position: fixed;
   
   .bottom {
     margin-top: .5vw;
     margin-bottom: 1.5vw;
-    padding: 0;
+  }
+
+  a {
+    margin-left: .25em;
   }
   
   a, span {
