@@ -152,6 +152,10 @@ i:hover {
     margin-bottom: .5em;
 }
 
+.new-park-button {
+    font-size: 12px;
+}
+
 .back-park-button {
     margin-right: 1em;
 }
@@ -162,6 +166,16 @@ i:hover {
 
 .description {
     font-size: .9em;
+}
+
+.notification {
+    padding: 1.25rem 1rem 1.25rem 1rem;
+}
+}
+
+@media (max-width: 1024px) {
+.new-park-button {
+    font-size: 15px;
 }
 }
 `
