@@ -70,7 +70,7 @@ export default class StateAndParks extends Component {
                                         <div className="tile is-parent">
                                             <article className="tile is-child notification background">
                                                 <div className="new-park-button-div">
-                                                    <button onClick={() => this.showNewParkList(state)} className="button new-park-button">Find New Parks!</button>
+                                                    <button onClick={() => this.showNewParkList(state)} className="button new-park-button" id="park-button">Find New Parks!</button>
                                                 </div>
                                                 <p className="title">{state.name}<a className="remove-state" onClick={(e) => this.props.deleteState(e, state.id)}><i className="far fa-trash-alt"></i></a></p>
                                                 {

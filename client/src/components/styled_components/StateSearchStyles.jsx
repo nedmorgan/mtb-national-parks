@@ -16,7 +16,7 @@ button {
     padding: 10px 24px;
     font-size: 16px;
     border-radius: 8px;
-    margin-top: 1vw;
+    margin-top: 1em;
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
@@ -38,5 +38,12 @@ button:hover {
 a:hover {
     cursor: pointer;
     background: rgba(200,200,200,.5);
+}
+
+@media (max-width: 768px) {
+    
+button {
+    margin-top: 3vw;
+}
 }
 `

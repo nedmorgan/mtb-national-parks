@@ -152,7 +152,7 @@ i:hover {
     margin-bottom: .5em;
 }
 
-.new-park-button {
+#park-button {
     font-size: 12px;
 }
 
