@@ -7,7 +7,7 @@ export default class Footer extends Component {
             <FooterContainer>
                 <footer className="bottom">
                     <span>© 2019 Copyright:</span>
-                    <a href="https://nedmorgan.github.io/" target="_blank" rel="noopener noreferrer"> Ned Morgan</a>
+                    <a href="https://nedmorgan.me" target="_blank" rel="noopener noreferrer"> Ned Morgan</a>
                 </footer>
             </FooterContainer>
         )
